@@ -1,8 +1,11 @@
 {
   "name": "@rnfn/core",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha.6",
   "main": "dist/index.js",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "lint": "eslint \"./src/**/*.{ts,tsx}\" --fix",
     "gen": "node ./dist/scripts/generateDefs.js",
