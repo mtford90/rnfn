@@ -2,7 +2,6 @@ import { render } from "@testing-library/react-native";
 import React from "react";
 import { FnText } from "./FnText";
 import { RnFnProvider } from "../context";
-import defaultConfig from "../theme/defaultConfig";
 
 describe("Functional text styles", () => {
   describe("color", () => {
@@ -13,18 +12,11 @@ describe("Functional text styles", () => {
             wrapper: ({ children }) => <RnFnProvider>{children}</RnFnProvider>,
           })
         ).toMatchInlineSnapshot(`
-      <Text
-        style={
-          Array [
-            Object {
-              "color": "${defaultConfig.theme.colors.green[500]}",
-            },
-          ]
-        }
-      >
-        Hello
-      </Text>
-    `);
+                <Text
+                  style={
+                    Array [
+                      Object {
+                      "color": "`);
       });
     });
 
@@ -35,19 +27,34 @@ describe("Functional text styles", () => {
             wrapper: ({ children }) => <RnFnProvider>{children}</RnFnProvider>,
           })
         ).toMatchInlineSnapshot(`
-      <Text
-        style={
-          Array [
-            Object {
-              "color": "${defaultConfig.theme.colors.green[50]}",
-            },
-          ]
-        }
-      >
-        Hello
-      </Text>
-    `);
+                <Text
+                  style={
+                    Array [
+                      Object {
+                      "color": "`);
       });
+    });
+  });
+
+  describe("spacing", () => {
+    describe("mt", () => {
+      expect(
+        render(<FnText mt="dp">Hello</FnText>, {
+          wrapper: ({ children }) => <RnFnProvider>{children}</RnFnProvider>,
+        })
+      ).toMatchInlineSnapshot(`
+        <Text
+          style={
+            Array [
+              Object {
+                "marginTop": 1,
+              },
+            ]
+          }
+        >
+          Hello
+        </Text>
+      `);
     });
   });
 });

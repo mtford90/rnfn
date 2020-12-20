@@ -1,11 +1,11 @@
 import { fs } from "mz";
 import * as path from "path";
-import generateTextDefs from "../lab/ts-def-generation/text";
+import generateTextDefs from "./textGen";
 
 (async function main() {
   const textDefs = generateTextDefs();
   await fs.writeFile(
-    path.resolve(__dirname, "../components/FnText.d.ts"),
+    path.resolve(__dirname, "../props/__generated__.d.ts"),
     textDefs
   );
 })()

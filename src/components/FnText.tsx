@@ -1,16 +1,10 @@
-import { Text, TextProps } from "react-native";
+import { Text } from "react-native";
 import * as React from "react";
 import { useRnfnStyles } from "../context";
-import { combineStyles } from "../utils";
+import { FnTextProps, getTextProps } from "./props/text";
 
-export function FnText({
-  style,
-  color = "",
-  ...rest
-}: TextProps & { color: string; children?: React.ReactNode }) {
+export function FnText(props: FnTextProps) {
   const { textStyles } = useRnfnStyles();
 
-  const styles = combineStyles(style, textStyles, ["color", color]);
-
-  return <Text {...rest} style={styles} />;
+  return <Text {...getTextProps({ props, textStyles })} />;
 }

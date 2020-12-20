@@ -1,8 +1,12 @@
 # todo
-- generate a typedef file for the fn text
-- add other styles to text
-- run the lib in expo
-- generate global typedef file that adds in custom styles e.g. if customising the example expo app
+- Instead of snapshot testing, isolate the creation of the list of styles? Snapshot testing is wank.
+- Instead of StyleSheet tuple, use a single key object.
+
+# backlog
+- Integrate with size matters
+- Also allow string style classes ala tailwind
+- Also allow passing functions to dynamically define the style (either to class or to the individual params)
+- Allow falsy values so can do e.g. state && "md"
 
 # ideas
 - string interpolation typescript to generate the types from config?

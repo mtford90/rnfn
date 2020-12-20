@@ -2,7 +2,7 @@ import React, { createContext, useContext, useMemo } from "react";
 import { StyleSheet } from "react-native";
 import Config from "./theme/Config";
 import defaultConfig from "./theme/defaultConfig";
-import generateTextStyles from "./stylesheets/generateTextStyles";
+import { getTextStyleSheet } from "./stylesheets/textStyleSheet";
 
 const RnFnContext = createContext<{ textStyles: StyleSheet }>(null as never);
 
@@ -13,10 +13,7 @@ export function RnFnProvider({
   config?: Config;
   children: React.ReactNode;
 }) {
-  const textStyles = useMemo(
-    () => StyleSheet.create(generateTextStyles(config)),
-    [config]
-  );
+  const textStyles = useMemo(() => getTextStyleSheet(config), [config]);
 
   return (
     <RnFnContext.Provider value={{ textStyles }}>

@@ -5,7 +5,7 @@ export function capitalize(key: string) {
   return key[0].toUpperCase() + key.slice(1);
 }
 
-function getStylesheetKey(value: string) {
+function camelCase(value: string) {
   if (value) {
     const items = value.split("-");
 
@@ -19,15 +19,21 @@ function getStylesheetKey(value: string) {
   return value;
 }
 
-function getStyle(sheet: StyleSheet, tuple: [string, string]) {
-  const key = tuple[0] + getStylesheetKey(getStylesheetKey(tuple[1]));
+type Property = string;
+type Value = string;
+
+// Represents the combination of a property e.g. "mt" and a value e.g. "32" or `mg="32"`
+export type StylesheetTuple = [Property, Value]; // TODO: Why not just a single property object instead?
+
+function getStyle(sheet: StyleSheet, tuple: StylesheetTuple) {
+  const key = tuple[0] + camelCase(camelCase(tuple[1]));
   return get(sheet, key);
 }
 
 export function combineStyles(
   style: unknown,
   sheet: StyleSheet,
-  ...values: [string, string][]
+  ...values: StylesheetTuple[]
 ) {
   return compact([style, ...values.map((value) => getStyle(sheet, value))]);
 }
