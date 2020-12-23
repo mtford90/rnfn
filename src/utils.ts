@@ -1,39 +1,27 @@
 import get from "lodash.get";
 import compact from "lodash.compact";
+import camelCase from "lodash.camelcase";
 
-export function capitalize(key: string) {
-  return key[0].toUpperCase() + key.slice(1);
-}
+function getStyle(sheet: StyleSheet, kebab: string) {
+  const key = camelCase(kebab);
+  const style = get(sheet, key);
 
-function camelCase(value: string) {
-  if (value) {
-    const items = value.split("-");
-
-    if (items.length) {
-      return items.map(capitalize).join("");
-    }
-
-    return value;
+  if (!style) {
+    console.warn(
+      `Invalid style "${kebab}" (looked for ${key} in the StyleSheet)`
+    );
   }
 
-  return value;
-}
-
-type Property = string;
-type Value = string;
-
-// Represents the combination of a property e.g. "mt" and a value e.g. "32" or `mg="32"`
-export type StylesheetTuple = [Property, Value]; // TODO: Why not just a single property object instead?
-
-function getStyle(sheet: StyleSheet, tuple: StylesheetTuple) {
-  const key = tuple[0] + camelCase(camelCase(tuple[1]));
-  return get(sheet, key);
+  return style;
 }
 
 export function combineStyles(
   style: unknown,
   sheet: StyleSheet,
-  ...values: StylesheetTuple[]
+  ...values: Array<string | undefined | null | false>
 ) {
-  return compact([style, ...values.map((value) => getStyle(sheet, value))]);
+  return compact([
+    style,
+    ...compact(values).map((value) => getStyle(sheet, value)),
+  ]);
 }

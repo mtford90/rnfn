@@ -3,7 +3,6 @@ import { StyleSheet } from "react-native";
 import defaultConfig from "../theme/defaultConfig";
 import { getColorPropValues } from "../props/color";
 import { NamedStyles } from "./types";
-import { getSpacingPropValues } from "../props/spacing";
 import { spacingMappings } from "./mappings";
 
 export const colorMappings = {
@@ -13,7 +12,6 @@ export const colorMappings = {
 
 export function getTextStyleSheet(config = defaultConfig) {
   const colorPropValues = getColorPropValues(config);
-  const spacingPropValues = getSpacingPropValues(config);
 
   const namedStyles: NamedStyles = {};
 
@@ -26,12 +24,21 @@ export function getTextStyleSheet(config = defaultConfig) {
   });
 
   Object.entries(spacingMappings).forEach(([propName, styleSheetKey]) => {
-    Object.entries(spacingPropValues).forEach(([propValue, pixels]) => {
+    Object.entries(config.theme.spacing).forEach(([propValue, pixels]) => {
       namedStyles[camelCase(`${propName}-${propValue}`)] = {
         [styleSheetKey]: pixels,
       };
     });
   });
+
+  Object.entries(config.theme.fontSize).forEach(
+    ([propName, [fontSize, { lineHeight }]]) => {
+      namedStyles[camelCase(`text-${propName}`)] = {
+        fontSize,
+        lineHeight,
+      };
+    }
+  );
 
   return StyleSheet.create(namedStyles);
 }

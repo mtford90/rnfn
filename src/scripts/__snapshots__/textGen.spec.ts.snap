@@ -283,5 +283,14 @@ export declare type FnSpacing =
   | \\"1.5\\"
   | \\"2.5\\"
   | \\"3.5\\";
+export declare type FnFontSize =
+  | \\"xs\\"
+  | \\"sm\\"
+  | \\"base\\"
+  | \\"lg\\"
+  | \\"xl\\"
+  | \\"2xl\\"
+  | \\"3xl\\"
+  | \\"4xl\\";
 "
 `;

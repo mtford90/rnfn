@@ -1,5 +1,7 @@
 import { getTextStyleSheet } from "./textStyleSheet";
 import colors from "../theme/colors";
+import Config from "../theme/Config";
+import defaultConfig from "../theme/defaultConfig";
 
 describe("text stylesheet", () => {
   describe("with default config", () => {
@@ -23,10 +25,19 @@ describe("text stylesheet", () => {
         color: colors.green["50"],
       });
     });
+
+    it("should add fontsizes", async () => {
+      const stylesheet = getTextStyleSheet();
+
+      expect(stylesheet.text2Xl).toEqual({
+        fontSize: defaultConfig.theme.fontSize["2xl"][0],
+        lineHeight: defaultConfig.theme.fontSize["2xl"][1].lineHeight,
+      });
+    });
   });
 
   describe("with a custom config", () => {
-    const customConfig = {
+    const customConfig: Config = {
       theme: {
         colors: {
           customColor: {
@@ -36,6 +47,9 @@ describe("text stylesheet", () => {
         },
         spacing: {
           lg: 50,
+        },
+        fontSize: {
+          customFontSize: [21, { lineHeight: 19 }],
         },
       },
     };

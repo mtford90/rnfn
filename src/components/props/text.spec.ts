@@ -169,4 +169,24 @@ describe("FnText", () => {
       });
     });
   });
+
+  describe("text", () => {
+    test("2xl", () => {
+      expect(
+        getTextProps({
+          textStyles,
+          props: {
+            text: "2xl",
+          },
+        })
+      ).toEqual({
+        style: [
+          {
+            fontSize: defaultConfig.theme.fontSize["2xl"][0],
+            lineHeight: defaultConfig.theme.fontSize["2xl"][1].lineHeight,
+          },
+        ],
+      });
+    });
+  });
 });

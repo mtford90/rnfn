@@ -65,6 +65,10 @@ Object {
   "rightLg": Object {
     "right": 50,
   },
+  "textCustomFontSize": Object {
+    "fontSize": 21,
+    "lineHeight": 19,
+  },
   "topLg": Object {
     "top": 50,
   },
@@ -3327,6 +3331,38 @@ Object {
   },
   "rightDp": Object {
     "right": 1,
+  },
+  "text2Xl": Object {
+    "fontSize": 24,
+    "lineHeight": 32,
+  },
+  "text3Xl": Object {
+    "fontSize": 30,
+    "lineHeight": 36,
+  },
+  "text4Xl": Object {
+    "fontSize": 36,
+    "lineHeight": 40,
+  },
+  "textBase": Object {
+    "fontSize": 16,
+    "lineHeight": 24,
+  },
+  "textLg": Object {
+    "fontSize": 18,
+    "lineHeight": 28,
+  },
+  "textSm": Object {
+    "fontSize": 14,
+    "lineHeight": 20,
+  },
+  "textXl": Object {
+    "fontSize": 20,
+    "lineHeight": 28,
+  },
+  "textXs": Object {
+    "fontSize": 12,
+    "lineHeight": 16,
   },
   "top0": Object {
     "top": 0,
