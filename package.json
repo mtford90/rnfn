@@ -1,6 +1,6 @@
 {
   "name": "@rnfn/core",
-  "version": "0.1.0-alpha.11",
+  "version": "0.1.0-alpha.12",
   "main": "dist/index.js",
   "license": "MIT",
   "files": [
@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "eslint \"./src/**/*.{ts,tsx}\" --fix",
     "gen": "node ./dist/scripts/tsGen.js",
-    "build": "tsc"
+    "build": "tsc",
+    "build:cli": "rollup -c rollup.config.js"
   },
   "dependencies": {
     "react-native-size-matters": "^0.3.1",
@@ -51,6 +52,11 @@
     "@types/lodash.flatten": "^4.4.6",
     "@types/lodash.compact": "^3.0.6",
     "@types/lodash.kebabcase": "^4.1.6",
-    "@types/lodash.camelcase": "^4.3.6"
+    "@types/lodash.camelcase": "^4.3.6",
+    "@rollup/plugin-typescript": "^8.1.0",
+    "rollup-plugin-add-shebang": "^0.3.1"
+  },
+  "bin": {
+    "rnfn-ts-gen": "./dist/rnfn-ts-gen"
   }
 }
