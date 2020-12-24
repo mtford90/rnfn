@@ -112,6 +112,7 @@ Object {
   },
   "textCustomFontSize": Object {
     "fontSize": 21,
+    "letterSpacing": 1.5,
     "lineHeight": 19,
   },
   "topLg": Object {

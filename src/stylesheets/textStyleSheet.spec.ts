@@ -49,7 +49,7 @@ describe("text stylesheet", () => {
           lg: 50,
         },
         fontSize: {
-          customFontSize: [21, { lineHeight: 19 }],
+          customFontSize: [21, { lineHeight: 19, letterSpacing: 1.5 }],
         },
         fontFamily: {
           customFont: {
