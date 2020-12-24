@@ -185,4 +185,26 @@ describe("Functional text styles", () => {
       });
     });
   });
+
+  describe("align", () => {
+    it("should use the correct styles", async () => {
+      expect(
+        render(<FnText align="right">Hello</FnText>, {
+          wrapper: ({ children }) => <RnFnProvider>{children}</RnFnProvider>,
+        })
+      ).toMatchInlineSnapshot(`
+        <Text
+          style={
+            Array [
+              Object {
+                "textAlign": "right",
+              },
+            ]
+          }
+        >
+          Hello
+        </Text>
+      `);
+    });
+  });
 });

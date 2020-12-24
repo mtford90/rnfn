@@ -1,5 +1,5 @@
 import * as React from "react";
-import { TextProps } from "react-native";
+import { TextProps, TextStyle } from "react-native";
 import compact from "lodash.compact";
 import {
   fontWeightMappings,
@@ -23,6 +23,7 @@ export type FnTextStyleProps<TFontFamily extends FnFontFamily> = {
   children?: React.ReactNode;
   fontFamily?: TFontFamily;
   fontWeight?: FnFontWeight[TFontFamily];
+  align?: TextStyle["textAlign"];
 } & Partial<Record<keyof typeof spacingMappings, FnSpacing>>;
 
 export type FnTextProps<TFontFamily extends FnFontFamily> = TextProps &
@@ -36,6 +37,7 @@ export function getTextProps<TFontFamily extends FnFontFamily>({
     fontWeight,
     fontFamily,
     style,
+    align,
     ...rest
   },
   textStyles,
@@ -75,6 +77,7 @@ export function getTextProps<TFontFamily extends FnFontFamily>({
         color && `color-${color}`,
         bg && `bg-${bg}`,
         text && `text-${text}`,
+        align && `align-${align}`,
         customFontFamilyConfig &&
           fontFamily &&
           `font-family-${fontFamily}-${resolvedFontWeight}`,

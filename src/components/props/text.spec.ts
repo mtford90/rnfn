@@ -306,4 +306,24 @@ describe("text props", () => {
       });
     });
   });
+
+  describe("align", () => {
+    it("should use the textAlign property", async () => {
+      expect(
+        getTextProps({
+          textStyles,
+          config: defaultConfig,
+          props: {
+            align: "right",
+          },
+        })
+      ).toEqual({
+        style: [
+          {
+            textAlign: "right",
+          },
+        ],
+      });
+    });
+  });
 });

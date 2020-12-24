@@ -1,5 +1,5 @@
 import camelCase from "lodash.camelcase";
-import { StyleSheet } from "react-native";
+import { StyleSheet, TextStyle } from "react-native";
 import defaultConfig from "../theme/defaultConfig";
 import { getColorPropValues } from "../props/color";
 import { NamedStyles } from "./types";
@@ -48,6 +48,18 @@ export function getTextStyleSheet(config = defaultConfig) {
         ] = definition;
       }
     });
+  });
+
+  const alignments: Array<TextStyle["textAlign"]> = [
+    "auto",
+    "left",
+    "right",
+    "center",
+    "justify",
+  ];
+
+  alignments.forEach((alignment) => {
+    namedStyles[camelCase(`align-${alignment}`)] = { textAlign: alignment };
   });
 
   return StyleSheet.create(namedStyles);

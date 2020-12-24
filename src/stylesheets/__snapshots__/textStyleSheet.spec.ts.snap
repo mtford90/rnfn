@@ -2,6 +2,21 @@
 
 exports[`text stylesheet with a custom config should match snapshot 1`] = `
 Object {
+  "alignAuto": Object {
+    "textAlign": "auto",
+  },
+  "alignCenter": Object {
+    "textAlign": "center",
+  },
+  "alignJustify": Object {
+    "textAlign": "justify",
+  },
+  "alignLeft": Object {
+    "textAlign": "left",
+  },
+  "alignRight": Object {
+    "textAlign": "right",
+  },
   "bgCustomColor": Object {
     "backgroundColor": "#ccc",
   },
@@ -86,6 +101,21 @@ Object {
 
 exports[`text stylesheet with default config should match the snapshot 1`] = `
 Object {
+  "alignAuto": Object {
+    "textAlign": "auto",
+  },
+  "alignCenter": Object {
+    "textAlign": "center",
+  },
+  "alignJustify": Object {
+    "textAlign": "justify",
+  },
+  "alignLeft": Object {
+    "textAlign": "left",
+  },
+  "alignRight": Object {
+    "textAlign": "right",
+  },
   "bgAmber": Object {
     "backgroundColor": "#f59e0b",
   },
