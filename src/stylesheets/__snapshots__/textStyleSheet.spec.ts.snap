@@ -96,6 +96,18 @@ Object {
   "topLg": Object {
     "top": 50,
   },
+  "transformCapitalize": Object {
+    "textTransform": "capitalize",
+  },
+  "transformLowercase": Object {
+    "textTransform": "lowercase",
+  },
+  "transformNone": Object {
+    "textTransform": "none",
+  },
+  "transformUppercase": Object {
+    "textTransform": "uppercase",
+  },
 }
 `;
 
@@ -3507,6 +3519,18 @@ Object {
   },
   "topDp": Object {
     "top": 1,
+  },
+  "transformCapitalize": Object {
+    "textTransform": "capitalize",
+  },
+  "transformLowercase": Object {
+    "textTransform": "lowercase",
+  },
+  "transformNone": Object {
+    "textTransform": "none",
+  },
+  "transformUppercase": Object {
+    "textTransform": "uppercase",
   },
 }
 `;

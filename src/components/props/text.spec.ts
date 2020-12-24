@@ -326,4 +326,24 @@ describe("text props", () => {
       });
     });
   });
+
+  describe("transform", () => {
+    it("should use the textTransform property", async () => {
+      expect(
+        getTextProps({
+          textStyles,
+          config: defaultConfig,
+          props: {
+            transform: "uppercase",
+          },
+        })
+      ).toEqual({
+        style: [
+          {
+            textTransform: "uppercase",
+          },
+        ],
+      });
+    });
+  });
 });

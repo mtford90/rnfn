@@ -62,5 +62,18 @@ export function getTextStyleSheet(config = defaultConfig) {
     namedStyles[camelCase(`align-${alignment}`)] = { textAlign: alignment };
   });
 
+  const transforms: Array<TextStyle["textTransform"]> = [
+    "none",
+    "capitalize",
+    "uppercase",
+    "lowercase",
+  ];
+
+  transforms.forEach((transform) => {
+    namedStyles[camelCase(`transform-${transform}`)] = {
+      textTransform: transform,
+    };
+  });
+
   return StyleSheet.create(namedStyles);
 }
