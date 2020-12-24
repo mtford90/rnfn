@@ -4,6 +4,8 @@ on:
   create:
     tags:
       - v*
+env:
+  NPM_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
 
 jobs:
   test:
@@ -28,5 +30,4 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm publish --access public --tag alpha
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
