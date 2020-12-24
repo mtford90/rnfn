@@ -13,31 +13,42 @@ import {
   FnFontSize,
   FnFontFamily,
   FnFontWeight,
+  FnFontStyle,
 } from "../../props/__generated__";
 import Config from "../../theme/Config";
 
-export type FnTextStyleProps<TFontFamily extends FnFontFamily> = {
+export type FnTextStyleProps<
+  TFontFamily extends FnFontFamily,
+  TFontStyle extends "normal" | "italic"
+> = {
   color?: FnColor;
   bg?: FnColor;
   text?: FnFontSize;
   children?: React.ReactNode;
   fontFamily?: TFontFamily;
-  fontWeight?: FnFontWeight[TFontFamily];
+  fontStyle?: FnFontStyle[TFontFamily];
+  fontWeight?: FnFontWeight[TFontStyle][TFontFamily];
   align?: TextStyle["textAlign"];
   transform?: TextStyle["textTransform"];
   line?: TextStyle["textDecorationLine"];
 } & Partial<Record<keyof typeof spacingMappings, FnSpacing>>;
 
-export type FnTextProps<TFontFamily extends FnFontFamily> = TextProps &
-  FnTextStyleProps<TFontFamily>;
+export type FnTextProps<
+  TFontFamily extends FnFontFamily,
+  TFontStyle extends "normal" | "italic"
+> = TextProps & FnTextStyleProps<TFontFamily, TFontStyle>;
 
-export function getTextProps<TFontFamily extends FnFontFamily>({
+export function getTextProps<
+  TFontFamily extends FnFontFamily,
+  TFontStyle extends "normal" | "italic"
+>({
   props: {
     color = "",
     bg = "",
     text = "",
     fontWeight,
     fontFamily,
+    fontStyle = "normal" as const,
     style,
     align,
     line,
@@ -47,7 +58,7 @@ export function getTextProps<TFontFamily extends FnFontFamily>({
   textStyles,
   config,
 }: {
-  props: FnTextProps<TFontFamily>;
+  props: FnTextProps<TFontFamily, TFontStyle>;
   textStyles: StyleSheet;
   config: Config;
 }) {
@@ -66,7 +77,8 @@ export function getTextProps<TFontFamily extends FnFontFamily>({
     fontFamily && config.theme.fontFamily[fontFamily];
 
   const fontWeightExists = Boolean(
-    customFontFamilyConfig && customFontFamilyConfig[fontWeight || "normal"]
+    customFontFamilyConfig &&
+      customFontFamilyConfig[fontStyle]?.[fontWeight || "normal"]
   );
 
   const resolvedFontWeight = fontWeightExists
@@ -86,7 +98,7 @@ export function getTextProps<TFontFamily extends FnFontFamily>({
         line && `line-${line}`,
         customFontFamilyConfig &&
           fontFamily &&
-          `font-family-${fontFamily}-${resolvedFontWeight}`,
+          `font-family-${fontStyle}-${fontFamily}-${resolvedFontWeight}`,
         ...spacingTuples
       ),
       // TODO: Can these be StyleSheets instead? Automatically add to the StyleSheet?

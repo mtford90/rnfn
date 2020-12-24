@@ -4,9 +4,10 @@ import { useRnfnStyles } from "../context";
 import { FnTextProps, getTextProps } from "./props/text";
 import { FnFontFamily } from "../props/__generated__";
 
-export function FnText<TFontFamily extends FnFontFamily>(
-  props: FnTextProps<TFontFamily>
-) {
+export function FnText<
+  TFontFamily extends FnFontFamily,
+  TFontStyle extends "normal" | "italic" = "normal"
+>(props: FnTextProps<TFontFamily, TFontStyle>) {
   const { textStyles, config } = useRnfnStyles();
 
   return <Text {...getTextProps({ props, textStyles, config })} />;

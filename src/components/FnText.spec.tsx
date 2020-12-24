@@ -99,35 +99,38 @@ describe("Functional text styles", () => {
 
   describe("font family", () => {
     describe("with a custom font", () => {
-      it("should use the correct font styles", async () => {
-        expect(
-          render(
-            <FnText fontFamily="customFont" fontWeight="thin">
-              Hello
-            </FnText>,
-            {
-              wrapper: ({ children }) => (
-                <RnFnProvider
-                  config={{
-                    theme: {
-                      colors: {},
-                      spacing: {},
-                      fontSize: {},
-                      fontFamily: {
-                        customFont: {
-                          thin: { fontFamily: "myFont-thin" },
-                          normal: { fontFamily: "myFont" },
+      describe("with normal style", () => {
+        it("should use the correct font styles", async () => {
+          expect(
+            render(
+              <FnText fontFamily="customFont" fontWeight="thin">
+                Hello
+              </FnText>,
+              {
+                wrapper: ({ children }) => (
+                  <RnFnProvider
+                    config={{
+                      theme: {
+                        colors: {},
+                        spacing: {},
+                        fontSize: {},
+                        fontFamily: {
+                          customFont: {
+                            normal: {
+                              thin: { fontFamily: "myFont-thin" },
+                              normal: { fontFamily: "myFont" },
+                            },
+                          },
                         },
                       },
-                    },
-                  }}
-                >
-                  {children}
-                </RnFnProvider>
-              ),
-            }
-          )
-        ).toMatchInlineSnapshot(`
+                    }}
+                  >
+                    {children}
+                  </RnFnProvider>
+                ),
+              }
+            )
+          ).toMatchInlineSnapshot(`
                   <Text
                     style={
                       Array [
@@ -140,6 +143,61 @@ describe("Functional text styles", () => {
                     Hello
                   </Text>
               `);
+        });
+      });
+
+      describe("with italic style", () => {
+        it("should use the correct font styles", async () => {
+          expect(
+            render(
+              <FnText
+                fontFamily="customFont"
+                fontWeight="thin"
+                fontStyle="italic"
+              >
+                Hello
+              </FnText>,
+              {
+                wrapper: ({ children }) => (
+                  <RnFnProvider
+                    config={{
+                      theme: {
+                        colors: {},
+                        spacing: {},
+                        fontSize: {},
+                        fontFamily: {
+                          customFont: {
+                            normal: {
+                              thin: { fontFamily: "myFont-thin" },
+                              normal: { fontFamily: "myFont" },
+                            },
+                            italic: {
+                              thin: { fontFamily: "myFont-italic-thin" },
+                            },
+                          },
+                        },
+                      },
+                    }}
+                  >
+                    {children}
+                  </RnFnProvider>
+                ),
+              }
+            )
+          ).toMatchInlineSnapshot(`
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "myFont-italic-thin",
+                  },
+                ]
+              }
+            >
+              Hello
+            </Text>
+          `);
+        });
       });
     });
     describe("with a system font", () => {

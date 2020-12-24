@@ -294,10 +294,30 @@ export declare type FnFontSize =
   | \\"2xl\\"
   | \\"3xl\\"
   | \\"4xl\\";
-export declare type FnFontFamily = string | \\"customFont\\";
+export declare type FnFontFamily =
+  | string
+  | \\"customFont\\"
+  | \\"customFont2\\"
+  | \\"customFont3\\";
 export declare type FnFontWeight = {
-  customFont: \\"thin\\" | \\"normal\\";
-  [systemFontFamily: string]: FontWeightName;
+  normal: {
+    customFont: \\"thin\\" | \\"normal\\";
+    customFont2: \\"thin\\" | \\"normal\\";
+    customFont3: never;
+    [systemFontFamily: string]: FontWeightName;
+  };
+  italic: {
+    customFont: never;
+    customFont2: \\"thin\\" | \\"normal\\";
+    customFont3: \\"thin\\" | \\"normal\\";
+    [systemFontFamily: string]: FontWeightName;
+  };
+};
+export type FnFontStyle = {
+  customFont: \\"normal\\";
+  customFont2: \\"normal\\" | \\"italic\\";
+  customFont3: \\"italic\\";
+  [systemFontFamily: string]: \\"normal\\" | \\"italic\\";
 };
 "
 `;
@@ -598,7 +618,15 @@ export declare type FnFontSize =
   | \\"4xl\\";
 export declare type FnFontFamily = string;
 export declare type FnFontWeight = {
-  [systemFontFamily: string]: FontWeightName;
+  normal: {
+    [systemFontFamily: string]: FontWeightName;
+  };
+  italic: {
+    [systemFontFamily: string]: FontWeightName;
+  };
+};
+export type FnFontStyle = {
+  [systemFontFamily: string]: \\"normal\\" | \\"italic\\";
 };
 "
 `;

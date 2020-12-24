@@ -18,8 +18,26 @@ describe("generate definition files", () => {
           ...defaultConfig.theme,
           fontFamily: {
             customFont: {
-              thin: { fontFamily: "myFont-thin" },
-              normal: { fontFamily: "myFont" },
+              normal: {
+                thin: { fontFamily: "myFont-thin" },
+                normal: { fontFamily: "myFont" },
+              },
+            },
+            customFont2: {
+              normal: {
+                thin: { fontFamily: "myFont2-thin" },
+                normal: { fontFamily: "myFont2" },
+              },
+              italic: {
+                thin: { fontFamily: "myFont2-italic-thin" },
+                normal: { fontFamily: "myFont2-italic" },
+              },
+            },
+            customFont3: {
+              italic: {
+                thin: { fontFamily: "myFont3-italic-thin" },
+                normal: { fontFamily: "myFont3-italic" },
+              },
             },
           },
         },

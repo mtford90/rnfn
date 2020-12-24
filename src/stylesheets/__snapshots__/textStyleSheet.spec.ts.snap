@@ -32,13 +32,22 @@ Object {
   "colorCustomColor50": Object {
     "color": "#fff",
   },
-  "fontFamilyCustomFontBold": Object {
+  "fontFamilyItalicCustomFontBold": Object {
+    "fontFamily": "customFont-Italic-Bold",
+  },
+  "fontFamilyItalicCustomFontNormal": Object {
+    "fontFamily": "customFont-Italic",
+  },
+  "fontFamilyItalicCustomFontThin": Object {
+    "fontFamily": "customFont-Italic-Thin",
+  },
+  "fontFamilyNormalCustomFontBold": Object {
     "fontFamily": "customFont-Bold",
   },
-  "fontFamilyCustomFontNormal": Object {
+  "fontFamilyNormalCustomFontNormal": Object {
     "fontFamily": "customFont",
   },
-  "fontFamilyCustomFontThin": Object {
+  "fontFamilyNormalCustomFontThin": Object {
     "fontFamily": "customFont-Thin",
   },
   "leftLg": Object {

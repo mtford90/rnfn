@@ -27,7 +27,7 @@ export default function generateTextDefs(config: Config = defaultConfig) {
 
   const fontFamiliesUnion = constructUnionValue(fontFamilies);
 
-  const fontWeightObjectBody = fontFamilies
+  const fontStyleObjectBody = fontFamilies
     .map(
       (family) =>
         `"${family}": ${constructUnionValue(
@@ -35,6 +35,27 @@ export default function generateTextDefs(config: Config = defaultConfig) {
         )}`
     )
     .join(";\n");
+
+  let normalStyleWeightObjectBody = "";
+  let italicStyleWeightObjectBody = "";
+
+  fontFamilies.forEach((family) => {
+    const { normal, italic } = config.theme.fontFamily[family];
+    if (normal) {
+      normalStyleWeightObjectBody += `"${family}": ${constructUnionValue(
+        Object.keys(normal)
+      )};`;
+    } else {
+      normalStyleWeightObjectBody += `"${family}": never;`;
+    }
+    if (italic) {
+      italicStyleWeightObjectBody += `"${family}": ${constructUnionValue(
+        Object.keys(italic)
+      )};`;
+    } else {
+      italicStyleWeightObjectBody += `"${family}": never;`;
+    }
+  });
 
   return format(
     `
@@ -45,8 +66,18 @@ export default function generateTextDefs(config: Config = defaultConfig) {
     export declare type FnFontSize = ${fontSizeUnion};
     export declare type FnFontFamily = | string ${fontFamiliesUnion};
     export declare type FnFontWeight = {
-      ${fontWeightObjectBody}
-      [systemFontFamily: string]: FontWeightName;
+      normal: {
+        ${normalStyleWeightObjectBody}
+        [systemFontFamily: string]: FontWeightName;
+      },
+      italic: {
+        ${italicStyleWeightObjectBody}
+        [systemFontFamily: string]: FontWeightName;
+      }
+    };
+    export type FnFontStyle = {
+      ${fontStyleObjectBody}
+      [systemFontFamily: string]: "normal" | "italic";
     };
 `,
     { parser: "typescript" }

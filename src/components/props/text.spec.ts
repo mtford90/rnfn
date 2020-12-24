@@ -2,6 +2,7 @@ import { getTextProps } from "./text";
 import colors from "../../theme/colors";
 import defaultConfig from "../../theme/defaultConfig";
 import { getTextStyleSheet } from "../../stylesheets/textStyleSheet";
+import Config from "../../theme/Config";
 
 const textStyles = getTextStyleSheet();
 
@@ -225,15 +226,21 @@ describe("text props", () => {
     });
 
     describe("custom fonts", () => {
-      const configWithFontFamilies = {
+      const configWithFontFamilies: Config = {
         theme: {
           colors: {},
           spacing: {},
           fontSize: {},
           fontFamily: {
             customFont: {
-              thin: { fontFamily: "myFont-thin" },
-              normal: { fontFamily: "myFont" },
+              normal: {
+                thin: { fontFamily: "myFont-thin" },
+                normal: { fontFamily: "myFont" },
+              },
+              italic: {
+                thin: { fontFamily: "myFont-italic-thin" },
+                normal: { fontFamily: "myFont-italic" },
+              },
             },
           },
         },
@@ -299,6 +306,27 @@ describe("text props", () => {
             style: [
               {
                 fontFamily: "myFont",
+              },
+            ],
+          });
+        });
+      });
+
+      describe("with italic", () => {
+        it("should use italic", () => {
+          expect(
+            getTextProps({
+              textStyles: stylesWithFontFamilies,
+              config: configWithFontFamilies,
+              props: {
+                fontFamily: "customFont",
+                fontStyle: "italic",
+              },
+            })
+          ).toEqual({
+            style: [
+              {
+                fontFamily: "myFont-italic",
               },
             ],
           });

@@ -53,9 +53,16 @@ describe("text stylesheet", () => {
         },
         fontFamily: {
           customFont: {
-            normal: { fontFamily: "customFont" },
-            thin: { fontFamily: "customFont-Thin" },
-            bold: { fontFamily: "customFont-Bold" },
+            normal: {
+              normal: { fontFamily: "customFont" },
+              thin: { fontFamily: "customFont-Thin" },
+              bold: { fontFamily: "customFont-Bold" },
+            },
+            italic: {
+              normal: { fontFamily: "customFont-Italic" },
+              thin: { fontFamily: "customFont-Italic-Thin" },
+              bold: { fontFamily: "customFont-Italic-Bold" },
+            },
           },
         },
       },
