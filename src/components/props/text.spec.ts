@@ -346,4 +346,24 @@ describe("text props", () => {
       });
     });
   });
+
+  describe("line", () => {
+    it("should use the textDecorationLine property", async () => {
+      expect(
+        getTextProps({
+          textStyles,
+          config: defaultConfig,
+          props: {
+            line: "underline",
+          },
+        })
+      ).toEqual({
+        style: [
+          {
+            textDecorationLine: "underline",
+          },
+        ],
+      });
+    });
+  });
 });

@@ -44,6 +44,18 @@ Object {
   "leftLg": Object {
     "left": 50,
   },
+  "lineLineThrough": Object {
+    "textDecorationLine": "line-through",
+  },
+  "lineNone": Object {
+    "textDecorationLine": "none",
+  },
+  "lineUnderline": Object {
+    "textDecorationLine": "underline",
+  },
+  "lineUnderlineLineThrough": Object {
+    "textDecorationLine": "underline line-through",
+  },
   "mLg": Object {
     "margin": 50,
   },
@@ -1807,6 +1819,18 @@ Object {
   },
   "leftDp": Object {
     "left": 1,
+  },
+  "lineLineThrough": Object {
+    "textDecorationLine": "line-through",
+  },
+  "lineNone": Object {
+    "textDecorationLine": "none",
+  },
+  "lineUnderline": Object {
+    "textDecorationLine": "underline",
+  },
+  "lineUnderlineLineThrough": Object {
+    "textDecorationLine": "underline line-through",
   },
   "m0": Object {
     "margin": 0,

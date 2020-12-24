@@ -75,5 +75,18 @@ export function getTextStyleSheet(config = defaultConfig) {
     };
   });
 
+  const decorationLines: Array<TextStyle["textDecorationLine"]> = [
+    "none",
+    "underline",
+    "line-through",
+    "underline line-through",
+  ];
+
+  decorationLines.forEach((line) => {
+    namedStyles[camelCase(`line-${line}`)] = {
+      textDecorationLine: line,
+    };
+  });
+
   return StyleSheet.create(namedStyles);
 }

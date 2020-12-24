@@ -25,6 +25,7 @@ export type FnTextStyleProps<TFontFamily extends FnFontFamily> = {
   fontWeight?: FnFontWeight[TFontFamily];
   align?: TextStyle["textAlign"];
   transform?: TextStyle["textTransform"];
+  line?: TextStyle["textDecorationLine"];
 } & Partial<Record<keyof typeof spacingMappings, FnSpacing>>;
 
 export type FnTextProps<TFontFamily extends FnFontFamily> = TextProps &
@@ -39,6 +40,7 @@ export function getTextProps<TFontFamily extends FnFontFamily>({
     fontFamily,
     style,
     align,
+    line,
     transform,
     ...rest
   },
@@ -81,6 +83,7 @@ export function getTextProps<TFontFamily extends FnFontFamily>({
         text && `text-${text}`,
         align && `align-${align}`,
         transform && `transform-${transform}`,
+        line && `line-${line}`,
         customFontFamilyConfig &&
           fontFamily &&
           `font-family-${fontFamily}-${resolvedFontWeight}`,
