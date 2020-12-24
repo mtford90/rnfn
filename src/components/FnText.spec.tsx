@@ -96,4 +96,93 @@ describe("Functional text styles", () => {
       `);
     });
   });
+
+  describe("font family", () => {
+    describe("with a custom font", () => {
+      it("should use the correct font styles", async () => {
+        expect(
+          render(
+            <FnText fontFamily="customFont" fontWeight="thin">
+              Hello
+            </FnText>,
+            {
+              wrapper: ({ children }) => (
+                <RnFnProvider
+                  config={{
+                    theme: {
+                      colors: {},
+                      spacing: {},
+                      fontSize: {},
+                      fontFamily: {
+                        customFont: {
+                          thin: { fontFamily: "myFont-thin" },
+                          normal: { fontFamily: "myFont" },
+                        },
+                      },
+                    },
+                  }}
+                >
+                  {children}
+                </RnFnProvider>
+              ),
+            }
+          )
+        ).toMatchInlineSnapshot(`
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "myFont-thin",
+                        },
+                      ]
+                    }
+                  >
+                    Hello
+                  </Text>
+              `);
+      });
+    });
+    describe("with a system font", () => {
+      it("should use the correct font styles", async () => {
+        expect(
+          render(
+            <FnText fontFamily="Helvetica" fontWeight="thin">
+              Hello
+            </FnText>,
+            {
+              wrapper: ({ children }) => (
+                <RnFnProvider
+                  config={{
+                    theme: {
+                      colors: {},
+                      spacing: {},
+                      fontSize: {},
+                      fontFamily: {},
+                    },
+                  }}
+                >
+                  {children}
+                </RnFnProvider>
+              ),
+            }
+          )
+        ).toMatchInlineSnapshot(`
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "Helvetica",
+                },
+                Object {
+                  "fontWeight": "100",
+                },
+              ]
+            }
+          >
+            Hello
+          </Text>
+        `);
+      });
+    });
+  });
 });

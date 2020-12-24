@@ -40,5 +40,15 @@ export function getTextStyleSheet(config = defaultConfig) {
     }
   );
 
+  Object.entries(config.theme.fontFamily).forEach(([familyName, weights]) => {
+    Object.entries(weights).forEach(([weight, definition]) => {
+      if (definition) {
+        namedStyles[
+          camelCase(`font-family-${familyName}-${weight}`)
+        ] = definition;
+      }
+    });
+  });
+
   return StyleSheet.create(namedStyles);
 }

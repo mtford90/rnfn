@@ -4,7 +4,9 @@ import Config from "./theme/Config";
 import defaultConfig from "./theme/defaultConfig";
 import { getTextStyleSheet } from "./stylesheets/textStyleSheet";
 
-const RnFnContext = createContext<{ textStyles: StyleSheet }>(null as never);
+const RnFnContext = createContext<{ textStyles: StyleSheet; config: Config }>(
+  null as never
+);
 
 export function RnFnProvider({
   config = defaultConfig,
@@ -16,7 +18,7 @@ export function RnFnProvider({
   const textStyles = useMemo(() => getTextStyleSheet(config), [config]);
 
   return (
-    <RnFnContext.Provider value={{ textStyles }}>
+    <RnFnContext.Provider value={{ textStyles, config }}>
       {children}
     </RnFnContext.Provider>
   );

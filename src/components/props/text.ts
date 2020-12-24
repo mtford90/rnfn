@@ -1,23 +1,49 @@
 import * as React from "react";
 import { TextProps } from "react-native";
-import { spacingMappings, spacingProperties } from "../../stylesheets/mappings";
+import compact from "lodash.compact";
+import {
+  fontWeightMappings,
+  spacingMappings,
+  spacingProperties,
+} from "../../stylesheets/mappings";
 import { combineStyles } from "../../utils";
-import { FnColor, FnSpacing, FnFontSize } from "../../props/__generated__";
+import {
+  FnColor,
+  FnSpacing,
+  FnFontSize,
+  FnFontFamily,
+  FnFontWeight,
+} from "../../props/__generated__";
+import Config from "../../theme/Config";
 
-export type FnTextStyleProps = {
+export type FnTextStyleProps<TFontFamily extends FnFontFamily> = {
   color?: FnColor;
   bg?: FnColor;
   text?: FnFontSize;
   children?: React.ReactNode;
+  fontFamily?: TFontFamily;
+  fontWeight?: FnFontWeight[TFontFamily];
 } & Partial<Record<keyof typeof spacingMappings, FnSpacing>>;
-export type FnTextProps = TextProps & FnTextStyleProps;
 
-export function getTextProps({
-  props: { color = "", bg = "", text = "", style, ...rest },
+export type FnTextProps<TFontFamily extends FnFontFamily> = TextProps &
+  FnTextStyleProps<TFontFamily>;
+
+export function getTextProps<TFontFamily extends FnFontFamily>({
+  props: {
+    color = "",
+    bg = "",
+    text = "",
+    fontWeight,
+    fontFamily,
+    style,
+    ...rest
+  },
   textStyles,
+  config,
 }: {
-  props: FnTextProps;
+  props: FnTextProps<TFontFamily>;
   textStyles: StyleSheet;
+  config: Config;
 }) {
   const spacingTuples: string[] = [];
 
@@ -30,15 +56,36 @@ export function getTextProps({
     }
   });
 
+  const customFontFamilyConfig =
+    fontFamily && config.theme.fontFamily[fontFamily];
+
+  const fontWeightExists = Boolean(
+    customFontFamilyConfig && customFontFamilyConfig[fontWeight || "normal"]
+  );
+
+  const resolvedFontWeight = fontWeightExists
+    ? fontWeight || "normal"
+    : "normal"; // TODO: What if normal doesn't exist? Fall back to closest weight?
+
   return {
-    style: combineStyles(
-      style,
-      textStyles,
-      color && `color-${color}`,
-      bg && `bg-${bg}`,
-      text && `text-${text}`,
-      ...spacingTuples
-    ),
+    style: compact([
+      ...combineStyles(
+        style,
+        textStyles,
+        color && `color-${color}`,
+        bg && `bg-${bg}`,
+        text && `text-${text}`,
+        customFontFamilyConfig &&
+          fontFamily &&
+          `font-family-${fontFamily}-${resolvedFontWeight}`,
+        ...spacingTuples
+      ),
+      // TODO: Can these be StyleSheets instead? Automatically add to the StyleSheet?
+      !customFontFamilyConfig && fontFamily && { fontFamily },
+      !customFontFamilyConfig &&
+        fontWeight && { fontWeight: fontWeightMappings[fontWeight] },
+      // END TODO
+    ]),
     ...rest,
   };
 }

@@ -2,9 +2,12 @@ import { Text } from "react-native";
 import * as React from "react";
 import { useRnfnStyles } from "../context";
 import { FnTextProps, getTextProps } from "./props/text";
+import { FnFontFamily } from "../props/__generated__";
 
-export function FnText(props: FnTextProps) {
-  const { textStyles } = useRnfnStyles();
+export function FnText<TFontFamily extends FnFontFamily>(
+  props: FnTextProps<TFontFamily>
+) {
+  const { textStyles, config } = useRnfnStyles();
 
-  return <Text {...getTextProps({ props, textStyles })} />;
+  return <Text {...getTextProps({ props, textStyles, config })} />;
 }

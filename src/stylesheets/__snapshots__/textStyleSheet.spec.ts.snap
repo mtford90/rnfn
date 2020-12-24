@@ -17,6 +17,15 @@ Object {
   "colorCustomColor50": Object {
     "color": "#fff",
   },
+  "fontFamilyCustomFontBold": Object {
+    "fontFamily": "customFont-Bold",
+  },
+  "fontFamilyCustomFontNormal": Object {
+    "fontFamily": "customFont",
+  },
+  "fontFamilyCustomFontThin": Object {
+    "fontFamily": "customFont-Thin",
+  },
   "leftLg": Object {
     "left": 50,
   },

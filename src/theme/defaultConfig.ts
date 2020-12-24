@@ -77,17 +77,7 @@ const defaultConfig: Config = {
       "3xl": [30, { lineHeight: 36 }],
       "4xl": [36, { lineHeight: 40 }],
     },
-    // fontWeight: {
-    //   thin: "100",
-    //   extralight: "200",
-    //   light: "300",
-    //   normal: "400",
-    //   medium: "500",
-    //   semibold: "600",
-    //   bold: "700",
-    //   extrabold: "800",
-    //   black: "900",
-    // },
+    fontFamily: {},
   },
 };
 

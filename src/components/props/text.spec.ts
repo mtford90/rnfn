@@ -5,13 +5,14 @@ import { getTextStyleSheet } from "../../stylesheets/textStyleSheet";
 
 const textStyles = getTextStyleSheet();
 
-describe("FnText", () => {
+describe("text props", () => {
   describe("color", () => {
     describe("default color", () => {
       it("should use the correct style", async () => {
         expect(
           getTextProps({
             textStyles,
+            config: defaultConfig,
             props: {
               color: "green",
             },
@@ -31,6 +32,7 @@ describe("FnText", () => {
         expect(
           getTextProps({
             textStyles,
+            config: defaultConfig,
             props: {
               color: "green-50",
             },
@@ -52,6 +54,7 @@ describe("FnText", () => {
         expect(
           getTextProps({
             textStyles,
+            config: defaultConfig,
             props: {
               bg: "green",
             },
@@ -71,6 +74,7 @@ describe("FnText", () => {
         expect(
           getTextProps({
             textStyles,
+            config: defaultConfig,
             props: {
               bg: "green-50",
             },
@@ -92,6 +96,7 @@ describe("FnText", () => {
         expect(
           getTextProps({
             textStyles,
+            config: defaultConfig,
             props: {
               bg: "green",
               color: "green",
@@ -117,6 +122,7 @@ describe("FnText", () => {
         expect(
           getTextProps({
             textStyles,
+            config: defaultConfig,
             props: {
               mt: "24",
             },
@@ -134,6 +140,7 @@ describe("FnText", () => {
         expect(
           getTextProps({
             textStyles,
+            config: defaultConfig,
             props: {
               mt: "dp",
             },
@@ -155,6 +162,7 @@ describe("FnText", () => {
         expect(
           getTextProps({
             textStyles,
+            config: defaultConfig,
             props: {
               pt: "24",
             },
@@ -175,6 +183,7 @@ describe("FnText", () => {
       expect(
         getTextProps({
           textStyles,
+          config: defaultConfig,
           props: {
             text: "2xl",
           },
@@ -186,6 +195,114 @@ describe("FnText", () => {
             lineHeight: defaultConfig.theme.fontSize["2xl"][1].lineHeight,
           },
         ],
+      });
+    });
+  });
+
+  describe("fontFamily", () => {
+    describe("system fonts", () => {
+      it("should use the fontWeight property", async () => {
+        expect(
+          getTextProps({
+            textStyles,
+            config: defaultConfig,
+            props: {
+              fontFamily: "Helvetica",
+              fontWeight: "thin",
+            },
+          })
+        ).toEqual({
+          style: [
+            {
+              fontFamily: "Helvetica",
+            },
+            {
+              fontWeight: "100",
+            },
+          ],
+        });
+      });
+    });
+
+    describe("custom fonts", () => {
+      const configWithFontFamilies = {
+        theme: {
+          colors: {},
+          spacing: {},
+          fontSize: {},
+          fontFamily: {
+            customFont: {
+              thin: { fontFamily: "myFont-thin" },
+              normal: { fontFamily: "myFont" },
+            },
+          },
+        },
+      };
+
+      const stylesWithFontFamilies = getTextStyleSheet(configWithFontFamilies);
+
+      describe("with no font weight specified", () => {
+        describe("when normal exists", () => {
+          it("should default to normal", () => {
+            expect(
+              getTextProps({
+                textStyles: stylesWithFontFamilies,
+                config: configWithFontFamilies,
+                props: {
+                  fontFamily: "customFont",
+                },
+              })
+            ).toEqual({
+              style: [
+                {
+                  fontFamily: "myFont",
+                },
+              ],
+            });
+          });
+        });
+      });
+
+      describe("with font weight specified", () => {
+        it("should use the specified font family for that weight", () => {
+          expect(
+            getTextProps({
+              textStyles: stylesWithFontFamilies,
+              props: {
+                fontFamily: "customFont",
+                fontWeight: "thin",
+              },
+              config: configWithFontFamilies,
+            })
+          ).toEqual({
+            style: [
+              {
+                fontFamily: "myFont-thin",
+              },
+            ],
+          });
+        });
+      });
+
+      describe("when the specified font weight doesn't exist", () => {
+        it("should default to normal", () => {
+          expect(
+            getTextProps({
+              textStyles: stylesWithFontFamilies,
+              props: {
+                fontFamily: "customFont",
+                fontWeight: "extrabold",
+              },
+              config: configWithFontFamilies,
+            })
+          ).toEqual({
+            style: [
+              {
+                fontFamily: "myFont",
+              },
+            ],
+          });
+        });
       });
     });
   });

@@ -51,6 +51,13 @@ describe("text stylesheet", () => {
         fontSize: {
           customFontSize: [21, { lineHeight: 19 }],
         },
+        fontFamily: {
+          customFont: {
+            normal: { fontFamily: "customFont" },
+            thin: { fontFamily: "customFont-Thin" },
+            bold: { fontFamily: "customFont-Bold" },
+          },
+        },
       },
     };
 

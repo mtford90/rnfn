@@ -1,9 +1,31 @@
 import generateTextDefs from "./textGen";
+import defaultConfig from "../theme/defaultConfig";
 
 describe("generate definition files", () => {
-  it("should work", async () => {
-    const defs = generateTextDefs();
+  describe("with default config", () => {
+    it("should match snapshot", async () => {
+      const defs = generateTextDefs();
 
-    expect(defs).toMatchSnapshot();
+      expect(defs).toMatchSnapshot();
+    });
+  });
+
+  describe("with custom config", () => {
+    it("should match snapshot", async () => {
+      const defs = generateTextDefs({
+        ...defaultConfig,
+        theme: {
+          ...defaultConfig.theme,
+          fontFamily: {
+            customFont: {
+              thin: { fontFamily: "myFont-thin" },
+              normal: { fontFamily: "myFont" },
+            },
+          },
+        },
+      });
+
+      expect(defs).toMatchSnapshot();
+    });
   });
 });
