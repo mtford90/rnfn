@@ -36,3 +36,17 @@ export const fontWeightMappings: Record<FontWeightName, string> = {
   extrabold: "800",
   black: "900",
 };
+
+export type FontWeights = keyof typeof fontWeightMappings;
+
+export const fontWeights: Array<FontWeights> = [
+  "thin",
+  "extralight",
+  "light",
+  "normal",
+  "medium",
+  "semibold",
+  "bold",
+  "extrabold",
+  "black",
+];

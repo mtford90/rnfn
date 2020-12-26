@@ -1,4 +1,5 @@
 import typescript from "@rollup/plugin-typescript";
+import commonjs from "@rollup/plugin-commonjs";
 import shebang from "rollup-plugin-add-shebang";
 
 export default {
@@ -8,7 +9,8 @@ export default {
     format: "cjs",
   },
   plugins: [
-    typescript(),
+    typescript({ module: "CommonJS" }),
+    commonjs({ extensions: [".js", ".ts"] }),
     shebang({
       include: "dist/rnfn-ts-gen",
     }),
