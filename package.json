@@ -1,16 +1,16 @@
 {
   "name": "@rnfn/core",
-  "version": "0.1.0-alpha.17",
+  "version": "0.1.0-alpha.18",
   "main": "dist/index.js",
   "license": "MIT",
   "files": [
-    "dist"
+    "dist",
+    "bin"
   ],
   "scripts": {
     "lint": "eslint \"./src/**/*.{ts,tsx}\" --fix",
     "gen": "node ./dist/scripts/tsGen.js -d",
     "build": "tsc",
-    "build:cli": "rollup -c rollup.config.js",
     "check": "npm run lint && npm run test && npm run build && npm run build:cli && npm run gen"
   },
   "dependencies": {
@@ -26,9 +26,6 @@
     "yargs": "^16.2.0"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^17.0.0",
-    "@rollup/plugin-node-resolve": "^11.0.1",
-    "@rollup/plugin-typescript": "^8.1.0",
     "@testing-library/react-hooks": "^3.7.0",
     "@testing-library/react-native": "^7.1.0",
     "@types/jest": "^26.0.19",
@@ -58,11 +55,9 @@
     "react": "^16.14.0",
     "react-native": "^0.63.4",
     "react-test-renderer": "^16.14.0",
-    "rollup-plugin-add-shebang": "^0.3.1",
-    "rollup-plugin-node-resolve": "^5.2.0",
     "typescript": "^4.1.3"
   },
   "bin": {
-    "rnfn-ts-gen": "./dist/rnfn-ts-gen"
+    "rnfn-ts-gen": "./bin/rnfn-ts-gen"
   }
 }

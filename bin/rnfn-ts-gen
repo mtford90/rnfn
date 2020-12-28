@@ -1,0 +1,2 @@
+#!/usr/bin/env node
+require("@rnfn/core/dist/scripts/tsGen");
