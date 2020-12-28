@@ -32,12 +32,14 @@ export function getTextStyleSheet(config = defaultConfig) {
   });
 
   Object.entries(config.theme.fontSize).forEach(
-    ([propName, [fontSize, { lineHeight, letterSpacing }]]) => {
-      namedStyles[camelCase(`text-${propName}`)] = {
+    ([propName, [fontSize, props]]) => {
+      const style: NamedStyles[string] = {
         fontSize,
-        lineHeight,
-        letterSpacing,
       };
+
+      Object.assign(style, props);
+
+      namedStyles[camelCase(`text-${propName}`)] = style;
     }
   );
 
