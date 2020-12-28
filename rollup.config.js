@@ -10,7 +10,10 @@ export default {
   },
   plugins: [
     typescript({ module: "CommonJS" }),
-    commonjs({ extensions: [".js", ".ts"] }),
+    commonjs({
+      extensions: [".js", ".ts"],
+      dynamicRequireTargets: ["rnfn.config.js"],
+    }),
     shebang({
       include: "dist/rnfn-ts-gen",
     }),

@@ -1,18 +1,29 @@
 import { fs } from "mz";
 import * as path from "path";
+import yargs from "yargs";
 import generateTextDefs from "./textGen";
 import { resolveConfig } from "./resolveConfig";
 
-(async function main() {
-  const [, , configPath] = process.argv;
+const { argv } = yargs(process.argv)
+  .string("config")
+  .alias("c", "config")
+  .usage("Usage: $0 -c [path/to/rnfn.config.js]");
 
-  const config = await resolveConfig(configPath);
+const configPath = argv.config || "rnfn.config.js";
+
+const resolvedPath = path.isAbsolute(configPath)
+  ? configPath
+  : path.resolve(process.cwd(), configPath);
+
+(async function main() {
+  const config = await resolveConfig(resolvedPath);
   const textDefs = generateTextDefs(config);
 
   const paths = [
+    "./dist/props/__generated__.d.ts",
+    path.resolve(__dirname, "../@rnfn/core/dist/props/__generated__.d.ts"),
     path.resolve(__dirname, "../props/__generated__.d.ts"),
     path.resolve(__dirname, "./props/__generated__.d.ts"),
-    path.resolve(__dirname, "../@rnfn/core/dist/props/__generated__.d.ts"),
   ];
 
   let success = false;
@@ -23,11 +34,9 @@ import { resolveConfig } from "./resolveConfig";
     if (await fs.exists(p)) {
       // eslint-disable-next-line no-await-in-loop
       await fs.writeFile(p, textDefs);
-      console.debug(`${p} does exist`);
+      console.debug(`Generating types @ ${p}`);
       success = true;
       break;
-    } else {
-      console.debug(`${p} does not exist`);
     }
   }
 

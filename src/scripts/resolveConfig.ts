@@ -6,6 +6,7 @@ import { validate } from "./schema";
 export function resolveConfig(path: string): Config {
   if (path) {
     delete require.cache[path];
+    console.log(`dynamically requiring ${path}`);
     const userConfig = validate(require(path));
     const extend = userConfig.theme?.extend;
     const extendedColors = extend?.colors || {};
