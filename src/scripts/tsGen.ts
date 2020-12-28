@@ -3,10 +3,13 @@ import * as path from "path";
 import yargs from "yargs";
 import generateTextDefs from "./textGen";
 import { resolveConfig } from "./resolveConfig";
+import defaultConfig from "../theme/defaultConfig";
 
 const { argv } = yargs(process.argv)
   .string("config")
   .alias("c", "config")
+  .boolean("default")
+  .alias("d", "default")
   .usage("Usage: $0 -c [path/to/rnfn.config.js]");
 
 const configPath = argv.config || "rnfn.config.js";
@@ -16,7 +19,9 @@ const resolvedPath = path.isAbsolute(configPath)
   : path.resolve(process.cwd(), configPath);
 
 (async function main() {
-  const config = await resolveConfig(resolvedPath);
+  const config = argv.default
+    ? defaultConfig
+    : await resolveConfig(resolvedPath);
   const textDefs = generateTextDefs(config);
 
   const paths = [

@@ -31,5 +31,6 @@ jobs:
       - run: npm install -g rollup
       - run: npm run build
       - run: npm run build:cli
+      - run: npm run gen
       - run: npm publish --access public --tag alpha
 

@@ -1,6 +1,6 @@
 {
   "name": "@rnfn/core",
-  "version": "0.1.0-alpha.15",
+  "version": "0.1.0-alpha.16",
   "main": "dist/index.js",
   "license": "MIT",
   "files": [
@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "lint": "eslint \"./src/**/*.{ts,tsx}\" --fix",
-    "gen": "node ./dist/scripts/tsGen.js",
+    "gen": "node ./dist/scripts/tsGen.js -d",
     "build": "tsc",
     "build:cli": "rollup -c rollup.config.js"
   },
