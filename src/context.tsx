@@ -1,24 +1,28 @@
 import React, { createContext, useContext, useMemo } from "react";
 import { StyleSheet } from "react-native";
-import Config from "./theme/Config";
+import Config, { UserConfig } from "./theme/Config";
 import defaultConfig from "./theme/defaultConfig";
 import { getTextStyleSheet } from "./stylesheets/textStyleSheet";
+import { mergeConfig } from "./scripts/mergeConfig";
 
 const RnFnContext = createContext<{ textStyles: StyleSheet; config: Config }>(
   null as never
 );
 
 export function RnFnProvider({
-  config = defaultConfig,
+  config,
   children,
 }: {
-  config?: Config;
+  config?: UserConfig;
   children: React.ReactNode;
 }) {
-  const textStyles = useMemo(() => getTextStyleSheet(config), [config]);
+  const mergedConfig = config ? mergeConfig(config) : defaultConfig;
+  const textStyles = useMemo(() => getTextStyleSheet(mergedConfig), [
+    mergedConfig,
+  ]);
 
   return (
-    <RnFnContext.Provider value={{ textStyles, config }}>
+    <RnFnContext.Provider value={{ textStyles, config: mergedConfig }}>
       {children}
     </RnFnContext.Provider>
   );

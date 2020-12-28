@@ -1,6 +1,6 @@
 {
   "name": "@rnfn/core",
-  "version": "0.1.0-alpha.16",
+  "version": "0.1.0-alpha.17",
   "main": "dist/index.js",
   "license": "MIT",
   "files": [
@@ -10,7 +10,8 @@
     "lint": "eslint \"./src/**/*.{ts,tsx}\" --fix",
     "gen": "node ./dist/scripts/tsGen.js -d",
     "build": "tsc",
-    "build:cli": "rollup -c rollup.config.js"
+    "build:cli": "rollup -c rollup.config.js",
+    "check": "npm run lint && npm run test && npm run build && npm run build:cli && npm run gen"
   },
   "dependencies": {
     "react-native-size-matters": "^0.3.1",

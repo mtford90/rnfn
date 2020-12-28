@@ -16,3 +16,7 @@ export default interface Config {
     >;
   };
 }
+
+export interface UserConfig {
+  theme?: Config["theme"] & { extend?: Partial<Config["theme"]> };
+}
