@@ -1,6 +1,6 @@
 {
   "name": "@rnfn/core",
-  "version": "0.1.0-alpha.18",
+  "version": "0.1.0-alpha.19",
   "main": "dist/index.js",
   "license": "MIT",
   "files": [
