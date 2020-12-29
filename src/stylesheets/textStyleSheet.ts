@@ -3,32 +3,16 @@ import { StyleSheet, TextStyle } from "react-native";
 import defaultConfig from "../theme/defaultConfig";
 import { getColorPropValues } from "../props/color";
 import { NamedStyles } from "./types";
-import { spacingMappings } from "./mappings";
-
-export const colorMappings = {
-  color: "color",
-  bg: "backgroundColor",
-};
 
 export function getTextStyleSheet(config = defaultConfig) {
   const colorPropValues = getColorPropValues(config);
 
   const namedStyles: NamedStyles = {};
 
-  Object.entries(colorMappings).forEach(([propName, styleSheetKey]) => {
-    Object.entries(colorPropValues).forEach(([propValue, colorCode]) => {
-      namedStyles[camelCase(`${propName}-${propValue}`)] = {
-        [styleSheetKey]: colorCode,
-      };
-    });
-  });
-
-  Object.entries(spacingMappings).forEach(([propName, styleSheetKey]) => {
-    Object.entries(config.theme.spacing).forEach(([propValue, pixels]) => {
-      namedStyles[camelCase(`${propName}-${propValue}`)] = {
-        [styleSheetKey]: pixels,
-      };
-    });
+  Object.entries(colorPropValues).forEach(([propValue, colorCode]) => {
+    namedStyles[camelCase(`color-${propValue}`)] = {
+      color: colorCode,
+    };
   });
 
   Object.entries(config.theme.fontSize).forEach(

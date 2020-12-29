@@ -12,12 +12,6 @@ describe("text stylesheet", () => {
 
     it("should match colours correctly", () => {
       const stylesheet = getTextStyleSheet();
-      expect(stylesheet.bgGreen).toEqual({
-        backgroundColor: colors.green["500"],
-      });
-      expect(stylesheet.bgGreen50).toEqual({
-        backgroundColor: colors.green["50"],
-      });
       expect(stylesheet.colorGreen).toEqual({
         color: colors.green["500"],
       });
