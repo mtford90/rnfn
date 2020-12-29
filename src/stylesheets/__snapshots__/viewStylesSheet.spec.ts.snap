@@ -412,6 +412,3681 @@ Object {
   "bgLime900": Object {
     "backgroundColor": "#365314",
   },
+  "bgOpacity0Amber": Object {
+    "backgroundColor": "rgba(245, 158, 11, 0)",
+  },
+  "bgOpacity0Amber100": Object {
+    "backgroundColor": "rgba(254, 243, 199, 0)",
+  },
+  "bgOpacity0Amber200": Object {
+    "backgroundColor": "rgba(253, 230, 138, 0)",
+  },
+  "bgOpacity0Amber300": Object {
+    "backgroundColor": "rgba(252, 211, 77, 0)",
+  },
+  "bgOpacity0Amber400": Object {
+    "backgroundColor": "rgba(251, 191, 36, 0)",
+  },
+  "bgOpacity0Amber50": Object {
+    "backgroundColor": "rgba(255, 251, 235, 0)",
+  },
+  "bgOpacity0Amber500": Object {
+    "backgroundColor": "rgba(245, 158, 11, 0)",
+  },
+  "bgOpacity0Amber600": Object {
+    "backgroundColor": "rgba(217, 119, 6, 0)",
+  },
+  "bgOpacity0Amber700": Object {
+    "backgroundColor": "rgba(180, 83, 9, 0)",
+  },
+  "bgOpacity0Amber800": Object {
+    "backgroundColor": "rgba(146, 64, 14, 0)",
+  },
+  "bgOpacity0Amber900": Object {
+    "backgroundColor": "rgba(120, 53, 15, 0)",
+  },
+  "bgOpacity0Black": Object {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+  },
+  "bgOpacity0Blue": Object {
+    "backgroundColor": "rgba(59, 130, 246, 0)",
+  },
+  "bgOpacity0Blue100": Object {
+    "backgroundColor": "rgba(219, 234, 254, 0)",
+  },
+  "bgOpacity0Blue200": Object {
+    "backgroundColor": "rgba(191, 219, 254, 0)",
+  },
+  "bgOpacity0Blue300": Object {
+    "backgroundColor": "rgba(147, 197, 253, 0)",
+  },
+  "bgOpacity0Blue400": Object {
+    "backgroundColor": "rgba(96, 165, 250, 0)",
+  },
+  "bgOpacity0Blue50": Object {
+    "backgroundColor": "rgba(239, 246, 255, 0)",
+  },
+  "bgOpacity0Blue500": Object {
+    "backgroundColor": "rgba(59, 130, 246, 0)",
+  },
+  "bgOpacity0Blue600": Object {
+    "backgroundColor": "rgba(37, 99, 235, 0)",
+  },
+  "bgOpacity0Blue700": Object {
+    "backgroundColor": "rgba(29, 78, 216, 0)",
+  },
+  "bgOpacity0Blue800": Object {
+    "backgroundColor": "rgba(30, 64, 175, 0)",
+  },
+  "bgOpacity0Blue900": Object {
+    "backgroundColor": "rgba(30, 58, 138, 0)",
+  },
+  "bgOpacity0BlueGray": Object {
+    "backgroundColor": "rgba(100, 116, 139, 0)",
+  },
+  "bgOpacity0BlueGray100": Object {
+    "backgroundColor": "rgba(241, 245, 249, 0)",
+  },
+  "bgOpacity0BlueGray200": Object {
+    "backgroundColor": "rgba(226, 232, 240, 0)",
+  },
+  "bgOpacity0BlueGray300": Object {
+    "backgroundColor": "rgba(203, 213, 225, 0)",
+  },
+  "bgOpacity0BlueGray400": Object {
+    "backgroundColor": "rgba(148, 163, 184, 0)",
+  },
+  "bgOpacity0BlueGray50": Object {
+    "backgroundColor": "rgba(248, 250, 252, 0)",
+  },
+  "bgOpacity0BlueGray500": Object {
+    "backgroundColor": "rgba(100, 116, 139, 0)",
+  },
+  "bgOpacity0BlueGray600": Object {
+    "backgroundColor": "rgba(71, 85, 105, 0)",
+  },
+  "bgOpacity0BlueGray700": Object {
+    "backgroundColor": "rgba(51, 65, 85, 0)",
+  },
+  "bgOpacity0BlueGray800": Object {
+    "backgroundColor": "rgba(30, 41, 59, 0)",
+  },
+  "bgOpacity0BlueGray900": Object {
+    "backgroundColor": "rgba(15, 23, 42, 0)",
+  },
+  "bgOpacity0CoolGray": Object {
+    "backgroundColor": "rgba(107, 114, 128, 0)",
+  },
+  "bgOpacity0CoolGray100": Object {
+    "backgroundColor": "rgba(243, 244, 246, 0)",
+  },
+  "bgOpacity0CoolGray200": Object {
+    "backgroundColor": "rgba(229, 231, 235, 0)",
+  },
+  "bgOpacity0CoolGray300": Object {
+    "backgroundColor": "rgba(209, 213, 219, 0)",
+  },
+  "bgOpacity0CoolGray400": Object {
+    "backgroundColor": "rgba(156, 163, 175, 0)",
+  },
+  "bgOpacity0CoolGray50": Object {
+    "backgroundColor": "rgba(249, 250, 251, 0)",
+  },
+  "bgOpacity0CoolGray500": Object {
+    "backgroundColor": "rgba(107, 114, 128, 0)",
+  },
+  "bgOpacity0CoolGray600": Object {
+    "backgroundColor": "rgba(75, 85, 99, 0)",
+  },
+  "bgOpacity0CoolGray700": Object {
+    "backgroundColor": "rgba(55, 65, 81, 0)",
+  },
+  "bgOpacity0CoolGray800": Object {
+    "backgroundColor": "rgba(31, 41, 55, 0)",
+  },
+  "bgOpacity0CoolGray900": Object {
+    "backgroundColor": "rgba(17, 24, 39, 0)",
+  },
+  "bgOpacity0Cyan": Object {
+    "backgroundColor": "rgba(6, 182, 212, 0)",
+  },
+  "bgOpacity0Cyan100": Object {
+    "backgroundColor": "rgba(207, 250, 254, 0)",
+  },
+  "bgOpacity0Cyan200": Object {
+    "backgroundColor": "rgba(165, 243, 252, 0)",
+  },
+  "bgOpacity0Cyan300": Object {
+    "backgroundColor": "rgba(103, 232, 249, 0)",
+  },
+  "bgOpacity0Cyan400": Object {
+    "backgroundColor": "rgba(34, 211, 238, 0)",
+  },
+  "bgOpacity0Cyan50": Object {
+    "backgroundColor": "rgba(236, 254, 255, 0)",
+  },
+  "bgOpacity0Cyan500": Object {
+    "backgroundColor": "rgba(6, 182, 212, 0)",
+  },
+  "bgOpacity0Cyan600": Object {
+    "backgroundColor": "rgba(8, 145, 178, 0)",
+  },
+  "bgOpacity0Cyan700": Object {
+    "backgroundColor": "rgba(14, 116, 144, 0)",
+  },
+  "bgOpacity0Cyan800": Object {
+    "backgroundColor": "rgba(21, 94, 117, 0)",
+  },
+  "bgOpacity0Cyan900": Object {
+    "backgroundColor": "rgba(22, 78, 99, 0)",
+  },
+  "bgOpacity0Emerald": Object {
+    "backgroundColor": "rgba(16, 185, 129, 0)",
+  },
+  "bgOpacity0Emerald100": Object {
+    "backgroundColor": "rgba(209, 250, 229, 0)",
+  },
+  "bgOpacity0Emerald200": Object {
+    "backgroundColor": "rgba(167, 243, 208, 0)",
+  },
+  "bgOpacity0Emerald300": Object {
+    "backgroundColor": "rgba(110, 231, 183, 0)",
+  },
+  "bgOpacity0Emerald400": Object {
+    "backgroundColor": "rgba(52, 211, 153, 0)",
+  },
+  "bgOpacity0Emerald50": Object {
+    "backgroundColor": "rgba(236, 253, 245, 0)",
+  },
+  "bgOpacity0Emerald500": Object {
+    "backgroundColor": "rgba(16, 185, 129, 0)",
+  },
+  "bgOpacity0Emerald600": Object {
+    "backgroundColor": "rgba(5, 150, 105, 0)",
+  },
+  "bgOpacity0Emerald700": Object {
+    "backgroundColor": "rgba(4, 120, 87, 0)",
+  },
+  "bgOpacity0Emerald800": Object {
+    "backgroundColor": "rgba(6, 95, 70, 0)",
+  },
+  "bgOpacity0Emerald900": Object {
+    "backgroundColor": "rgba(6, 78, 59, 0)",
+  },
+  "bgOpacity0Fuchsia": Object {
+    "backgroundColor": "rgba(217, 70, 239, 0)",
+  },
+  "bgOpacity0Fuchsia100": Object {
+    "backgroundColor": "rgba(250, 232, 255, 0)",
+  },
+  "bgOpacity0Fuchsia200": Object {
+    "backgroundColor": "rgba(245, 208, 254, 0)",
+  },
+  "bgOpacity0Fuchsia300": Object {
+    "backgroundColor": "rgba(240, 171, 252, 0)",
+  },
+  "bgOpacity0Fuchsia400": Object {
+    "backgroundColor": "rgba(232, 121, 249, 0)",
+  },
+  "bgOpacity0Fuchsia50": Object {
+    "backgroundColor": "rgba(253, 244, 255, 0)",
+  },
+  "bgOpacity0Fuchsia500": Object {
+    "backgroundColor": "rgba(217, 70, 239, 0)",
+  },
+  "bgOpacity0Fuchsia600": Object {
+    "backgroundColor": "rgba(192, 38, 211, 0)",
+  },
+  "bgOpacity0Fuchsia700": Object {
+    "backgroundColor": "rgba(162, 28, 175, 0)",
+  },
+  "bgOpacity0Fuchsia800": Object {
+    "backgroundColor": "rgba(134, 25, 143, 0)",
+  },
+  "bgOpacity0Fuchsia900": Object {
+    "backgroundColor": "rgba(112, 26, 117, 0)",
+  },
+  "bgOpacity0Gray": Object {
+    "backgroundColor": "rgba(107, 114, 128, 0)",
+  },
+  "bgOpacity0Gray100": Object {
+    "backgroundColor": "rgba(243, 244, 246, 0)",
+  },
+  "bgOpacity0Gray200": Object {
+    "backgroundColor": "rgba(229, 231, 235, 0)",
+  },
+  "bgOpacity0Gray300": Object {
+    "backgroundColor": "rgba(209, 213, 219, 0)",
+  },
+  "bgOpacity0Gray400": Object {
+    "backgroundColor": "rgba(156, 163, 175, 0)",
+  },
+  "bgOpacity0Gray50": Object {
+    "backgroundColor": "rgba(249, 250, 251, 0)",
+  },
+  "bgOpacity0Gray500": Object {
+    "backgroundColor": "rgba(107, 114, 128, 0)",
+  },
+  "bgOpacity0Gray600": Object {
+    "backgroundColor": "rgba(75, 85, 99, 0)",
+  },
+  "bgOpacity0Gray700": Object {
+    "backgroundColor": "rgba(55, 65, 81, 0)",
+  },
+  "bgOpacity0Gray800": Object {
+    "backgroundColor": "rgba(31, 41, 55, 0)",
+  },
+  "bgOpacity0Gray900": Object {
+    "backgroundColor": "rgba(17, 24, 39, 0)",
+  },
+  "bgOpacity0Green": Object {
+    "backgroundColor": "rgba(34, 197, 94, 0)",
+  },
+  "bgOpacity0Green100": Object {
+    "backgroundColor": "rgba(220, 252, 231, 0)",
+  },
+  "bgOpacity0Green200": Object {
+    "backgroundColor": "rgba(187, 247, 208, 0)",
+  },
+  "bgOpacity0Green300": Object {
+    "backgroundColor": "rgba(134, 239, 172, 0)",
+  },
+  "bgOpacity0Green400": Object {
+    "backgroundColor": "rgba(74, 222, 128, 0)",
+  },
+  "bgOpacity0Green50": Object {
+    "backgroundColor": "rgba(240, 253, 244, 0)",
+  },
+  "bgOpacity0Green500": Object {
+    "backgroundColor": "rgba(34, 197, 94, 0)",
+  },
+  "bgOpacity0Green600": Object {
+    "backgroundColor": "rgba(22, 163, 74, 0)",
+  },
+  "bgOpacity0Green700": Object {
+    "backgroundColor": "rgba(21, 128, 61, 0)",
+  },
+  "bgOpacity0Green800": Object {
+    "backgroundColor": "rgba(22, 101, 52, 0)",
+  },
+  "bgOpacity0Green900": Object {
+    "backgroundColor": "rgba(20, 83, 45, 0)",
+  },
+  "bgOpacity0Indigo": Object {
+    "backgroundColor": "rgba(99, 102, 241, 0)",
+  },
+  "bgOpacity0Indigo100": Object {
+    "backgroundColor": "rgba(224, 231, 255, 0)",
+  },
+  "bgOpacity0Indigo200": Object {
+    "backgroundColor": "rgba(199, 210, 254, 0)",
+  },
+  "bgOpacity0Indigo300": Object {
+    "backgroundColor": "rgba(165, 180, 252, 0)",
+  },
+  "bgOpacity0Indigo400": Object {
+    "backgroundColor": "rgba(129, 140, 248, 0)",
+  },
+  "bgOpacity0Indigo50": Object {
+    "backgroundColor": "rgba(238, 242, 255, 0)",
+  },
+  "bgOpacity0Indigo500": Object {
+    "backgroundColor": "rgba(99, 102, 241, 0)",
+  },
+  "bgOpacity0Indigo600": Object {
+    "backgroundColor": "rgba(79, 70, 229, 0)",
+  },
+  "bgOpacity0Indigo700": Object {
+    "backgroundColor": "rgba(67, 56, 202, 0)",
+  },
+  "bgOpacity0Indigo800": Object {
+    "backgroundColor": "rgba(55, 48, 163, 0)",
+  },
+  "bgOpacity0Indigo900": Object {
+    "backgroundColor": "rgba(49, 46, 129, 0)",
+  },
+  "bgOpacity0LightBlue": Object {
+    "backgroundColor": "rgba(14, 165, 233, 0)",
+  },
+  "bgOpacity0LightBlue100": Object {
+    "backgroundColor": "rgba(224, 242, 254, 0)",
+  },
+  "bgOpacity0LightBlue200": Object {
+    "backgroundColor": "rgba(186, 230, 253, 0)",
+  },
+  "bgOpacity0LightBlue300": Object {
+    "backgroundColor": "rgba(125, 211, 252, 0)",
+  },
+  "bgOpacity0LightBlue400": Object {
+    "backgroundColor": "rgba(56, 189, 248, 0)",
+  },
+  "bgOpacity0LightBlue50": Object {
+    "backgroundColor": "rgba(240, 249, 255, 0)",
+  },
+  "bgOpacity0LightBlue500": Object {
+    "backgroundColor": "rgba(14, 165, 233, 0)",
+  },
+  "bgOpacity0LightBlue600": Object {
+    "backgroundColor": "rgba(2, 132, 199, 0)",
+  },
+  "bgOpacity0LightBlue700": Object {
+    "backgroundColor": "rgba(3, 105, 161, 0)",
+  },
+  "bgOpacity0LightBlue800": Object {
+    "backgroundColor": "rgba(7, 89, 133, 0)",
+  },
+  "bgOpacity0LightBlue900": Object {
+    "backgroundColor": "rgba(12, 74, 110, 0)",
+  },
+  "bgOpacity0Lime": Object {
+    "backgroundColor": "rgba(132, 204, 22, 0)",
+  },
+  "bgOpacity0Lime100": Object {
+    "backgroundColor": "rgba(236, 252, 203, 0)",
+  },
+  "bgOpacity0Lime200": Object {
+    "backgroundColor": "rgba(217, 249, 157, 0)",
+  },
+  "bgOpacity0Lime300": Object {
+    "backgroundColor": "rgba(190, 242, 100, 0)",
+  },
+  "bgOpacity0Lime400": Object {
+    "backgroundColor": "rgba(163, 230, 53, 0)",
+  },
+  "bgOpacity0Lime50": Object {
+    "backgroundColor": "rgba(247, 254, 231, 0)",
+  },
+  "bgOpacity0Lime500": Object {
+    "backgroundColor": "rgba(132, 204, 22, 0)",
+  },
+  "bgOpacity0Lime600": Object {
+    "backgroundColor": "rgba(101, 163, 13, 0)",
+  },
+  "bgOpacity0Lime700": Object {
+    "backgroundColor": "rgba(77, 124, 15, 0)",
+  },
+  "bgOpacity0Lime800": Object {
+    "backgroundColor": "rgba(63, 98, 18, 0)",
+  },
+  "bgOpacity0Lime900": Object {
+    "backgroundColor": "rgba(54, 83, 20, 0)",
+  },
+  "bgOpacity0Orange": Object {
+    "backgroundColor": "rgba(249, 115, 22, 0)",
+  },
+  "bgOpacity0Orange100": Object {
+    "backgroundColor": "rgba(255, 237, 213, 0)",
+  },
+  "bgOpacity0Orange200": Object {
+    "backgroundColor": "rgba(254, 215, 170, 0)",
+  },
+  "bgOpacity0Orange300": Object {
+    "backgroundColor": "rgba(253, 186, 116, 0)",
+  },
+  "bgOpacity0Orange400": Object {
+    "backgroundColor": "rgba(251, 146, 60, 0)",
+  },
+  "bgOpacity0Orange50": Object {
+    "backgroundColor": "rgba(255, 247, 237, 0)",
+  },
+  "bgOpacity0Orange500": Object {
+    "backgroundColor": "rgba(249, 115, 22, 0)",
+  },
+  "bgOpacity0Orange600": Object {
+    "backgroundColor": "rgba(234, 88, 12, 0)",
+  },
+  "bgOpacity0Orange700": Object {
+    "backgroundColor": "rgba(194, 65, 12, 0)",
+  },
+  "bgOpacity0Orange800": Object {
+    "backgroundColor": "rgba(154, 52, 18, 0)",
+  },
+  "bgOpacity0Orange900": Object {
+    "backgroundColor": "rgba(124, 45, 18, 0)",
+  },
+  "bgOpacity0Pink": Object {
+    "backgroundColor": "rgba(236, 72, 153, 0)",
+  },
+  "bgOpacity0Pink100": Object {
+    "backgroundColor": "rgba(252, 231, 243, 0)",
+  },
+  "bgOpacity0Pink200": Object {
+    "backgroundColor": "rgba(251, 207, 232, 0)",
+  },
+  "bgOpacity0Pink300": Object {
+    "backgroundColor": "rgba(249, 168, 212, 0)",
+  },
+  "bgOpacity0Pink400": Object {
+    "backgroundColor": "rgba(244, 114, 182, 0)",
+  },
+  "bgOpacity0Pink50": Object {
+    "backgroundColor": "rgba(253, 242, 248, 0)",
+  },
+  "bgOpacity0Pink500": Object {
+    "backgroundColor": "rgba(236, 72, 153, 0)",
+  },
+  "bgOpacity0Pink600": Object {
+    "backgroundColor": "rgba(219, 39, 119, 0)",
+  },
+  "bgOpacity0Pink700": Object {
+    "backgroundColor": "rgba(190, 24, 93, 0)",
+  },
+  "bgOpacity0Pink800": Object {
+    "backgroundColor": "rgba(157, 23, 77, 0)",
+  },
+  "bgOpacity0Pink900": Object {
+    "backgroundColor": "rgba(131, 24, 67, 0)",
+  },
+  "bgOpacity0Purple": Object {
+    "backgroundColor": "rgba(139, 92, 246, 0)",
+  },
+  "bgOpacity0Purple100": Object {
+    "backgroundColor": "rgba(237, 233, 254, 0)",
+  },
+  "bgOpacity0Purple200": Object {
+    "backgroundColor": "rgba(221, 214, 254, 0)",
+  },
+  "bgOpacity0Purple300": Object {
+    "backgroundColor": "rgba(196, 181, 253, 0)",
+  },
+  "bgOpacity0Purple400": Object {
+    "backgroundColor": "rgba(167, 139, 250, 0)",
+  },
+  "bgOpacity0Purple50": Object {
+    "backgroundColor": "rgba(245, 243, 255, 0)",
+  },
+  "bgOpacity0Purple500": Object {
+    "backgroundColor": "rgba(139, 92, 246, 0)",
+  },
+  "bgOpacity0Purple600": Object {
+    "backgroundColor": "rgba(124, 58, 237, 0)",
+  },
+  "bgOpacity0Purple700": Object {
+    "backgroundColor": "rgba(109, 40, 217, 0)",
+  },
+  "bgOpacity0Purple800": Object {
+    "backgroundColor": "rgba(91, 33, 182, 0)",
+  },
+  "bgOpacity0Purple900": Object {
+    "backgroundColor": "rgba(76, 29, 149, 0)",
+  },
+  "bgOpacity0Red": Object {
+    "backgroundColor": "rgba(239, 68, 68, 0)",
+  },
+  "bgOpacity0Red100": Object {
+    "backgroundColor": "rgba(254, 226, 226, 0)",
+  },
+  "bgOpacity0Red200": Object {
+    "backgroundColor": "rgba(254, 202, 202, 0)",
+  },
+  "bgOpacity0Red300": Object {
+    "backgroundColor": "rgba(252, 165, 165, 0)",
+  },
+  "bgOpacity0Red400": Object {
+    "backgroundColor": "rgba(248, 113, 113, 0)",
+  },
+  "bgOpacity0Red50": Object {
+    "backgroundColor": "rgba(254, 242, 242, 0)",
+  },
+  "bgOpacity0Red500": Object {
+    "backgroundColor": "rgba(239, 68, 68, 0)",
+  },
+  "bgOpacity0Red600": Object {
+    "backgroundColor": "rgba(220, 38, 38, 0)",
+  },
+  "bgOpacity0Red700": Object {
+    "backgroundColor": "rgba(185, 28, 28, 0)",
+  },
+  "bgOpacity0Red800": Object {
+    "backgroundColor": "rgba(153, 27, 27, 0)",
+  },
+  "bgOpacity0Red900": Object {
+    "backgroundColor": "rgba(127, 29, 29, 0)",
+  },
+  "bgOpacity0Rose": Object {
+    "backgroundColor": "rgba(244, 63, 94, 0)",
+  },
+  "bgOpacity0Rose100": Object {
+    "backgroundColor": "rgba(255, 228, 230, 0)",
+  },
+  "bgOpacity0Rose200": Object {
+    "backgroundColor": "rgba(254, 205, 211, 0)",
+  },
+  "bgOpacity0Rose300": Object {
+    "backgroundColor": "rgba(253, 164, 175, 0)",
+  },
+  "bgOpacity0Rose400": Object {
+    "backgroundColor": "rgba(251, 113, 133, 0)",
+  },
+  "bgOpacity0Rose50": Object {
+    "backgroundColor": "rgba(255, 241, 242, 0)",
+  },
+  "bgOpacity0Rose500": Object {
+    "backgroundColor": "rgba(244, 63, 94, 0)",
+  },
+  "bgOpacity0Rose600": Object {
+    "backgroundColor": "rgba(225, 29, 72, 0)",
+  },
+  "bgOpacity0Rose700": Object {
+    "backgroundColor": "rgba(190, 18, 60, 0)",
+  },
+  "bgOpacity0Rose800": Object {
+    "backgroundColor": "rgba(159, 18, 57, 0)",
+  },
+  "bgOpacity0Rose900": Object {
+    "backgroundColor": "rgba(136, 19, 55, 0)",
+  },
+  "bgOpacity0Teal": Object {
+    "backgroundColor": "rgba(20, 184, 166, 0)",
+  },
+  "bgOpacity0Teal100": Object {
+    "backgroundColor": "rgba(204, 251, 241, 0)",
+  },
+  "bgOpacity0Teal200": Object {
+    "backgroundColor": "rgba(153, 246, 228, 0)",
+  },
+  "bgOpacity0Teal300": Object {
+    "backgroundColor": "rgba(94, 234, 212, 0)",
+  },
+  "bgOpacity0Teal400": Object {
+    "backgroundColor": "rgba(45, 212, 191, 0)",
+  },
+  "bgOpacity0Teal50": Object {
+    "backgroundColor": "rgba(240, 253, 250, 0)",
+  },
+  "bgOpacity0Teal500": Object {
+    "backgroundColor": "rgba(20, 184, 166, 0)",
+  },
+  "bgOpacity0Teal600": Object {
+    "backgroundColor": "rgba(13, 148, 136, 0)",
+  },
+  "bgOpacity0Teal700": Object {
+    "backgroundColor": "rgba(15, 118, 110, 0)",
+  },
+  "bgOpacity0Teal800": Object {
+    "backgroundColor": "rgba(17, 94, 89, 0)",
+  },
+  "bgOpacity0Teal900": Object {
+    "backgroundColor": "rgba(19, 78, 74, 0)",
+  },
+  "bgOpacity0Transparent": Object {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+  },
+  "bgOpacity0TrueGray": Object {
+    "backgroundColor": "rgba(115, 115, 115, 0)",
+  },
+  "bgOpacity0TrueGray100": Object {
+    "backgroundColor": "rgba(245, 245, 245, 0)",
+  },
+  "bgOpacity0TrueGray200": Object {
+    "backgroundColor": "rgba(229, 229, 229, 0)",
+  },
+  "bgOpacity0TrueGray300": Object {
+    "backgroundColor": "rgba(212, 212, 212, 0)",
+  },
+  "bgOpacity0TrueGray400": Object {
+    "backgroundColor": "rgba(163, 163, 163, 0)",
+  },
+  "bgOpacity0TrueGray50": Object {
+    "backgroundColor": "rgba(250, 250, 250, 0)",
+  },
+  "bgOpacity0TrueGray500": Object {
+    "backgroundColor": "rgba(115, 115, 115, 0)",
+  },
+  "bgOpacity0TrueGray600": Object {
+    "backgroundColor": "rgba(82, 82, 82, 0)",
+  },
+  "bgOpacity0TrueGray700": Object {
+    "backgroundColor": "rgba(64, 64, 64, 0)",
+  },
+  "bgOpacity0TrueGray800": Object {
+    "backgroundColor": "rgba(38, 38, 38, 0)",
+  },
+  "bgOpacity0TrueGray900": Object {
+    "backgroundColor": "rgba(23, 23, 23, 0)",
+  },
+  "bgOpacity0Violet": Object {
+    "backgroundColor": "rgba(139, 92, 246, 0)",
+  },
+  "bgOpacity0Violet100": Object {
+    "backgroundColor": "rgba(237, 233, 254, 0)",
+  },
+  "bgOpacity0Violet200": Object {
+    "backgroundColor": "rgba(221, 214, 254, 0)",
+  },
+  "bgOpacity0Violet300": Object {
+    "backgroundColor": "rgba(196, 181, 253, 0)",
+  },
+  "bgOpacity0Violet400": Object {
+    "backgroundColor": "rgba(167, 139, 250, 0)",
+  },
+  "bgOpacity0Violet50": Object {
+    "backgroundColor": "rgba(245, 243, 255, 0)",
+  },
+  "bgOpacity0Violet500": Object {
+    "backgroundColor": "rgba(139, 92, 246, 0)",
+  },
+  "bgOpacity0Violet600": Object {
+    "backgroundColor": "rgba(124, 58, 237, 0)",
+  },
+  "bgOpacity0Violet700": Object {
+    "backgroundColor": "rgba(109, 40, 217, 0)",
+  },
+  "bgOpacity0Violet800": Object {
+    "backgroundColor": "rgba(91, 33, 182, 0)",
+  },
+  "bgOpacity0Violet900": Object {
+    "backgroundColor": "rgba(76, 29, 149, 0)",
+  },
+  "bgOpacity0WarmGray": Object {
+    "backgroundColor": "rgba(120, 113, 108, 0)",
+  },
+  "bgOpacity0WarmGray100": Object {
+    "backgroundColor": "rgba(245, 245, 244, 0)",
+  },
+  "bgOpacity0WarmGray200": Object {
+    "backgroundColor": "rgba(231, 229, 228, 0)",
+  },
+  "bgOpacity0WarmGray300": Object {
+    "backgroundColor": "rgba(214, 211, 209, 0)",
+  },
+  "bgOpacity0WarmGray400": Object {
+    "backgroundColor": "rgba(168, 162, 158, 0)",
+  },
+  "bgOpacity0WarmGray50": Object {
+    "backgroundColor": "rgba(250, 250, 249, 0)",
+  },
+  "bgOpacity0WarmGray500": Object {
+    "backgroundColor": "rgba(120, 113, 108, 0)",
+  },
+  "bgOpacity0WarmGray600": Object {
+    "backgroundColor": "rgba(87, 83, 78, 0)",
+  },
+  "bgOpacity0WarmGray700": Object {
+    "backgroundColor": "rgba(68, 64, 60, 0)",
+  },
+  "bgOpacity0WarmGray800": Object {
+    "backgroundColor": "rgba(41, 37, 36, 0)",
+  },
+  "bgOpacity0WarmGray900": Object {
+    "backgroundColor": "rgba(28, 25, 23, 0)",
+  },
+  "bgOpacity0White": Object {
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+  },
+  "bgOpacity0Yellow": Object {
+    "backgroundColor": "rgba(245, 158, 11, 0)",
+  },
+  "bgOpacity0Yellow100": Object {
+    "backgroundColor": "rgba(254, 243, 199, 0)",
+  },
+  "bgOpacity0Yellow200": Object {
+    "backgroundColor": "rgba(253, 230, 138, 0)",
+  },
+  "bgOpacity0Yellow300": Object {
+    "backgroundColor": "rgba(252, 211, 77, 0)",
+  },
+  "bgOpacity0Yellow400": Object {
+    "backgroundColor": "rgba(251, 191, 36, 0)",
+  },
+  "bgOpacity0Yellow50": Object {
+    "backgroundColor": "rgba(255, 251, 235, 0)",
+  },
+  "bgOpacity0Yellow500": Object {
+    "backgroundColor": "rgba(245, 158, 11, 0)",
+  },
+  "bgOpacity0Yellow600": Object {
+    "backgroundColor": "rgba(217, 119, 6, 0)",
+  },
+  "bgOpacity0Yellow700": Object {
+    "backgroundColor": "rgba(180, 83, 9, 0)",
+  },
+  "bgOpacity0Yellow800": Object {
+    "backgroundColor": "rgba(146, 64, 14, 0)",
+  },
+  "bgOpacity0Yellow900": Object {
+    "backgroundColor": "rgba(120, 53, 15, 0)",
+  },
+  "bgOpacity100Amber": Object {
+    "backgroundColor": "rgb(245, 158, 11)",
+  },
+  "bgOpacity100Amber100": Object {
+    "backgroundColor": "rgb(254, 243, 199)",
+  },
+  "bgOpacity100Amber200": Object {
+    "backgroundColor": "rgb(253, 230, 138)",
+  },
+  "bgOpacity100Amber300": Object {
+    "backgroundColor": "rgb(252, 211, 77)",
+  },
+  "bgOpacity100Amber400": Object {
+    "backgroundColor": "rgb(251, 191, 36)",
+  },
+  "bgOpacity100Amber50": Object {
+    "backgroundColor": "rgb(255, 251, 235)",
+  },
+  "bgOpacity100Amber500": Object {
+    "backgroundColor": "rgb(245, 158, 11)",
+  },
+  "bgOpacity100Amber600": Object {
+    "backgroundColor": "rgb(217, 119, 6)",
+  },
+  "bgOpacity100Amber700": Object {
+    "backgroundColor": "rgb(180, 83, 9)",
+  },
+  "bgOpacity100Amber800": Object {
+    "backgroundColor": "rgb(146, 64, 14)",
+  },
+  "bgOpacity100Amber900": Object {
+    "backgroundColor": "rgb(120, 53, 15)",
+  },
+  "bgOpacity100Black": Object {
+    "backgroundColor": "rgb(0, 0, 0)",
+  },
+  "bgOpacity100Blue": Object {
+    "backgroundColor": "rgb(59, 130, 246)",
+  },
+  "bgOpacity100Blue100": Object {
+    "backgroundColor": "rgb(219, 234, 254)",
+  },
+  "bgOpacity100Blue200": Object {
+    "backgroundColor": "rgb(191, 219, 254)",
+  },
+  "bgOpacity100Blue300": Object {
+    "backgroundColor": "rgb(147, 197, 253)",
+  },
+  "bgOpacity100Blue400": Object {
+    "backgroundColor": "rgb(96, 165, 250)",
+  },
+  "bgOpacity100Blue50": Object {
+    "backgroundColor": "rgb(239, 246, 255)",
+  },
+  "bgOpacity100Blue500": Object {
+    "backgroundColor": "rgb(59, 130, 246)",
+  },
+  "bgOpacity100Blue600": Object {
+    "backgroundColor": "rgb(37, 99, 235)",
+  },
+  "bgOpacity100Blue700": Object {
+    "backgroundColor": "rgb(29, 78, 216)",
+  },
+  "bgOpacity100Blue800": Object {
+    "backgroundColor": "rgb(30, 64, 175)",
+  },
+  "bgOpacity100Blue900": Object {
+    "backgroundColor": "rgb(30, 58, 138)",
+  },
+  "bgOpacity100BlueGray": Object {
+    "backgroundColor": "rgb(100, 116, 139)",
+  },
+  "bgOpacity100BlueGray100": Object {
+    "backgroundColor": "rgb(241, 245, 249)",
+  },
+  "bgOpacity100BlueGray200": Object {
+    "backgroundColor": "rgb(226, 232, 240)",
+  },
+  "bgOpacity100BlueGray300": Object {
+    "backgroundColor": "rgb(203, 213, 225)",
+  },
+  "bgOpacity100BlueGray400": Object {
+    "backgroundColor": "rgb(148, 163, 184)",
+  },
+  "bgOpacity100BlueGray50": Object {
+    "backgroundColor": "rgb(248, 250, 252)",
+  },
+  "bgOpacity100BlueGray500": Object {
+    "backgroundColor": "rgb(100, 116, 139)",
+  },
+  "bgOpacity100BlueGray600": Object {
+    "backgroundColor": "rgb(71, 85, 105)",
+  },
+  "bgOpacity100BlueGray700": Object {
+    "backgroundColor": "rgb(51, 65, 85)",
+  },
+  "bgOpacity100BlueGray800": Object {
+    "backgroundColor": "rgb(30, 41, 59)",
+  },
+  "bgOpacity100BlueGray900": Object {
+    "backgroundColor": "rgb(15, 23, 42)",
+  },
+  "bgOpacity100CoolGray": Object {
+    "backgroundColor": "rgb(107, 114, 128)",
+  },
+  "bgOpacity100CoolGray100": Object {
+    "backgroundColor": "rgb(243, 244, 246)",
+  },
+  "bgOpacity100CoolGray200": Object {
+    "backgroundColor": "rgb(229, 231, 235)",
+  },
+  "bgOpacity100CoolGray300": Object {
+    "backgroundColor": "rgb(209, 213, 219)",
+  },
+  "bgOpacity100CoolGray400": Object {
+    "backgroundColor": "rgb(156, 163, 175)",
+  },
+  "bgOpacity100CoolGray50": Object {
+    "backgroundColor": "rgb(249, 250, 251)",
+  },
+  "bgOpacity100CoolGray500": Object {
+    "backgroundColor": "rgb(107, 114, 128)",
+  },
+  "bgOpacity100CoolGray600": Object {
+    "backgroundColor": "rgb(75, 85, 99)",
+  },
+  "bgOpacity100CoolGray700": Object {
+    "backgroundColor": "rgb(55, 65, 81)",
+  },
+  "bgOpacity100CoolGray800": Object {
+    "backgroundColor": "rgb(31, 41, 55)",
+  },
+  "bgOpacity100CoolGray900": Object {
+    "backgroundColor": "rgb(17, 24, 39)",
+  },
+  "bgOpacity100Cyan": Object {
+    "backgroundColor": "rgb(6, 182, 212)",
+  },
+  "bgOpacity100Cyan100": Object {
+    "backgroundColor": "rgb(207, 250, 254)",
+  },
+  "bgOpacity100Cyan200": Object {
+    "backgroundColor": "rgb(165, 243, 252)",
+  },
+  "bgOpacity100Cyan300": Object {
+    "backgroundColor": "rgb(103, 232, 249)",
+  },
+  "bgOpacity100Cyan400": Object {
+    "backgroundColor": "rgb(34, 211, 238)",
+  },
+  "bgOpacity100Cyan50": Object {
+    "backgroundColor": "rgb(236, 254, 255)",
+  },
+  "bgOpacity100Cyan500": Object {
+    "backgroundColor": "rgb(6, 182, 212)",
+  },
+  "bgOpacity100Cyan600": Object {
+    "backgroundColor": "rgb(8, 145, 178)",
+  },
+  "bgOpacity100Cyan700": Object {
+    "backgroundColor": "rgb(14, 116, 144)",
+  },
+  "bgOpacity100Cyan800": Object {
+    "backgroundColor": "rgb(21, 94, 117)",
+  },
+  "bgOpacity100Cyan900": Object {
+    "backgroundColor": "rgb(22, 78, 99)",
+  },
+  "bgOpacity100Emerald": Object {
+    "backgroundColor": "rgb(16, 185, 129)",
+  },
+  "bgOpacity100Emerald100": Object {
+    "backgroundColor": "rgb(209, 250, 229)",
+  },
+  "bgOpacity100Emerald200": Object {
+    "backgroundColor": "rgb(167, 243, 208)",
+  },
+  "bgOpacity100Emerald300": Object {
+    "backgroundColor": "rgb(110, 231, 183)",
+  },
+  "bgOpacity100Emerald400": Object {
+    "backgroundColor": "rgb(52, 211, 153)",
+  },
+  "bgOpacity100Emerald50": Object {
+    "backgroundColor": "rgb(236, 253, 245)",
+  },
+  "bgOpacity100Emerald500": Object {
+    "backgroundColor": "rgb(16, 185, 129)",
+  },
+  "bgOpacity100Emerald600": Object {
+    "backgroundColor": "rgb(5, 150, 105)",
+  },
+  "bgOpacity100Emerald700": Object {
+    "backgroundColor": "rgb(4, 120, 87)",
+  },
+  "bgOpacity100Emerald800": Object {
+    "backgroundColor": "rgb(6, 95, 70)",
+  },
+  "bgOpacity100Emerald900": Object {
+    "backgroundColor": "rgb(6, 78, 59)",
+  },
+  "bgOpacity100Fuchsia": Object {
+    "backgroundColor": "rgb(217, 70, 239)",
+  },
+  "bgOpacity100Fuchsia100": Object {
+    "backgroundColor": "rgb(250, 232, 255)",
+  },
+  "bgOpacity100Fuchsia200": Object {
+    "backgroundColor": "rgb(245, 208, 254)",
+  },
+  "bgOpacity100Fuchsia300": Object {
+    "backgroundColor": "rgb(240, 171, 252)",
+  },
+  "bgOpacity100Fuchsia400": Object {
+    "backgroundColor": "rgb(232, 121, 249)",
+  },
+  "bgOpacity100Fuchsia50": Object {
+    "backgroundColor": "rgb(253, 244, 255)",
+  },
+  "bgOpacity100Fuchsia500": Object {
+    "backgroundColor": "rgb(217, 70, 239)",
+  },
+  "bgOpacity100Fuchsia600": Object {
+    "backgroundColor": "rgb(192, 38, 211)",
+  },
+  "bgOpacity100Fuchsia700": Object {
+    "backgroundColor": "rgb(162, 28, 175)",
+  },
+  "bgOpacity100Fuchsia800": Object {
+    "backgroundColor": "rgb(134, 25, 143)",
+  },
+  "bgOpacity100Fuchsia900": Object {
+    "backgroundColor": "rgb(112, 26, 117)",
+  },
+  "bgOpacity100Gray": Object {
+    "backgroundColor": "rgb(107, 114, 128)",
+  },
+  "bgOpacity100Gray100": Object {
+    "backgroundColor": "rgb(243, 244, 246)",
+  },
+  "bgOpacity100Gray200": Object {
+    "backgroundColor": "rgb(229, 231, 235)",
+  },
+  "bgOpacity100Gray300": Object {
+    "backgroundColor": "rgb(209, 213, 219)",
+  },
+  "bgOpacity100Gray400": Object {
+    "backgroundColor": "rgb(156, 163, 175)",
+  },
+  "bgOpacity100Gray50": Object {
+    "backgroundColor": "rgb(249, 250, 251)",
+  },
+  "bgOpacity100Gray500": Object {
+    "backgroundColor": "rgb(107, 114, 128)",
+  },
+  "bgOpacity100Gray600": Object {
+    "backgroundColor": "rgb(75, 85, 99)",
+  },
+  "bgOpacity100Gray700": Object {
+    "backgroundColor": "rgb(55, 65, 81)",
+  },
+  "bgOpacity100Gray800": Object {
+    "backgroundColor": "rgb(31, 41, 55)",
+  },
+  "bgOpacity100Gray900": Object {
+    "backgroundColor": "rgb(17, 24, 39)",
+  },
+  "bgOpacity100Green": Object {
+    "backgroundColor": "rgb(34, 197, 94)",
+  },
+  "bgOpacity100Green100": Object {
+    "backgroundColor": "rgb(220, 252, 231)",
+  },
+  "bgOpacity100Green200": Object {
+    "backgroundColor": "rgb(187, 247, 208)",
+  },
+  "bgOpacity100Green300": Object {
+    "backgroundColor": "rgb(134, 239, 172)",
+  },
+  "bgOpacity100Green400": Object {
+    "backgroundColor": "rgb(74, 222, 128)",
+  },
+  "bgOpacity100Green50": Object {
+    "backgroundColor": "rgb(240, 253, 244)",
+  },
+  "bgOpacity100Green500": Object {
+    "backgroundColor": "rgb(34, 197, 94)",
+  },
+  "bgOpacity100Green600": Object {
+    "backgroundColor": "rgb(22, 163, 74)",
+  },
+  "bgOpacity100Green700": Object {
+    "backgroundColor": "rgb(21, 128, 61)",
+  },
+  "bgOpacity100Green800": Object {
+    "backgroundColor": "rgb(22, 101, 52)",
+  },
+  "bgOpacity100Green900": Object {
+    "backgroundColor": "rgb(20, 83, 45)",
+  },
+  "bgOpacity100Indigo": Object {
+    "backgroundColor": "rgb(99, 102, 241)",
+  },
+  "bgOpacity100Indigo100": Object {
+    "backgroundColor": "rgb(224, 231, 255)",
+  },
+  "bgOpacity100Indigo200": Object {
+    "backgroundColor": "rgb(199, 210, 254)",
+  },
+  "bgOpacity100Indigo300": Object {
+    "backgroundColor": "rgb(165, 180, 252)",
+  },
+  "bgOpacity100Indigo400": Object {
+    "backgroundColor": "rgb(129, 140, 248)",
+  },
+  "bgOpacity100Indigo50": Object {
+    "backgroundColor": "rgb(238, 242, 255)",
+  },
+  "bgOpacity100Indigo500": Object {
+    "backgroundColor": "rgb(99, 102, 241)",
+  },
+  "bgOpacity100Indigo600": Object {
+    "backgroundColor": "rgb(79, 70, 229)",
+  },
+  "bgOpacity100Indigo700": Object {
+    "backgroundColor": "rgb(67, 56, 202)",
+  },
+  "bgOpacity100Indigo800": Object {
+    "backgroundColor": "rgb(55, 48, 163)",
+  },
+  "bgOpacity100Indigo900": Object {
+    "backgroundColor": "rgb(49, 46, 129)",
+  },
+  "bgOpacity100LightBlue": Object {
+    "backgroundColor": "rgb(14, 165, 233)",
+  },
+  "bgOpacity100LightBlue100": Object {
+    "backgroundColor": "rgb(224, 242, 254)",
+  },
+  "bgOpacity100LightBlue200": Object {
+    "backgroundColor": "rgb(186, 230, 253)",
+  },
+  "bgOpacity100LightBlue300": Object {
+    "backgroundColor": "rgb(125, 211, 252)",
+  },
+  "bgOpacity100LightBlue400": Object {
+    "backgroundColor": "rgb(56, 189, 248)",
+  },
+  "bgOpacity100LightBlue50": Object {
+    "backgroundColor": "rgb(240, 249, 255)",
+  },
+  "bgOpacity100LightBlue500": Object {
+    "backgroundColor": "rgb(14, 165, 233)",
+  },
+  "bgOpacity100LightBlue600": Object {
+    "backgroundColor": "rgb(2, 132, 199)",
+  },
+  "bgOpacity100LightBlue700": Object {
+    "backgroundColor": "rgb(3, 105, 161)",
+  },
+  "bgOpacity100LightBlue800": Object {
+    "backgroundColor": "rgb(7, 89, 133)",
+  },
+  "bgOpacity100LightBlue900": Object {
+    "backgroundColor": "rgb(12, 74, 110)",
+  },
+  "bgOpacity100Lime": Object {
+    "backgroundColor": "rgb(132, 204, 22)",
+  },
+  "bgOpacity100Lime100": Object {
+    "backgroundColor": "rgb(236, 252, 203)",
+  },
+  "bgOpacity100Lime200": Object {
+    "backgroundColor": "rgb(217, 249, 157)",
+  },
+  "bgOpacity100Lime300": Object {
+    "backgroundColor": "rgb(190, 242, 100)",
+  },
+  "bgOpacity100Lime400": Object {
+    "backgroundColor": "rgb(163, 230, 53)",
+  },
+  "bgOpacity100Lime50": Object {
+    "backgroundColor": "rgb(247, 254, 231)",
+  },
+  "bgOpacity100Lime500": Object {
+    "backgroundColor": "rgb(132, 204, 22)",
+  },
+  "bgOpacity100Lime600": Object {
+    "backgroundColor": "rgb(101, 163, 13)",
+  },
+  "bgOpacity100Lime700": Object {
+    "backgroundColor": "rgb(77, 124, 15)",
+  },
+  "bgOpacity100Lime800": Object {
+    "backgroundColor": "rgb(63, 98, 18)",
+  },
+  "bgOpacity100Lime900": Object {
+    "backgroundColor": "rgb(54, 83, 20)",
+  },
+  "bgOpacity100Orange": Object {
+    "backgroundColor": "rgb(249, 115, 22)",
+  },
+  "bgOpacity100Orange100": Object {
+    "backgroundColor": "rgb(255, 237, 213)",
+  },
+  "bgOpacity100Orange200": Object {
+    "backgroundColor": "rgb(254, 215, 170)",
+  },
+  "bgOpacity100Orange300": Object {
+    "backgroundColor": "rgb(253, 186, 116)",
+  },
+  "bgOpacity100Orange400": Object {
+    "backgroundColor": "rgb(251, 146, 60)",
+  },
+  "bgOpacity100Orange50": Object {
+    "backgroundColor": "rgb(255, 247, 237)",
+  },
+  "bgOpacity100Orange500": Object {
+    "backgroundColor": "rgb(249, 115, 22)",
+  },
+  "bgOpacity100Orange600": Object {
+    "backgroundColor": "rgb(234, 88, 12)",
+  },
+  "bgOpacity100Orange700": Object {
+    "backgroundColor": "rgb(194, 65, 12)",
+  },
+  "bgOpacity100Orange800": Object {
+    "backgroundColor": "rgb(154, 52, 18)",
+  },
+  "bgOpacity100Orange900": Object {
+    "backgroundColor": "rgb(124, 45, 18)",
+  },
+  "bgOpacity100Pink": Object {
+    "backgroundColor": "rgb(236, 72, 153)",
+  },
+  "bgOpacity100Pink100": Object {
+    "backgroundColor": "rgb(252, 231, 243)",
+  },
+  "bgOpacity100Pink200": Object {
+    "backgroundColor": "rgb(251, 207, 232)",
+  },
+  "bgOpacity100Pink300": Object {
+    "backgroundColor": "rgb(249, 168, 212)",
+  },
+  "bgOpacity100Pink400": Object {
+    "backgroundColor": "rgb(244, 114, 182)",
+  },
+  "bgOpacity100Pink50": Object {
+    "backgroundColor": "rgb(253, 242, 248)",
+  },
+  "bgOpacity100Pink500": Object {
+    "backgroundColor": "rgb(236, 72, 153)",
+  },
+  "bgOpacity100Pink600": Object {
+    "backgroundColor": "rgb(219, 39, 119)",
+  },
+  "bgOpacity100Pink700": Object {
+    "backgroundColor": "rgb(190, 24, 93)",
+  },
+  "bgOpacity100Pink800": Object {
+    "backgroundColor": "rgb(157, 23, 77)",
+  },
+  "bgOpacity100Pink900": Object {
+    "backgroundColor": "rgb(131, 24, 67)",
+  },
+  "bgOpacity100Purple": Object {
+    "backgroundColor": "rgb(139, 92, 246)",
+  },
+  "bgOpacity100Purple100": Object {
+    "backgroundColor": "rgb(237, 233, 254)",
+  },
+  "bgOpacity100Purple200": Object {
+    "backgroundColor": "rgb(221, 214, 254)",
+  },
+  "bgOpacity100Purple300": Object {
+    "backgroundColor": "rgb(196, 181, 253)",
+  },
+  "bgOpacity100Purple400": Object {
+    "backgroundColor": "rgb(167, 139, 250)",
+  },
+  "bgOpacity100Purple50": Object {
+    "backgroundColor": "rgb(245, 243, 255)",
+  },
+  "bgOpacity100Purple500": Object {
+    "backgroundColor": "rgb(139, 92, 246)",
+  },
+  "bgOpacity100Purple600": Object {
+    "backgroundColor": "rgb(124, 58, 237)",
+  },
+  "bgOpacity100Purple700": Object {
+    "backgroundColor": "rgb(109, 40, 217)",
+  },
+  "bgOpacity100Purple800": Object {
+    "backgroundColor": "rgb(91, 33, 182)",
+  },
+  "bgOpacity100Purple900": Object {
+    "backgroundColor": "rgb(76, 29, 149)",
+  },
+  "bgOpacity100Red": Object {
+    "backgroundColor": "rgb(239, 68, 68)",
+  },
+  "bgOpacity100Red100": Object {
+    "backgroundColor": "rgb(254, 226, 226)",
+  },
+  "bgOpacity100Red200": Object {
+    "backgroundColor": "rgb(254, 202, 202)",
+  },
+  "bgOpacity100Red300": Object {
+    "backgroundColor": "rgb(252, 165, 165)",
+  },
+  "bgOpacity100Red400": Object {
+    "backgroundColor": "rgb(248, 113, 113)",
+  },
+  "bgOpacity100Red50": Object {
+    "backgroundColor": "rgb(254, 242, 242)",
+  },
+  "bgOpacity100Red500": Object {
+    "backgroundColor": "rgb(239, 68, 68)",
+  },
+  "bgOpacity100Red600": Object {
+    "backgroundColor": "rgb(220, 38, 38)",
+  },
+  "bgOpacity100Red700": Object {
+    "backgroundColor": "rgb(185, 28, 28)",
+  },
+  "bgOpacity100Red800": Object {
+    "backgroundColor": "rgb(153, 27, 27)",
+  },
+  "bgOpacity100Red900": Object {
+    "backgroundColor": "rgb(127, 29, 29)",
+  },
+  "bgOpacity100Rose": Object {
+    "backgroundColor": "rgb(244, 63, 94)",
+  },
+  "bgOpacity100Rose100": Object {
+    "backgroundColor": "rgb(255, 228, 230)",
+  },
+  "bgOpacity100Rose200": Object {
+    "backgroundColor": "rgb(254, 205, 211)",
+  },
+  "bgOpacity100Rose300": Object {
+    "backgroundColor": "rgb(253, 164, 175)",
+  },
+  "bgOpacity100Rose400": Object {
+    "backgroundColor": "rgb(251, 113, 133)",
+  },
+  "bgOpacity100Rose50": Object {
+    "backgroundColor": "rgb(255, 241, 242)",
+  },
+  "bgOpacity100Rose500": Object {
+    "backgroundColor": "rgb(244, 63, 94)",
+  },
+  "bgOpacity100Rose600": Object {
+    "backgroundColor": "rgb(225, 29, 72)",
+  },
+  "bgOpacity100Rose700": Object {
+    "backgroundColor": "rgb(190, 18, 60)",
+  },
+  "bgOpacity100Rose800": Object {
+    "backgroundColor": "rgb(159, 18, 57)",
+  },
+  "bgOpacity100Rose900": Object {
+    "backgroundColor": "rgb(136, 19, 55)",
+  },
+  "bgOpacity100Teal": Object {
+    "backgroundColor": "rgb(20, 184, 166)",
+  },
+  "bgOpacity100Teal100": Object {
+    "backgroundColor": "rgb(204, 251, 241)",
+  },
+  "bgOpacity100Teal200": Object {
+    "backgroundColor": "rgb(153, 246, 228)",
+  },
+  "bgOpacity100Teal300": Object {
+    "backgroundColor": "rgb(94, 234, 212)",
+  },
+  "bgOpacity100Teal400": Object {
+    "backgroundColor": "rgb(45, 212, 191)",
+  },
+  "bgOpacity100Teal50": Object {
+    "backgroundColor": "rgb(240, 253, 250)",
+  },
+  "bgOpacity100Teal500": Object {
+    "backgroundColor": "rgb(20, 184, 166)",
+  },
+  "bgOpacity100Teal600": Object {
+    "backgroundColor": "rgb(13, 148, 136)",
+  },
+  "bgOpacity100Teal700": Object {
+    "backgroundColor": "rgb(15, 118, 110)",
+  },
+  "bgOpacity100Teal800": Object {
+    "backgroundColor": "rgb(17, 94, 89)",
+  },
+  "bgOpacity100Teal900": Object {
+    "backgroundColor": "rgb(19, 78, 74)",
+  },
+  "bgOpacity100Transparent": Object {
+    "backgroundColor": "rgb(0, 0, 0)",
+  },
+  "bgOpacity100TrueGray": Object {
+    "backgroundColor": "rgb(115, 115, 115)",
+  },
+  "bgOpacity100TrueGray100": Object {
+    "backgroundColor": "rgb(245, 245, 245)",
+  },
+  "bgOpacity100TrueGray200": Object {
+    "backgroundColor": "rgb(229, 229, 229)",
+  },
+  "bgOpacity100TrueGray300": Object {
+    "backgroundColor": "rgb(212, 212, 212)",
+  },
+  "bgOpacity100TrueGray400": Object {
+    "backgroundColor": "rgb(163, 163, 163)",
+  },
+  "bgOpacity100TrueGray50": Object {
+    "backgroundColor": "rgb(250, 250, 250)",
+  },
+  "bgOpacity100TrueGray500": Object {
+    "backgroundColor": "rgb(115, 115, 115)",
+  },
+  "bgOpacity100TrueGray600": Object {
+    "backgroundColor": "rgb(82, 82, 82)",
+  },
+  "bgOpacity100TrueGray700": Object {
+    "backgroundColor": "rgb(64, 64, 64)",
+  },
+  "bgOpacity100TrueGray800": Object {
+    "backgroundColor": "rgb(38, 38, 38)",
+  },
+  "bgOpacity100TrueGray900": Object {
+    "backgroundColor": "rgb(23, 23, 23)",
+  },
+  "bgOpacity100Violet": Object {
+    "backgroundColor": "rgb(139, 92, 246)",
+  },
+  "bgOpacity100Violet100": Object {
+    "backgroundColor": "rgb(237, 233, 254)",
+  },
+  "bgOpacity100Violet200": Object {
+    "backgroundColor": "rgb(221, 214, 254)",
+  },
+  "bgOpacity100Violet300": Object {
+    "backgroundColor": "rgb(196, 181, 253)",
+  },
+  "bgOpacity100Violet400": Object {
+    "backgroundColor": "rgb(167, 139, 250)",
+  },
+  "bgOpacity100Violet50": Object {
+    "backgroundColor": "rgb(245, 243, 255)",
+  },
+  "bgOpacity100Violet500": Object {
+    "backgroundColor": "rgb(139, 92, 246)",
+  },
+  "bgOpacity100Violet600": Object {
+    "backgroundColor": "rgb(124, 58, 237)",
+  },
+  "bgOpacity100Violet700": Object {
+    "backgroundColor": "rgb(109, 40, 217)",
+  },
+  "bgOpacity100Violet800": Object {
+    "backgroundColor": "rgb(91, 33, 182)",
+  },
+  "bgOpacity100Violet900": Object {
+    "backgroundColor": "rgb(76, 29, 149)",
+  },
+  "bgOpacity100WarmGray": Object {
+    "backgroundColor": "rgb(120, 113, 108)",
+  },
+  "bgOpacity100WarmGray100": Object {
+    "backgroundColor": "rgb(245, 245, 244)",
+  },
+  "bgOpacity100WarmGray200": Object {
+    "backgroundColor": "rgb(231, 229, 228)",
+  },
+  "bgOpacity100WarmGray300": Object {
+    "backgroundColor": "rgb(214, 211, 209)",
+  },
+  "bgOpacity100WarmGray400": Object {
+    "backgroundColor": "rgb(168, 162, 158)",
+  },
+  "bgOpacity100WarmGray50": Object {
+    "backgroundColor": "rgb(250, 250, 249)",
+  },
+  "bgOpacity100WarmGray500": Object {
+    "backgroundColor": "rgb(120, 113, 108)",
+  },
+  "bgOpacity100WarmGray600": Object {
+    "backgroundColor": "rgb(87, 83, 78)",
+  },
+  "bgOpacity100WarmGray700": Object {
+    "backgroundColor": "rgb(68, 64, 60)",
+  },
+  "bgOpacity100WarmGray800": Object {
+    "backgroundColor": "rgb(41, 37, 36)",
+  },
+  "bgOpacity100WarmGray900": Object {
+    "backgroundColor": "rgb(28, 25, 23)",
+  },
+  "bgOpacity100White": Object {
+    "backgroundColor": "rgb(255, 255, 255)",
+  },
+  "bgOpacity100Yellow": Object {
+    "backgroundColor": "rgb(245, 158, 11)",
+  },
+  "bgOpacity100Yellow100": Object {
+    "backgroundColor": "rgb(254, 243, 199)",
+  },
+  "bgOpacity100Yellow200": Object {
+    "backgroundColor": "rgb(253, 230, 138)",
+  },
+  "bgOpacity100Yellow300": Object {
+    "backgroundColor": "rgb(252, 211, 77)",
+  },
+  "bgOpacity100Yellow400": Object {
+    "backgroundColor": "rgb(251, 191, 36)",
+  },
+  "bgOpacity100Yellow50": Object {
+    "backgroundColor": "rgb(255, 251, 235)",
+  },
+  "bgOpacity100Yellow500": Object {
+    "backgroundColor": "rgb(245, 158, 11)",
+  },
+  "bgOpacity100Yellow600": Object {
+    "backgroundColor": "rgb(217, 119, 6)",
+  },
+  "bgOpacity100Yellow700": Object {
+    "backgroundColor": "rgb(180, 83, 9)",
+  },
+  "bgOpacity100Yellow800": Object {
+    "backgroundColor": "rgb(146, 64, 14)",
+  },
+  "bgOpacity100Yellow900": Object {
+    "backgroundColor": "rgb(120, 53, 15)",
+  },
+  "bgOpacity25Amber": Object {
+    "backgroundColor": "rgba(245, 158, 11, 0.25)",
+  },
+  "bgOpacity25Amber100": Object {
+    "backgroundColor": "rgba(254, 243, 199, 0.25)",
+  },
+  "bgOpacity25Amber200": Object {
+    "backgroundColor": "rgba(253, 230, 138, 0.25)",
+  },
+  "bgOpacity25Amber300": Object {
+    "backgroundColor": "rgba(252, 211, 77, 0.25)",
+  },
+  "bgOpacity25Amber400": Object {
+    "backgroundColor": "rgba(251, 191, 36, 0.25)",
+  },
+  "bgOpacity25Amber50": Object {
+    "backgroundColor": "rgba(255, 251, 235, 0.25)",
+  },
+  "bgOpacity25Amber500": Object {
+    "backgroundColor": "rgba(245, 158, 11, 0.25)",
+  },
+  "bgOpacity25Amber600": Object {
+    "backgroundColor": "rgba(217, 119, 6, 0.25)",
+  },
+  "bgOpacity25Amber700": Object {
+    "backgroundColor": "rgba(180, 83, 9, 0.25)",
+  },
+  "bgOpacity25Amber800": Object {
+    "backgroundColor": "rgba(146, 64, 14, 0.25)",
+  },
+  "bgOpacity25Amber900": Object {
+    "backgroundColor": "rgba(120, 53, 15, 0.25)",
+  },
+  "bgOpacity25Black": Object {
+    "backgroundColor": "rgba(0, 0, 0, 0.25)",
+  },
+  "bgOpacity25Blue": Object {
+    "backgroundColor": "rgba(59, 130, 246, 0.25)",
+  },
+  "bgOpacity25Blue100": Object {
+    "backgroundColor": "rgba(219, 234, 254, 0.25)",
+  },
+  "bgOpacity25Blue200": Object {
+    "backgroundColor": "rgba(191, 219, 254, 0.25)",
+  },
+  "bgOpacity25Blue300": Object {
+    "backgroundColor": "rgba(147, 197, 253, 0.25)",
+  },
+  "bgOpacity25Blue400": Object {
+    "backgroundColor": "rgba(96, 165, 250, 0.25)",
+  },
+  "bgOpacity25Blue50": Object {
+    "backgroundColor": "rgba(239, 246, 255, 0.25)",
+  },
+  "bgOpacity25Blue500": Object {
+    "backgroundColor": "rgba(59, 130, 246, 0.25)",
+  },
+  "bgOpacity25Blue600": Object {
+    "backgroundColor": "rgba(37, 99, 235, 0.25)",
+  },
+  "bgOpacity25Blue700": Object {
+    "backgroundColor": "rgba(29, 78, 216, 0.25)",
+  },
+  "bgOpacity25Blue800": Object {
+    "backgroundColor": "rgba(30, 64, 175, 0.25)",
+  },
+  "bgOpacity25Blue900": Object {
+    "backgroundColor": "rgba(30, 58, 138, 0.25)",
+  },
+  "bgOpacity25BlueGray": Object {
+    "backgroundColor": "rgba(100, 116, 139, 0.25)",
+  },
+  "bgOpacity25BlueGray100": Object {
+    "backgroundColor": "rgba(241, 245, 249, 0.25)",
+  },
+  "bgOpacity25BlueGray200": Object {
+    "backgroundColor": "rgba(226, 232, 240, 0.25)",
+  },
+  "bgOpacity25BlueGray300": Object {
+    "backgroundColor": "rgba(203, 213, 225, 0.25)",
+  },
+  "bgOpacity25BlueGray400": Object {
+    "backgroundColor": "rgba(148, 163, 184, 0.25)",
+  },
+  "bgOpacity25BlueGray50": Object {
+    "backgroundColor": "rgba(248, 250, 252, 0.25)",
+  },
+  "bgOpacity25BlueGray500": Object {
+    "backgroundColor": "rgba(100, 116, 139, 0.25)",
+  },
+  "bgOpacity25BlueGray600": Object {
+    "backgroundColor": "rgba(71, 85, 105, 0.25)",
+  },
+  "bgOpacity25BlueGray700": Object {
+    "backgroundColor": "rgba(51, 65, 85, 0.25)",
+  },
+  "bgOpacity25BlueGray800": Object {
+    "backgroundColor": "rgba(30, 41, 59, 0.25)",
+  },
+  "bgOpacity25BlueGray900": Object {
+    "backgroundColor": "rgba(15, 23, 42, 0.25)",
+  },
+  "bgOpacity25CoolGray": Object {
+    "backgroundColor": "rgba(107, 114, 128, 0.25)",
+  },
+  "bgOpacity25CoolGray100": Object {
+    "backgroundColor": "rgba(243, 244, 246, 0.25)",
+  },
+  "bgOpacity25CoolGray200": Object {
+    "backgroundColor": "rgba(229, 231, 235, 0.25)",
+  },
+  "bgOpacity25CoolGray300": Object {
+    "backgroundColor": "rgba(209, 213, 219, 0.25)",
+  },
+  "bgOpacity25CoolGray400": Object {
+    "backgroundColor": "rgba(156, 163, 175, 0.25)",
+  },
+  "bgOpacity25CoolGray50": Object {
+    "backgroundColor": "rgba(249, 250, 251, 0.25)",
+  },
+  "bgOpacity25CoolGray500": Object {
+    "backgroundColor": "rgba(107, 114, 128, 0.25)",
+  },
+  "bgOpacity25CoolGray600": Object {
+    "backgroundColor": "rgba(75, 85, 99, 0.25)",
+  },
+  "bgOpacity25CoolGray700": Object {
+    "backgroundColor": "rgba(55, 65, 81, 0.25)",
+  },
+  "bgOpacity25CoolGray800": Object {
+    "backgroundColor": "rgba(31, 41, 55, 0.25)",
+  },
+  "bgOpacity25CoolGray900": Object {
+    "backgroundColor": "rgba(17, 24, 39, 0.25)",
+  },
+  "bgOpacity25Cyan": Object {
+    "backgroundColor": "rgba(6, 182, 212, 0.25)",
+  },
+  "bgOpacity25Cyan100": Object {
+    "backgroundColor": "rgba(207, 250, 254, 0.25)",
+  },
+  "bgOpacity25Cyan200": Object {
+    "backgroundColor": "rgba(165, 243, 252, 0.25)",
+  },
+  "bgOpacity25Cyan300": Object {
+    "backgroundColor": "rgba(103, 232, 249, 0.25)",
+  },
+  "bgOpacity25Cyan400": Object {
+    "backgroundColor": "rgba(34, 211, 238, 0.25)",
+  },
+  "bgOpacity25Cyan50": Object {
+    "backgroundColor": "rgba(236, 254, 255, 0.25)",
+  },
+  "bgOpacity25Cyan500": Object {
+    "backgroundColor": "rgba(6, 182, 212, 0.25)",
+  },
+  "bgOpacity25Cyan600": Object {
+    "backgroundColor": "rgba(8, 145, 178, 0.25)",
+  },
+  "bgOpacity25Cyan700": Object {
+    "backgroundColor": "rgba(14, 116, 144, 0.25)",
+  },
+  "bgOpacity25Cyan800": Object {
+    "backgroundColor": "rgba(21, 94, 117, 0.25)",
+  },
+  "bgOpacity25Cyan900": Object {
+    "backgroundColor": "rgba(22, 78, 99, 0.25)",
+  },
+  "bgOpacity25Emerald": Object {
+    "backgroundColor": "rgba(16, 185, 129, 0.25)",
+  },
+  "bgOpacity25Emerald100": Object {
+    "backgroundColor": "rgba(209, 250, 229, 0.25)",
+  },
+  "bgOpacity25Emerald200": Object {
+    "backgroundColor": "rgba(167, 243, 208, 0.25)",
+  },
+  "bgOpacity25Emerald300": Object {
+    "backgroundColor": "rgba(110, 231, 183, 0.25)",
+  },
+  "bgOpacity25Emerald400": Object {
+    "backgroundColor": "rgba(52, 211, 153, 0.25)",
+  },
+  "bgOpacity25Emerald50": Object {
+    "backgroundColor": "rgba(236, 253, 245, 0.25)",
+  },
+  "bgOpacity25Emerald500": Object {
+    "backgroundColor": "rgba(16, 185, 129, 0.25)",
+  },
+  "bgOpacity25Emerald600": Object {
+    "backgroundColor": "rgba(5, 150, 105, 0.25)",
+  },
+  "bgOpacity25Emerald700": Object {
+    "backgroundColor": "rgba(4, 120, 87, 0.25)",
+  },
+  "bgOpacity25Emerald800": Object {
+    "backgroundColor": "rgba(6, 95, 70, 0.25)",
+  },
+  "bgOpacity25Emerald900": Object {
+    "backgroundColor": "rgba(6, 78, 59, 0.25)",
+  },
+  "bgOpacity25Fuchsia": Object {
+    "backgroundColor": "rgba(217, 70, 239, 0.25)",
+  },
+  "bgOpacity25Fuchsia100": Object {
+    "backgroundColor": "rgba(250, 232, 255, 0.25)",
+  },
+  "bgOpacity25Fuchsia200": Object {
+    "backgroundColor": "rgba(245, 208, 254, 0.25)",
+  },
+  "bgOpacity25Fuchsia300": Object {
+    "backgroundColor": "rgba(240, 171, 252, 0.25)",
+  },
+  "bgOpacity25Fuchsia400": Object {
+    "backgroundColor": "rgba(232, 121, 249, 0.25)",
+  },
+  "bgOpacity25Fuchsia50": Object {
+    "backgroundColor": "rgba(253, 244, 255, 0.25)",
+  },
+  "bgOpacity25Fuchsia500": Object {
+    "backgroundColor": "rgba(217, 70, 239, 0.25)",
+  },
+  "bgOpacity25Fuchsia600": Object {
+    "backgroundColor": "rgba(192, 38, 211, 0.25)",
+  },
+  "bgOpacity25Fuchsia700": Object {
+    "backgroundColor": "rgba(162, 28, 175, 0.25)",
+  },
+  "bgOpacity25Fuchsia800": Object {
+    "backgroundColor": "rgba(134, 25, 143, 0.25)",
+  },
+  "bgOpacity25Fuchsia900": Object {
+    "backgroundColor": "rgba(112, 26, 117, 0.25)",
+  },
+  "bgOpacity25Gray": Object {
+    "backgroundColor": "rgba(107, 114, 128, 0.25)",
+  },
+  "bgOpacity25Gray100": Object {
+    "backgroundColor": "rgba(243, 244, 246, 0.25)",
+  },
+  "bgOpacity25Gray200": Object {
+    "backgroundColor": "rgba(229, 231, 235, 0.25)",
+  },
+  "bgOpacity25Gray300": Object {
+    "backgroundColor": "rgba(209, 213, 219, 0.25)",
+  },
+  "bgOpacity25Gray400": Object {
+    "backgroundColor": "rgba(156, 163, 175, 0.25)",
+  },
+  "bgOpacity25Gray50": Object {
+    "backgroundColor": "rgba(249, 250, 251, 0.25)",
+  },
+  "bgOpacity25Gray500": Object {
+    "backgroundColor": "rgba(107, 114, 128, 0.25)",
+  },
+  "bgOpacity25Gray600": Object {
+    "backgroundColor": "rgba(75, 85, 99, 0.25)",
+  },
+  "bgOpacity25Gray700": Object {
+    "backgroundColor": "rgba(55, 65, 81, 0.25)",
+  },
+  "bgOpacity25Gray800": Object {
+    "backgroundColor": "rgba(31, 41, 55, 0.25)",
+  },
+  "bgOpacity25Gray900": Object {
+    "backgroundColor": "rgba(17, 24, 39, 0.25)",
+  },
+  "bgOpacity25Green": Object {
+    "backgroundColor": "rgba(34, 197, 94, 0.25)",
+  },
+  "bgOpacity25Green100": Object {
+    "backgroundColor": "rgba(220, 252, 231, 0.25)",
+  },
+  "bgOpacity25Green200": Object {
+    "backgroundColor": "rgba(187, 247, 208, 0.25)",
+  },
+  "bgOpacity25Green300": Object {
+    "backgroundColor": "rgba(134, 239, 172, 0.25)",
+  },
+  "bgOpacity25Green400": Object {
+    "backgroundColor": "rgba(74, 222, 128, 0.25)",
+  },
+  "bgOpacity25Green50": Object {
+    "backgroundColor": "rgba(240, 253, 244, 0.25)",
+  },
+  "bgOpacity25Green500": Object {
+    "backgroundColor": "rgba(34, 197, 94, 0.25)",
+  },
+  "bgOpacity25Green600": Object {
+    "backgroundColor": "rgba(22, 163, 74, 0.25)",
+  },
+  "bgOpacity25Green700": Object {
+    "backgroundColor": "rgba(21, 128, 61, 0.25)",
+  },
+  "bgOpacity25Green800": Object {
+    "backgroundColor": "rgba(22, 101, 52, 0.25)",
+  },
+  "bgOpacity25Green900": Object {
+    "backgroundColor": "rgba(20, 83, 45, 0.25)",
+  },
+  "bgOpacity25Indigo": Object {
+    "backgroundColor": "rgba(99, 102, 241, 0.25)",
+  },
+  "bgOpacity25Indigo100": Object {
+    "backgroundColor": "rgba(224, 231, 255, 0.25)",
+  },
+  "bgOpacity25Indigo200": Object {
+    "backgroundColor": "rgba(199, 210, 254, 0.25)",
+  },
+  "bgOpacity25Indigo300": Object {
+    "backgroundColor": "rgba(165, 180, 252, 0.25)",
+  },
+  "bgOpacity25Indigo400": Object {
+    "backgroundColor": "rgba(129, 140, 248, 0.25)",
+  },
+  "bgOpacity25Indigo50": Object {
+    "backgroundColor": "rgba(238, 242, 255, 0.25)",
+  },
+  "bgOpacity25Indigo500": Object {
+    "backgroundColor": "rgba(99, 102, 241, 0.25)",
+  },
+  "bgOpacity25Indigo600": Object {
+    "backgroundColor": "rgba(79, 70, 229, 0.25)",
+  },
+  "bgOpacity25Indigo700": Object {
+    "backgroundColor": "rgba(67, 56, 202, 0.25)",
+  },
+  "bgOpacity25Indigo800": Object {
+    "backgroundColor": "rgba(55, 48, 163, 0.25)",
+  },
+  "bgOpacity25Indigo900": Object {
+    "backgroundColor": "rgba(49, 46, 129, 0.25)",
+  },
+  "bgOpacity25LightBlue": Object {
+    "backgroundColor": "rgba(14, 165, 233, 0.25)",
+  },
+  "bgOpacity25LightBlue100": Object {
+    "backgroundColor": "rgba(224, 242, 254, 0.25)",
+  },
+  "bgOpacity25LightBlue200": Object {
+    "backgroundColor": "rgba(186, 230, 253, 0.25)",
+  },
+  "bgOpacity25LightBlue300": Object {
+    "backgroundColor": "rgba(125, 211, 252, 0.25)",
+  },
+  "bgOpacity25LightBlue400": Object {
+    "backgroundColor": "rgba(56, 189, 248, 0.25)",
+  },
+  "bgOpacity25LightBlue50": Object {
+    "backgroundColor": "rgba(240, 249, 255, 0.25)",
+  },
+  "bgOpacity25LightBlue500": Object {
+    "backgroundColor": "rgba(14, 165, 233, 0.25)",
+  },
+  "bgOpacity25LightBlue600": Object {
+    "backgroundColor": "rgba(2, 132, 199, 0.25)",
+  },
+  "bgOpacity25LightBlue700": Object {
+    "backgroundColor": "rgba(3, 105, 161, 0.25)",
+  },
+  "bgOpacity25LightBlue800": Object {
+    "backgroundColor": "rgba(7, 89, 133, 0.25)",
+  },
+  "bgOpacity25LightBlue900": Object {
+    "backgroundColor": "rgba(12, 74, 110, 0.25)",
+  },
+  "bgOpacity25Lime": Object {
+    "backgroundColor": "rgba(132, 204, 22, 0.25)",
+  },
+  "bgOpacity25Lime100": Object {
+    "backgroundColor": "rgba(236, 252, 203, 0.25)",
+  },
+  "bgOpacity25Lime200": Object {
+    "backgroundColor": "rgba(217, 249, 157, 0.25)",
+  },
+  "bgOpacity25Lime300": Object {
+    "backgroundColor": "rgba(190, 242, 100, 0.25)",
+  },
+  "bgOpacity25Lime400": Object {
+    "backgroundColor": "rgba(163, 230, 53, 0.25)",
+  },
+  "bgOpacity25Lime50": Object {
+    "backgroundColor": "rgba(247, 254, 231, 0.25)",
+  },
+  "bgOpacity25Lime500": Object {
+    "backgroundColor": "rgba(132, 204, 22, 0.25)",
+  },
+  "bgOpacity25Lime600": Object {
+    "backgroundColor": "rgba(101, 163, 13, 0.25)",
+  },
+  "bgOpacity25Lime700": Object {
+    "backgroundColor": "rgba(77, 124, 15, 0.25)",
+  },
+  "bgOpacity25Lime800": Object {
+    "backgroundColor": "rgba(63, 98, 18, 0.25)",
+  },
+  "bgOpacity25Lime900": Object {
+    "backgroundColor": "rgba(54, 83, 20, 0.25)",
+  },
+  "bgOpacity25Orange": Object {
+    "backgroundColor": "rgba(249, 115, 22, 0.25)",
+  },
+  "bgOpacity25Orange100": Object {
+    "backgroundColor": "rgba(255, 237, 213, 0.25)",
+  },
+  "bgOpacity25Orange200": Object {
+    "backgroundColor": "rgba(254, 215, 170, 0.25)",
+  },
+  "bgOpacity25Orange300": Object {
+    "backgroundColor": "rgba(253, 186, 116, 0.25)",
+  },
+  "bgOpacity25Orange400": Object {
+    "backgroundColor": "rgba(251, 146, 60, 0.25)",
+  },
+  "bgOpacity25Orange50": Object {
+    "backgroundColor": "rgba(255, 247, 237, 0.25)",
+  },
+  "bgOpacity25Orange500": Object {
+    "backgroundColor": "rgba(249, 115, 22, 0.25)",
+  },
+  "bgOpacity25Orange600": Object {
+    "backgroundColor": "rgba(234, 88, 12, 0.25)",
+  },
+  "bgOpacity25Orange700": Object {
+    "backgroundColor": "rgba(194, 65, 12, 0.25)",
+  },
+  "bgOpacity25Orange800": Object {
+    "backgroundColor": "rgba(154, 52, 18, 0.25)",
+  },
+  "bgOpacity25Orange900": Object {
+    "backgroundColor": "rgba(124, 45, 18, 0.25)",
+  },
+  "bgOpacity25Pink": Object {
+    "backgroundColor": "rgba(236, 72, 153, 0.25)",
+  },
+  "bgOpacity25Pink100": Object {
+    "backgroundColor": "rgba(252, 231, 243, 0.25)",
+  },
+  "bgOpacity25Pink200": Object {
+    "backgroundColor": "rgba(251, 207, 232, 0.25)",
+  },
+  "bgOpacity25Pink300": Object {
+    "backgroundColor": "rgba(249, 168, 212, 0.25)",
+  },
+  "bgOpacity25Pink400": Object {
+    "backgroundColor": "rgba(244, 114, 182, 0.25)",
+  },
+  "bgOpacity25Pink50": Object {
+    "backgroundColor": "rgba(253, 242, 248, 0.25)",
+  },
+  "bgOpacity25Pink500": Object {
+    "backgroundColor": "rgba(236, 72, 153, 0.25)",
+  },
+  "bgOpacity25Pink600": Object {
+    "backgroundColor": "rgba(219, 39, 119, 0.25)",
+  },
+  "bgOpacity25Pink700": Object {
+    "backgroundColor": "rgba(190, 24, 93, 0.25)",
+  },
+  "bgOpacity25Pink800": Object {
+    "backgroundColor": "rgba(157, 23, 77, 0.25)",
+  },
+  "bgOpacity25Pink900": Object {
+    "backgroundColor": "rgba(131, 24, 67, 0.25)",
+  },
+  "bgOpacity25Purple": Object {
+    "backgroundColor": "rgba(139, 92, 246, 0.25)",
+  },
+  "bgOpacity25Purple100": Object {
+    "backgroundColor": "rgba(237, 233, 254, 0.25)",
+  },
+  "bgOpacity25Purple200": Object {
+    "backgroundColor": "rgba(221, 214, 254, 0.25)",
+  },
+  "bgOpacity25Purple300": Object {
+    "backgroundColor": "rgba(196, 181, 253, 0.25)",
+  },
+  "bgOpacity25Purple400": Object {
+    "backgroundColor": "rgba(167, 139, 250, 0.25)",
+  },
+  "bgOpacity25Purple50": Object {
+    "backgroundColor": "rgba(245, 243, 255, 0.25)",
+  },
+  "bgOpacity25Purple500": Object {
+    "backgroundColor": "rgba(139, 92, 246, 0.25)",
+  },
+  "bgOpacity25Purple600": Object {
+    "backgroundColor": "rgba(124, 58, 237, 0.25)",
+  },
+  "bgOpacity25Purple700": Object {
+    "backgroundColor": "rgba(109, 40, 217, 0.25)",
+  },
+  "bgOpacity25Purple800": Object {
+    "backgroundColor": "rgba(91, 33, 182, 0.25)",
+  },
+  "bgOpacity25Purple900": Object {
+    "backgroundColor": "rgba(76, 29, 149, 0.25)",
+  },
+  "bgOpacity25Red": Object {
+    "backgroundColor": "rgba(239, 68, 68, 0.25)",
+  },
+  "bgOpacity25Red100": Object {
+    "backgroundColor": "rgba(254, 226, 226, 0.25)",
+  },
+  "bgOpacity25Red200": Object {
+    "backgroundColor": "rgba(254, 202, 202, 0.25)",
+  },
+  "bgOpacity25Red300": Object {
+    "backgroundColor": "rgba(252, 165, 165, 0.25)",
+  },
+  "bgOpacity25Red400": Object {
+    "backgroundColor": "rgba(248, 113, 113, 0.25)",
+  },
+  "bgOpacity25Red50": Object {
+    "backgroundColor": "rgba(254, 242, 242, 0.25)",
+  },
+  "bgOpacity25Red500": Object {
+    "backgroundColor": "rgba(239, 68, 68, 0.25)",
+  },
+  "bgOpacity25Red600": Object {
+    "backgroundColor": "rgba(220, 38, 38, 0.25)",
+  },
+  "bgOpacity25Red700": Object {
+    "backgroundColor": "rgba(185, 28, 28, 0.25)",
+  },
+  "bgOpacity25Red800": Object {
+    "backgroundColor": "rgba(153, 27, 27, 0.25)",
+  },
+  "bgOpacity25Red900": Object {
+    "backgroundColor": "rgba(127, 29, 29, 0.25)",
+  },
+  "bgOpacity25Rose": Object {
+    "backgroundColor": "rgba(244, 63, 94, 0.25)",
+  },
+  "bgOpacity25Rose100": Object {
+    "backgroundColor": "rgba(255, 228, 230, 0.25)",
+  },
+  "bgOpacity25Rose200": Object {
+    "backgroundColor": "rgba(254, 205, 211, 0.25)",
+  },
+  "bgOpacity25Rose300": Object {
+    "backgroundColor": "rgba(253, 164, 175, 0.25)",
+  },
+  "bgOpacity25Rose400": Object {
+    "backgroundColor": "rgba(251, 113, 133, 0.25)",
+  },
+  "bgOpacity25Rose50": Object {
+    "backgroundColor": "rgba(255, 241, 242, 0.25)",
+  },
+  "bgOpacity25Rose500": Object {
+    "backgroundColor": "rgba(244, 63, 94, 0.25)",
+  },
+  "bgOpacity25Rose600": Object {
+    "backgroundColor": "rgba(225, 29, 72, 0.25)",
+  },
+  "bgOpacity25Rose700": Object {
+    "backgroundColor": "rgba(190, 18, 60, 0.25)",
+  },
+  "bgOpacity25Rose800": Object {
+    "backgroundColor": "rgba(159, 18, 57, 0.25)",
+  },
+  "bgOpacity25Rose900": Object {
+    "backgroundColor": "rgba(136, 19, 55, 0.25)",
+  },
+  "bgOpacity25Teal": Object {
+    "backgroundColor": "rgba(20, 184, 166, 0.25)",
+  },
+  "bgOpacity25Teal100": Object {
+    "backgroundColor": "rgba(204, 251, 241, 0.25)",
+  },
+  "bgOpacity25Teal200": Object {
+    "backgroundColor": "rgba(153, 246, 228, 0.25)",
+  },
+  "bgOpacity25Teal300": Object {
+    "backgroundColor": "rgba(94, 234, 212, 0.25)",
+  },
+  "bgOpacity25Teal400": Object {
+    "backgroundColor": "rgba(45, 212, 191, 0.25)",
+  },
+  "bgOpacity25Teal50": Object {
+    "backgroundColor": "rgba(240, 253, 250, 0.25)",
+  },
+  "bgOpacity25Teal500": Object {
+    "backgroundColor": "rgba(20, 184, 166, 0.25)",
+  },
+  "bgOpacity25Teal600": Object {
+    "backgroundColor": "rgba(13, 148, 136, 0.25)",
+  },
+  "bgOpacity25Teal700": Object {
+    "backgroundColor": "rgba(15, 118, 110, 0.25)",
+  },
+  "bgOpacity25Teal800": Object {
+    "backgroundColor": "rgba(17, 94, 89, 0.25)",
+  },
+  "bgOpacity25Teal900": Object {
+    "backgroundColor": "rgba(19, 78, 74, 0.25)",
+  },
+  "bgOpacity25Transparent": Object {
+    "backgroundColor": "rgba(0, 0, 0, 0.25)",
+  },
+  "bgOpacity25TrueGray": Object {
+    "backgroundColor": "rgba(115, 115, 115, 0.25)",
+  },
+  "bgOpacity25TrueGray100": Object {
+    "backgroundColor": "rgba(245, 245, 245, 0.25)",
+  },
+  "bgOpacity25TrueGray200": Object {
+    "backgroundColor": "rgba(229, 229, 229, 0.25)",
+  },
+  "bgOpacity25TrueGray300": Object {
+    "backgroundColor": "rgba(212, 212, 212, 0.25)",
+  },
+  "bgOpacity25TrueGray400": Object {
+    "backgroundColor": "rgba(163, 163, 163, 0.25)",
+  },
+  "bgOpacity25TrueGray50": Object {
+    "backgroundColor": "rgba(250, 250, 250, 0.25)",
+  },
+  "bgOpacity25TrueGray500": Object {
+    "backgroundColor": "rgba(115, 115, 115, 0.25)",
+  },
+  "bgOpacity25TrueGray600": Object {
+    "backgroundColor": "rgba(82, 82, 82, 0.25)",
+  },
+  "bgOpacity25TrueGray700": Object {
+    "backgroundColor": "rgba(64, 64, 64, 0.25)",
+  },
+  "bgOpacity25TrueGray800": Object {
+    "backgroundColor": "rgba(38, 38, 38, 0.25)",
+  },
+  "bgOpacity25TrueGray900": Object {
+    "backgroundColor": "rgba(23, 23, 23, 0.25)",
+  },
+  "bgOpacity25Violet": Object {
+    "backgroundColor": "rgba(139, 92, 246, 0.25)",
+  },
+  "bgOpacity25Violet100": Object {
+    "backgroundColor": "rgba(237, 233, 254, 0.25)",
+  },
+  "bgOpacity25Violet200": Object {
+    "backgroundColor": "rgba(221, 214, 254, 0.25)",
+  },
+  "bgOpacity25Violet300": Object {
+    "backgroundColor": "rgba(196, 181, 253, 0.25)",
+  },
+  "bgOpacity25Violet400": Object {
+    "backgroundColor": "rgba(167, 139, 250, 0.25)",
+  },
+  "bgOpacity25Violet50": Object {
+    "backgroundColor": "rgba(245, 243, 255, 0.25)",
+  },
+  "bgOpacity25Violet500": Object {
+    "backgroundColor": "rgba(139, 92, 246, 0.25)",
+  },
+  "bgOpacity25Violet600": Object {
+    "backgroundColor": "rgba(124, 58, 237, 0.25)",
+  },
+  "bgOpacity25Violet700": Object {
+    "backgroundColor": "rgba(109, 40, 217, 0.25)",
+  },
+  "bgOpacity25Violet800": Object {
+    "backgroundColor": "rgba(91, 33, 182, 0.25)",
+  },
+  "bgOpacity25Violet900": Object {
+    "backgroundColor": "rgba(76, 29, 149, 0.25)",
+  },
+  "bgOpacity25WarmGray": Object {
+    "backgroundColor": "rgba(120, 113, 108, 0.25)",
+  },
+  "bgOpacity25WarmGray100": Object {
+    "backgroundColor": "rgba(245, 245, 244, 0.25)",
+  },
+  "bgOpacity25WarmGray200": Object {
+    "backgroundColor": "rgba(231, 229, 228, 0.25)",
+  },
+  "bgOpacity25WarmGray300": Object {
+    "backgroundColor": "rgba(214, 211, 209, 0.25)",
+  },
+  "bgOpacity25WarmGray400": Object {
+    "backgroundColor": "rgba(168, 162, 158, 0.25)",
+  },
+  "bgOpacity25WarmGray50": Object {
+    "backgroundColor": "rgba(250, 250, 249, 0.25)",
+  },
+  "bgOpacity25WarmGray500": Object {
+    "backgroundColor": "rgba(120, 113, 108, 0.25)",
+  },
+  "bgOpacity25WarmGray600": Object {
+    "backgroundColor": "rgba(87, 83, 78, 0.25)",
+  },
+  "bgOpacity25WarmGray700": Object {
+    "backgroundColor": "rgba(68, 64, 60, 0.25)",
+  },
+  "bgOpacity25WarmGray800": Object {
+    "backgroundColor": "rgba(41, 37, 36, 0.25)",
+  },
+  "bgOpacity25WarmGray900": Object {
+    "backgroundColor": "rgba(28, 25, 23, 0.25)",
+  },
+  "bgOpacity25White": Object {
+    "backgroundColor": "rgba(255, 255, 255, 0.25)",
+  },
+  "bgOpacity25Yellow": Object {
+    "backgroundColor": "rgba(245, 158, 11, 0.25)",
+  },
+  "bgOpacity25Yellow100": Object {
+    "backgroundColor": "rgba(254, 243, 199, 0.25)",
+  },
+  "bgOpacity25Yellow200": Object {
+    "backgroundColor": "rgba(253, 230, 138, 0.25)",
+  },
+  "bgOpacity25Yellow300": Object {
+    "backgroundColor": "rgba(252, 211, 77, 0.25)",
+  },
+  "bgOpacity25Yellow400": Object {
+    "backgroundColor": "rgba(251, 191, 36, 0.25)",
+  },
+  "bgOpacity25Yellow50": Object {
+    "backgroundColor": "rgba(255, 251, 235, 0.25)",
+  },
+  "bgOpacity25Yellow500": Object {
+    "backgroundColor": "rgba(245, 158, 11, 0.25)",
+  },
+  "bgOpacity25Yellow600": Object {
+    "backgroundColor": "rgba(217, 119, 6, 0.25)",
+  },
+  "bgOpacity25Yellow700": Object {
+    "backgroundColor": "rgba(180, 83, 9, 0.25)",
+  },
+  "bgOpacity25Yellow800": Object {
+    "backgroundColor": "rgba(146, 64, 14, 0.25)",
+  },
+  "bgOpacity25Yellow900": Object {
+    "backgroundColor": "rgba(120, 53, 15, 0.25)",
+  },
+  "bgOpacity50Amber": Object {
+    "backgroundColor": "rgba(245, 158, 11, 0.5)",
+  },
+  "bgOpacity50Amber100": Object {
+    "backgroundColor": "rgba(254, 243, 199, 0.5)",
+  },
+  "bgOpacity50Amber200": Object {
+    "backgroundColor": "rgba(253, 230, 138, 0.5)",
+  },
+  "bgOpacity50Amber300": Object {
+    "backgroundColor": "rgba(252, 211, 77, 0.5)",
+  },
+  "bgOpacity50Amber400": Object {
+    "backgroundColor": "rgba(251, 191, 36, 0.5)",
+  },
+  "bgOpacity50Amber50": Object {
+    "backgroundColor": "rgba(255, 251, 235, 0.5)",
+  },
+  "bgOpacity50Amber500": Object {
+    "backgroundColor": "rgba(245, 158, 11, 0.5)",
+  },
+  "bgOpacity50Amber600": Object {
+    "backgroundColor": "rgba(217, 119, 6, 0.5)",
+  },
+  "bgOpacity50Amber700": Object {
+    "backgroundColor": "rgba(180, 83, 9, 0.5)",
+  },
+  "bgOpacity50Amber800": Object {
+    "backgroundColor": "rgba(146, 64, 14, 0.5)",
+  },
+  "bgOpacity50Amber900": Object {
+    "backgroundColor": "rgba(120, 53, 15, 0.5)",
+  },
+  "bgOpacity50Black": Object {
+    "backgroundColor": "rgba(0, 0, 0, 0.5)",
+  },
+  "bgOpacity50Blue": Object {
+    "backgroundColor": "rgba(59, 130, 246, 0.5)",
+  },
+  "bgOpacity50Blue100": Object {
+    "backgroundColor": "rgba(219, 234, 254, 0.5)",
+  },
+  "bgOpacity50Blue200": Object {
+    "backgroundColor": "rgba(191, 219, 254, 0.5)",
+  },
+  "bgOpacity50Blue300": Object {
+    "backgroundColor": "rgba(147, 197, 253, 0.5)",
+  },
+  "bgOpacity50Blue400": Object {
+    "backgroundColor": "rgba(96, 165, 250, 0.5)",
+  },
+  "bgOpacity50Blue50": Object {
+    "backgroundColor": "rgba(239, 246, 255, 0.5)",
+  },
+  "bgOpacity50Blue500": Object {
+    "backgroundColor": "rgba(59, 130, 246, 0.5)",
+  },
+  "bgOpacity50Blue600": Object {
+    "backgroundColor": "rgba(37, 99, 235, 0.5)",
+  },
+  "bgOpacity50Blue700": Object {
+    "backgroundColor": "rgba(29, 78, 216, 0.5)",
+  },
+  "bgOpacity50Blue800": Object {
+    "backgroundColor": "rgba(30, 64, 175, 0.5)",
+  },
+  "bgOpacity50Blue900": Object {
+    "backgroundColor": "rgba(30, 58, 138, 0.5)",
+  },
+  "bgOpacity50BlueGray": Object {
+    "backgroundColor": "rgba(100, 116, 139, 0.5)",
+  },
+  "bgOpacity50BlueGray100": Object {
+    "backgroundColor": "rgba(241, 245, 249, 0.5)",
+  },
+  "bgOpacity50BlueGray200": Object {
+    "backgroundColor": "rgba(226, 232, 240, 0.5)",
+  },
+  "bgOpacity50BlueGray300": Object {
+    "backgroundColor": "rgba(203, 213, 225, 0.5)",
+  },
+  "bgOpacity50BlueGray400": Object {
+    "backgroundColor": "rgba(148, 163, 184, 0.5)",
+  },
+  "bgOpacity50BlueGray50": Object {
+    "backgroundColor": "rgba(248, 250, 252, 0.5)",
+  },
+  "bgOpacity50BlueGray500": Object {
+    "backgroundColor": "rgba(100, 116, 139, 0.5)",
+  },
+  "bgOpacity50BlueGray600": Object {
+    "backgroundColor": "rgba(71, 85, 105, 0.5)",
+  },
+  "bgOpacity50BlueGray700": Object {
+    "backgroundColor": "rgba(51, 65, 85, 0.5)",
+  },
+  "bgOpacity50BlueGray800": Object {
+    "backgroundColor": "rgba(30, 41, 59, 0.5)",
+  },
+  "bgOpacity50BlueGray900": Object {
+    "backgroundColor": "rgba(15, 23, 42, 0.5)",
+  },
+  "bgOpacity50CoolGray": Object {
+    "backgroundColor": "rgba(107, 114, 128, 0.5)",
+  },
+  "bgOpacity50CoolGray100": Object {
+    "backgroundColor": "rgba(243, 244, 246, 0.5)",
+  },
+  "bgOpacity50CoolGray200": Object {
+    "backgroundColor": "rgba(229, 231, 235, 0.5)",
+  },
+  "bgOpacity50CoolGray300": Object {
+    "backgroundColor": "rgba(209, 213, 219, 0.5)",
+  },
+  "bgOpacity50CoolGray400": Object {
+    "backgroundColor": "rgba(156, 163, 175, 0.5)",
+  },
+  "bgOpacity50CoolGray50": Object {
+    "backgroundColor": "rgba(249, 250, 251, 0.5)",
+  },
+  "bgOpacity50CoolGray500": Object {
+    "backgroundColor": "rgba(107, 114, 128, 0.5)",
+  },
+  "bgOpacity50CoolGray600": Object {
+    "backgroundColor": "rgba(75, 85, 99, 0.5)",
+  },
+  "bgOpacity50CoolGray700": Object {
+    "backgroundColor": "rgba(55, 65, 81, 0.5)",
+  },
+  "bgOpacity50CoolGray800": Object {
+    "backgroundColor": "rgba(31, 41, 55, 0.5)",
+  },
+  "bgOpacity50CoolGray900": Object {
+    "backgroundColor": "rgba(17, 24, 39, 0.5)",
+  },
+  "bgOpacity50Cyan": Object {
+    "backgroundColor": "rgba(6, 182, 212, 0.5)",
+  },
+  "bgOpacity50Cyan100": Object {
+    "backgroundColor": "rgba(207, 250, 254, 0.5)",
+  },
+  "bgOpacity50Cyan200": Object {
+    "backgroundColor": "rgba(165, 243, 252, 0.5)",
+  },
+  "bgOpacity50Cyan300": Object {
+    "backgroundColor": "rgba(103, 232, 249, 0.5)",
+  },
+  "bgOpacity50Cyan400": Object {
+    "backgroundColor": "rgba(34, 211, 238, 0.5)",
+  },
+  "bgOpacity50Cyan50": Object {
+    "backgroundColor": "rgba(236, 254, 255, 0.5)",
+  },
+  "bgOpacity50Cyan500": Object {
+    "backgroundColor": "rgba(6, 182, 212, 0.5)",
+  },
+  "bgOpacity50Cyan600": Object {
+    "backgroundColor": "rgba(8, 145, 178, 0.5)",
+  },
+  "bgOpacity50Cyan700": Object {
+    "backgroundColor": "rgba(14, 116, 144, 0.5)",
+  },
+  "bgOpacity50Cyan800": Object {
+    "backgroundColor": "rgba(21, 94, 117, 0.5)",
+  },
+  "bgOpacity50Cyan900": Object {
+    "backgroundColor": "rgba(22, 78, 99, 0.5)",
+  },
+  "bgOpacity50Emerald": Object {
+    "backgroundColor": "rgba(16, 185, 129, 0.5)",
+  },
+  "bgOpacity50Emerald100": Object {
+    "backgroundColor": "rgba(209, 250, 229, 0.5)",
+  },
+  "bgOpacity50Emerald200": Object {
+    "backgroundColor": "rgba(167, 243, 208, 0.5)",
+  },
+  "bgOpacity50Emerald300": Object {
+    "backgroundColor": "rgba(110, 231, 183, 0.5)",
+  },
+  "bgOpacity50Emerald400": Object {
+    "backgroundColor": "rgba(52, 211, 153, 0.5)",
+  },
+  "bgOpacity50Emerald50": Object {
+    "backgroundColor": "rgba(236, 253, 245, 0.5)",
+  },
+  "bgOpacity50Emerald500": Object {
+    "backgroundColor": "rgba(16, 185, 129, 0.5)",
+  },
+  "bgOpacity50Emerald600": Object {
+    "backgroundColor": "rgba(5, 150, 105, 0.5)",
+  },
+  "bgOpacity50Emerald700": Object {
+    "backgroundColor": "rgba(4, 120, 87, 0.5)",
+  },
+  "bgOpacity50Emerald800": Object {
+    "backgroundColor": "rgba(6, 95, 70, 0.5)",
+  },
+  "bgOpacity50Emerald900": Object {
+    "backgroundColor": "rgba(6, 78, 59, 0.5)",
+  },
+  "bgOpacity50Fuchsia": Object {
+    "backgroundColor": "rgba(217, 70, 239, 0.5)",
+  },
+  "bgOpacity50Fuchsia100": Object {
+    "backgroundColor": "rgba(250, 232, 255, 0.5)",
+  },
+  "bgOpacity50Fuchsia200": Object {
+    "backgroundColor": "rgba(245, 208, 254, 0.5)",
+  },
+  "bgOpacity50Fuchsia300": Object {
+    "backgroundColor": "rgba(240, 171, 252, 0.5)",
+  },
+  "bgOpacity50Fuchsia400": Object {
+    "backgroundColor": "rgba(232, 121, 249, 0.5)",
+  },
+  "bgOpacity50Fuchsia50": Object {
+    "backgroundColor": "rgba(253, 244, 255, 0.5)",
+  },
+  "bgOpacity50Fuchsia500": Object {
+    "backgroundColor": "rgba(217, 70, 239, 0.5)",
+  },
+  "bgOpacity50Fuchsia600": Object {
+    "backgroundColor": "rgba(192, 38, 211, 0.5)",
+  },
+  "bgOpacity50Fuchsia700": Object {
+    "backgroundColor": "rgba(162, 28, 175, 0.5)",
+  },
+  "bgOpacity50Fuchsia800": Object {
+    "backgroundColor": "rgba(134, 25, 143, 0.5)",
+  },
+  "bgOpacity50Fuchsia900": Object {
+    "backgroundColor": "rgba(112, 26, 117, 0.5)",
+  },
+  "bgOpacity50Gray": Object {
+    "backgroundColor": "rgba(107, 114, 128, 0.5)",
+  },
+  "bgOpacity50Gray100": Object {
+    "backgroundColor": "rgba(243, 244, 246, 0.5)",
+  },
+  "bgOpacity50Gray200": Object {
+    "backgroundColor": "rgba(229, 231, 235, 0.5)",
+  },
+  "bgOpacity50Gray300": Object {
+    "backgroundColor": "rgba(209, 213, 219, 0.5)",
+  },
+  "bgOpacity50Gray400": Object {
+    "backgroundColor": "rgba(156, 163, 175, 0.5)",
+  },
+  "bgOpacity50Gray50": Object {
+    "backgroundColor": "rgba(249, 250, 251, 0.5)",
+  },
+  "bgOpacity50Gray500": Object {
+    "backgroundColor": "rgba(107, 114, 128, 0.5)",
+  },
+  "bgOpacity50Gray600": Object {
+    "backgroundColor": "rgba(75, 85, 99, 0.5)",
+  },
+  "bgOpacity50Gray700": Object {
+    "backgroundColor": "rgba(55, 65, 81, 0.5)",
+  },
+  "bgOpacity50Gray800": Object {
+    "backgroundColor": "rgba(31, 41, 55, 0.5)",
+  },
+  "bgOpacity50Gray900": Object {
+    "backgroundColor": "rgba(17, 24, 39, 0.5)",
+  },
+  "bgOpacity50Green": Object {
+    "backgroundColor": "rgba(34, 197, 94, 0.5)",
+  },
+  "bgOpacity50Green100": Object {
+    "backgroundColor": "rgba(220, 252, 231, 0.5)",
+  },
+  "bgOpacity50Green200": Object {
+    "backgroundColor": "rgba(187, 247, 208, 0.5)",
+  },
+  "bgOpacity50Green300": Object {
+    "backgroundColor": "rgba(134, 239, 172, 0.5)",
+  },
+  "bgOpacity50Green400": Object {
+    "backgroundColor": "rgba(74, 222, 128, 0.5)",
+  },
+  "bgOpacity50Green50": Object {
+    "backgroundColor": "rgba(240, 253, 244, 0.5)",
+  },
+  "bgOpacity50Green500": Object {
+    "backgroundColor": "rgba(34, 197, 94, 0.5)",
+  },
+  "bgOpacity50Green600": Object {
+    "backgroundColor": "rgba(22, 163, 74, 0.5)",
+  },
+  "bgOpacity50Green700": Object {
+    "backgroundColor": "rgba(21, 128, 61, 0.5)",
+  },
+  "bgOpacity50Green800": Object {
+    "backgroundColor": "rgba(22, 101, 52, 0.5)",
+  },
+  "bgOpacity50Green900": Object {
+    "backgroundColor": "rgba(20, 83, 45, 0.5)",
+  },
+  "bgOpacity50Indigo": Object {
+    "backgroundColor": "rgba(99, 102, 241, 0.5)",
+  },
+  "bgOpacity50Indigo100": Object {
+    "backgroundColor": "rgba(224, 231, 255, 0.5)",
+  },
+  "bgOpacity50Indigo200": Object {
+    "backgroundColor": "rgba(199, 210, 254, 0.5)",
+  },
+  "bgOpacity50Indigo300": Object {
+    "backgroundColor": "rgba(165, 180, 252, 0.5)",
+  },
+  "bgOpacity50Indigo400": Object {
+    "backgroundColor": "rgba(129, 140, 248, 0.5)",
+  },
+  "bgOpacity50Indigo50": Object {
+    "backgroundColor": "rgba(238, 242, 255, 0.5)",
+  },
+  "bgOpacity50Indigo500": Object {
+    "backgroundColor": "rgba(99, 102, 241, 0.5)",
+  },
+  "bgOpacity50Indigo600": Object {
+    "backgroundColor": "rgba(79, 70, 229, 0.5)",
+  },
+  "bgOpacity50Indigo700": Object {
+    "backgroundColor": "rgba(67, 56, 202, 0.5)",
+  },
+  "bgOpacity50Indigo800": Object {
+    "backgroundColor": "rgba(55, 48, 163, 0.5)",
+  },
+  "bgOpacity50Indigo900": Object {
+    "backgroundColor": "rgba(49, 46, 129, 0.5)",
+  },
+  "bgOpacity50LightBlue": Object {
+    "backgroundColor": "rgba(14, 165, 233, 0.5)",
+  },
+  "bgOpacity50LightBlue100": Object {
+    "backgroundColor": "rgba(224, 242, 254, 0.5)",
+  },
+  "bgOpacity50LightBlue200": Object {
+    "backgroundColor": "rgba(186, 230, 253, 0.5)",
+  },
+  "bgOpacity50LightBlue300": Object {
+    "backgroundColor": "rgba(125, 211, 252, 0.5)",
+  },
+  "bgOpacity50LightBlue400": Object {
+    "backgroundColor": "rgba(56, 189, 248, 0.5)",
+  },
+  "bgOpacity50LightBlue50": Object {
+    "backgroundColor": "rgba(240, 249, 255, 0.5)",
+  },
+  "bgOpacity50LightBlue500": Object {
+    "backgroundColor": "rgba(14, 165, 233, 0.5)",
+  },
+  "bgOpacity50LightBlue600": Object {
+    "backgroundColor": "rgba(2, 132, 199, 0.5)",
+  },
+  "bgOpacity50LightBlue700": Object {
+    "backgroundColor": "rgba(3, 105, 161, 0.5)",
+  },
+  "bgOpacity50LightBlue800": Object {
+    "backgroundColor": "rgba(7, 89, 133, 0.5)",
+  },
+  "bgOpacity50LightBlue900": Object {
+    "backgroundColor": "rgba(12, 74, 110, 0.5)",
+  },
+  "bgOpacity50Lime": Object {
+    "backgroundColor": "rgba(132, 204, 22, 0.5)",
+  },
+  "bgOpacity50Lime100": Object {
+    "backgroundColor": "rgba(236, 252, 203, 0.5)",
+  },
+  "bgOpacity50Lime200": Object {
+    "backgroundColor": "rgba(217, 249, 157, 0.5)",
+  },
+  "bgOpacity50Lime300": Object {
+    "backgroundColor": "rgba(190, 242, 100, 0.5)",
+  },
+  "bgOpacity50Lime400": Object {
+    "backgroundColor": "rgba(163, 230, 53, 0.5)",
+  },
+  "bgOpacity50Lime50": Object {
+    "backgroundColor": "rgba(247, 254, 231, 0.5)",
+  },
+  "bgOpacity50Lime500": Object {
+    "backgroundColor": "rgba(132, 204, 22, 0.5)",
+  },
+  "bgOpacity50Lime600": Object {
+    "backgroundColor": "rgba(101, 163, 13, 0.5)",
+  },
+  "bgOpacity50Lime700": Object {
+    "backgroundColor": "rgba(77, 124, 15, 0.5)",
+  },
+  "bgOpacity50Lime800": Object {
+    "backgroundColor": "rgba(63, 98, 18, 0.5)",
+  },
+  "bgOpacity50Lime900": Object {
+    "backgroundColor": "rgba(54, 83, 20, 0.5)",
+  },
+  "bgOpacity50Orange": Object {
+    "backgroundColor": "rgba(249, 115, 22, 0.5)",
+  },
+  "bgOpacity50Orange100": Object {
+    "backgroundColor": "rgba(255, 237, 213, 0.5)",
+  },
+  "bgOpacity50Orange200": Object {
+    "backgroundColor": "rgba(254, 215, 170, 0.5)",
+  },
+  "bgOpacity50Orange300": Object {
+    "backgroundColor": "rgba(253, 186, 116, 0.5)",
+  },
+  "bgOpacity50Orange400": Object {
+    "backgroundColor": "rgba(251, 146, 60, 0.5)",
+  },
+  "bgOpacity50Orange50": Object {
+    "backgroundColor": "rgba(255, 247, 237, 0.5)",
+  },
+  "bgOpacity50Orange500": Object {
+    "backgroundColor": "rgba(249, 115, 22, 0.5)",
+  },
+  "bgOpacity50Orange600": Object {
+    "backgroundColor": "rgba(234, 88, 12, 0.5)",
+  },
+  "bgOpacity50Orange700": Object {
+    "backgroundColor": "rgba(194, 65, 12, 0.5)",
+  },
+  "bgOpacity50Orange800": Object {
+    "backgroundColor": "rgba(154, 52, 18, 0.5)",
+  },
+  "bgOpacity50Orange900": Object {
+    "backgroundColor": "rgba(124, 45, 18, 0.5)",
+  },
+  "bgOpacity50Pink": Object {
+    "backgroundColor": "rgba(236, 72, 153, 0.5)",
+  },
+  "bgOpacity50Pink100": Object {
+    "backgroundColor": "rgba(252, 231, 243, 0.5)",
+  },
+  "bgOpacity50Pink200": Object {
+    "backgroundColor": "rgba(251, 207, 232, 0.5)",
+  },
+  "bgOpacity50Pink300": Object {
+    "backgroundColor": "rgba(249, 168, 212, 0.5)",
+  },
+  "bgOpacity50Pink400": Object {
+    "backgroundColor": "rgba(244, 114, 182, 0.5)",
+  },
+  "bgOpacity50Pink50": Object {
+    "backgroundColor": "rgba(253, 242, 248, 0.5)",
+  },
+  "bgOpacity50Pink500": Object {
+    "backgroundColor": "rgba(236, 72, 153, 0.5)",
+  },
+  "bgOpacity50Pink600": Object {
+    "backgroundColor": "rgba(219, 39, 119, 0.5)",
+  },
+  "bgOpacity50Pink700": Object {
+    "backgroundColor": "rgba(190, 24, 93, 0.5)",
+  },
+  "bgOpacity50Pink800": Object {
+    "backgroundColor": "rgba(157, 23, 77, 0.5)",
+  },
+  "bgOpacity50Pink900": Object {
+    "backgroundColor": "rgba(131, 24, 67, 0.5)",
+  },
+  "bgOpacity50Purple": Object {
+    "backgroundColor": "rgba(139, 92, 246, 0.5)",
+  },
+  "bgOpacity50Purple100": Object {
+    "backgroundColor": "rgba(237, 233, 254, 0.5)",
+  },
+  "bgOpacity50Purple200": Object {
+    "backgroundColor": "rgba(221, 214, 254, 0.5)",
+  },
+  "bgOpacity50Purple300": Object {
+    "backgroundColor": "rgba(196, 181, 253, 0.5)",
+  },
+  "bgOpacity50Purple400": Object {
+    "backgroundColor": "rgba(167, 139, 250, 0.5)",
+  },
+  "bgOpacity50Purple50": Object {
+    "backgroundColor": "rgba(245, 243, 255, 0.5)",
+  },
+  "bgOpacity50Purple500": Object {
+    "backgroundColor": "rgba(139, 92, 246, 0.5)",
+  },
+  "bgOpacity50Purple600": Object {
+    "backgroundColor": "rgba(124, 58, 237, 0.5)",
+  },
+  "bgOpacity50Purple700": Object {
+    "backgroundColor": "rgba(109, 40, 217, 0.5)",
+  },
+  "bgOpacity50Purple800": Object {
+    "backgroundColor": "rgba(91, 33, 182, 0.5)",
+  },
+  "bgOpacity50Purple900": Object {
+    "backgroundColor": "rgba(76, 29, 149, 0.5)",
+  },
+  "bgOpacity50Red": Object {
+    "backgroundColor": "rgba(239, 68, 68, 0.5)",
+  },
+  "bgOpacity50Red100": Object {
+    "backgroundColor": "rgba(254, 226, 226, 0.5)",
+  },
+  "bgOpacity50Red200": Object {
+    "backgroundColor": "rgba(254, 202, 202, 0.5)",
+  },
+  "bgOpacity50Red300": Object {
+    "backgroundColor": "rgba(252, 165, 165, 0.5)",
+  },
+  "bgOpacity50Red400": Object {
+    "backgroundColor": "rgba(248, 113, 113, 0.5)",
+  },
+  "bgOpacity50Red50": Object {
+    "backgroundColor": "rgba(254, 242, 242, 0.5)",
+  },
+  "bgOpacity50Red500": Object {
+    "backgroundColor": "rgba(239, 68, 68, 0.5)",
+  },
+  "bgOpacity50Red600": Object {
+    "backgroundColor": "rgba(220, 38, 38, 0.5)",
+  },
+  "bgOpacity50Red700": Object {
+    "backgroundColor": "rgba(185, 28, 28, 0.5)",
+  },
+  "bgOpacity50Red800": Object {
+    "backgroundColor": "rgba(153, 27, 27, 0.5)",
+  },
+  "bgOpacity50Red900": Object {
+    "backgroundColor": "rgba(127, 29, 29, 0.5)",
+  },
+  "bgOpacity50Rose": Object {
+    "backgroundColor": "rgba(244, 63, 94, 0.5)",
+  },
+  "bgOpacity50Rose100": Object {
+    "backgroundColor": "rgba(255, 228, 230, 0.5)",
+  },
+  "bgOpacity50Rose200": Object {
+    "backgroundColor": "rgba(254, 205, 211, 0.5)",
+  },
+  "bgOpacity50Rose300": Object {
+    "backgroundColor": "rgba(253, 164, 175, 0.5)",
+  },
+  "bgOpacity50Rose400": Object {
+    "backgroundColor": "rgba(251, 113, 133, 0.5)",
+  },
+  "bgOpacity50Rose50": Object {
+    "backgroundColor": "rgba(255, 241, 242, 0.5)",
+  },
+  "bgOpacity50Rose500": Object {
+    "backgroundColor": "rgba(244, 63, 94, 0.5)",
+  },
+  "bgOpacity50Rose600": Object {
+    "backgroundColor": "rgba(225, 29, 72, 0.5)",
+  },
+  "bgOpacity50Rose700": Object {
+    "backgroundColor": "rgba(190, 18, 60, 0.5)",
+  },
+  "bgOpacity50Rose800": Object {
+    "backgroundColor": "rgba(159, 18, 57, 0.5)",
+  },
+  "bgOpacity50Rose900": Object {
+    "backgroundColor": "rgba(136, 19, 55, 0.5)",
+  },
+  "bgOpacity50Teal": Object {
+    "backgroundColor": "rgba(20, 184, 166, 0.5)",
+  },
+  "bgOpacity50Teal100": Object {
+    "backgroundColor": "rgba(204, 251, 241, 0.5)",
+  },
+  "bgOpacity50Teal200": Object {
+    "backgroundColor": "rgba(153, 246, 228, 0.5)",
+  },
+  "bgOpacity50Teal300": Object {
+    "backgroundColor": "rgba(94, 234, 212, 0.5)",
+  },
+  "bgOpacity50Teal400": Object {
+    "backgroundColor": "rgba(45, 212, 191, 0.5)",
+  },
+  "bgOpacity50Teal50": Object {
+    "backgroundColor": "rgba(240, 253, 250, 0.5)",
+  },
+  "bgOpacity50Teal500": Object {
+    "backgroundColor": "rgba(20, 184, 166, 0.5)",
+  },
+  "bgOpacity50Teal600": Object {
+    "backgroundColor": "rgba(13, 148, 136, 0.5)",
+  },
+  "bgOpacity50Teal700": Object {
+    "backgroundColor": "rgba(15, 118, 110, 0.5)",
+  },
+  "bgOpacity50Teal800": Object {
+    "backgroundColor": "rgba(17, 94, 89, 0.5)",
+  },
+  "bgOpacity50Teal900": Object {
+    "backgroundColor": "rgba(19, 78, 74, 0.5)",
+  },
+  "bgOpacity50Transparent": Object {
+    "backgroundColor": "rgba(0, 0, 0, 0.5)",
+  },
+  "bgOpacity50TrueGray": Object {
+    "backgroundColor": "rgba(115, 115, 115, 0.5)",
+  },
+  "bgOpacity50TrueGray100": Object {
+    "backgroundColor": "rgba(245, 245, 245, 0.5)",
+  },
+  "bgOpacity50TrueGray200": Object {
+    "backgroundColor": "rgba(229, 229, 229, 0.5)",
+  },
+  "bgOpacity50TrueGray300": Object {
+    "backgroundColor": "rgba(212, 212, 212, 0.5)",
+  },
+  "bgOpacity50TrueGray400": Object {
+    "backgroundColor": "rgba(163, 163, 163, 0.5)",
+  },
+  "bgOpacity50TrueGray50": Object {
+    "backgroundColor": "rgba(250, 250, 250, 0.5)",
+  },
+  "bgOpacity50TrueGray500": Object {
+    "backgroundColor": "rgba(115, 115, 115, 0.5)",
+  },
+  "bgOpacity50TrueGray600": Object {
+    "backgroundColor": "rgba(82, 82, 82, 0.5)",
+  },
+  "bgOpacity50TrueGray700": Object {
+    "backgroundColor": "rgba(64, 64, 64, 0.5)",
+  },
+  "bgOpacity50TrueGray800": Object {
+    "backgroundColor": "rgba(38, 38, 38, 0.5)",
+  },
+  "bgOpacity50TrueGray900": Object {
+    "backgroundColor": "rgba(23, 23, 23, 0.5)",
+  },
+  "bgOpacity50Violet": Object {
+    "backgroundColor": "rgba(139, 92, 246, 0.5)",
+  },
+  "bgOpacity50Violet100": Object {
+    "backgroundColor": "rgba(237, 233, 254, 0.5)",
+  },
+  "bgOpacity50Violet200": Object {
+    "backgroundColor": "rgba(221, 214, 254, 0.5)",
+  },
+  "bgOpacity50Violet300": Object {
+    "backgroundColor": "rgba(196, 181, 253, 0.5)",
+  },
+  "bgOpacity50Violet400": Object {
+    "backgroundColor": "rgba(167, 139, 250, 0.5)",
+  },
+  "bgOpacity50Violet50": Object {
+    "backgroundColor": "rgba(245, 243, 255, 0.5)",
+  },
+  "bgOpacity50Violet500": Object {
+    "backgroundColor": "rgba(139, 92, 246, 0.5)",
+  },
+  "bgOpacity50Violet600": Object {
+    "backgroundColor": "rgba(124, 58, 237, 0.5)",
+  },
+  "bgOpacity50Violet700": Object {
+    "backgroundColor": "rgba(109, 40, 217, 0.5)",
+  },
+  "bgOpacity50Violet800": Object {
+    "backgroundColor": "rgba(91, 33, 182, 0.5)",
+  },
+  "bgOpacity50Violet900": Object {
+    "backgroundColor": "rgba(76, 29, 149, 0.5)",
+  },
+  "bgOpacity50WarmGray": Object {
+    "backgroundColor": "rgba(120, 113, 108, 0.5)",
+  },
+  "bgOpacity50WarmGray100": Object {
+    "backgroundColor": "rgba(245, 245, 244, 0.5)",
+  },
+  "bgOpacity50WarmGray200": Object {
+    "backgroundColor": "rgba(231, 229, 228, 0.5)",
+  },
+  "bgOpacity50WarmGray300": Object {
+    "backgroundColor": "rgba(214, 211, 209, 0.5)",
+  },
+  "bgOpacity50WarmGray400": Object {
+    "backgroundColor": "rgba(168, 162, 158, 0.5)",
+  },
+  "bgOpacity50WarmGray50": Object {
+    "backgroundColor": "rgba(250, 250, 249, 0.5)",
+  },
+  "bgOpacity50WarmGray500": Object {
+    "backgroundColor": "rgba(120, 113, 108, 0.5)",
+  },
+  "bgOpacity50WarmGray600": Object {
+    "backgroundColor": "rgba(87, 83, 78, 0.5)",
+  },
+  "bgOpacity50WarmGray700": Object {
+    "backgroundColor": "rgba(68, 64, 60, 0.5)",
+  },
+  "bgOpacity50WarmGray800": Object {
+    "backgroundColor": "rgba(41, 37, 36, 0.5)",
+  },
+  "bgOpacity50WarmGray900": Object {
+    "backgroundColor": "rgba(28, 25, 23, 0.5)",
+  },
+  "bgOpacity50White": Object {
+    "backgroundColor": "rgba(255, 255, 255, 0.5)",
+  },
+  "bgOpacity50Yellow": Object {
+    "backgroundColor": "rgba(245, 158, 11, 0.5)",
+  },
+  "bgOpacity50Yellow100": Object {
+    "backgroundColor": "rgba(254, 243, 199, 0.5)",
+  },
+  "bgOpacity50Yellow200": Object {
+    "backgroundColor": "rgba(253, 230, 138, 0.5)",
+  },
+  "bgOpacity50Yellow300": Object {
+    "backgroundColor": "rgba(252, 211, 77, 0.5)",
+  },
+  "bgOpacity50Yellow400": Object {
+    "backgroundColor": "rgba(251, 191, 36, 0.5)",
+  },
+  "bgOpacity50Yellow50": Object {
+    "backgroundColor": "rgba(255, 251, 235, 0.5)",
+  },
+  "bgOpacity50Yellow500": Object {
+    "backgroundColor": "rgba(245, 158, 11, 0.5)",
+  },
+  "bgOpacity50Yellow600": Object {
+    "backgroundColor": "rgba(217, 119, 6, 0.5)",
+  },
+  "bgOpacity50Yellow700": Object {
+    "backgroundColor": "rgba(180, 83, 9, 0.5)",
+  },
+  "bgOpacity50Yellow800": Object {
+    "backgroundColor": "rgba(146, 64, 14, 0.5)",
+  },
+  "bgOpacity50Yellow900": Object {
+    "backgroundColor": "rgba(120, 53, 15, 0.5)",
+  },
+  "bgOpacity75Amber": Object {
+    "backgroundColor": "rgba(245, 158, 11, 0.75)",
+  },
+  "bgOpacity75Amber100": Object {
+    "backgroundColor": "rgba(254, 243, 199, 0.75)",
+  },
+  "bgOpacity75Amber200": Object {
+    "backgroundColor": "rgba(253, 230, 138, 0.75)",
+  },
+  "bgOpacity75Amber300": Object {
+    "backgroundColor": "rgba(252, 211, 77, 0.75)",
+  },
+  "bgOpacity75Amber400": Object {
+    "backgroundColor": "rgba(251, 191, 36, 0.75)",
+  },
+  "bgOpacity75Amber50": Object {
+    "backgroundColor": "rgba(255, 251, 235, 0.75)",
+  },
+  "bgOpacity75Amber500": Object {
+    "backgroundColor": "rgba(245, 158, 11, 0.75)",
+  },
+  "bgOpacity75Amber600": Object {
+    "backgroundColor": "rgba(217, 119, 6, 0.75)",
+  },
+  "bgOpacity75Amber700": Object {
+    "backgroundColor": "rgba(180, 83, 9, 0.75)",
+  },
+  "bgOpacity75Amber800": Object {
+    "backgroundColor": "rgba(146, 64, 14, 0.75)",
+  },
+  "bgOpacity75Amber900": Object {
+    "backgroundColor": "rgba(120, 53, 15, 0.75)",
+  },
+  "bgOpacity75Black": Object {
+    "backgroundColor": "rgba(0, 0, 0, 0.75)",
+  },
+  "bgOpacity75Blue": Object {
+    "backgroundColor": "rgba(59, 130, 246, 0.75)",
+  },
+  "bgOpacity75Blue100": Object {
+    "backgroundColor": "rgba(219, 234, 254, 0.75)",
+  },
+  "bgOpacity75Blue200": Object {
+    "backgroundColor": "rgba(191, 219, 254, 0.75)",
+  },
+  "bgOpacity75Blue300": Object {
+    "backgroundColor": "rgba(147, 197, 253, 0.75)",
+  },
+  "bgOpacity75Blue400": Object {
+    "backgroundColor": "rgba(96, 165, 250, 0.75)",
+  },
+  "bgOpacity75Blue50": Object {
+    "backgroundColor": "rgba(239, 246, 255, 0.75)",
+  },
+  "bgOpacity75Blue500": Object {
+    "backgroundColor": "rgba(59, 130, 246, 0.75)",
+  },
+  "bgOpacity75Blue600": Object {
+    "backgroundColor": "rgba(37, 99, 235, 0.75)",
+  },
+  "bgOpacity75Blue700": Object {
+    "backgroundColor": "rgba(29, 78, 216, 0.75)",
+  },
+  "bgOpacity75Blue800": Object {
+    "backgroundColor": "rgba(30, 64, 175, 0.75)",
+  },
+  "bgOpacity75Blue900": Object {
+    "backgroundColor": "rgba(30, 58, 138, 0.75)",
+  },
+  "bgOpacity75BlueGray": Object {
+    "backgroundColor": "rgba(100, 116, 139, 0.75)",
+  },
+  "bgOpacity75BlueGray100": Object {
+    "backgroundColor": "rgba(241, 245, 249, 0.75)",
+  },
+  "bgOpacity75BlueGray200": Object {
+    "backgroundColor": "rgba(226, 232, 240, 0.75)",
+  },
+  "bgOpacity75BlueGray300": Object {
+    "backgroundColor": "rgba(203, 213, 225, 0.75)",
+  },
+  "bgOpacity75BlueGray400": Object {
+    "backgroundColor": "rgba(148, 163, 184, 0.75)",
+  },
+  "bgOpacity75BlueGray50": Object {
+    "backgroundColor": "rgba(248, 250, 252, 0.75)",
+  },
+  "bgOpacity75BlueGray500": Object {
+    "backgroundColor": "rgba(100, 116, 139, 0.75)",
+  },
+  "bgOpacity75BlueGray600": Object {
+    "backgroundColor": "rgba(71, 85, 105, 0.75)",
+  },
+  "bgOpacity75BlueGray700": Object {
+    "backgroundColor": "rgba(51, 65, 85, 0.75)",
+  },
+  "bgOpacity75BlueGray800": Object {
+    "backgroundColor": "rgba(30, 41, 59, 0.75)",
+  },
+  "bgOpacity75BlueGray900": Object {
+    "backgroundColor": "rgba(15, 23, 42, 0.75)",
+  },
+  "bgOpacity75CoolGray": Object {
+    "backgroundColor": "rgba(107, 114, 128, 0.75)",
+  },
+  "bgOpacity75CoolGray100": Object {
+    "backgroundColor": "rgba(243, 244, 246, 0.75)",
+  },
+  "bgOpacity75CoolGray200": Object {
+    "backgroundColor": "rgba(229, 231, 235, 0.75)",
+  },
+  "bgOpacity75CoolGray300": Object {
+    "backgroundColor": "rgba(209, 213, 219, 0.75)",
+  },
+  "bgOpacity75CoolGray400": Object {
+    "backgroundColor": "rgba(156, 163, 175, 0.75)",
+  },
+  "bgOpacity75CoolGray50": Object {
+    "backgroundColor": "rgba(249, 250, 251, 0.75)",
+  },
+  "bgOpacity75CoolGray500": Object {
+    "backgroundColor": "rgba(107, 114, 128, 0.75)",
+  },
+  "bgOpacity75CoolGray600": Object {
+    "backgroundColor": "rgba(75, 85, 99, 0.75)",
+  },
+  "bgOpacity75CoolGray700": Object {
+    "backgroundColor": "rgba(55, 65, 81, 0.75)",
+  },
+  "bgOpacity75CoolGray800": Object {
+    "backgroundColor": "rgba(31, 41, 55, 0.75)",
+  },
+  "bgOpacity75CoolGray900": Object {
+    "backgroundColor": "rgba(17, 24, 39, 0.75)",
+  },
+  "bgOpacity75Cyan": Object {
+    "backgroundColor": "rgba(6, 182, 212, 0.75)",
+  },
+  "bgOpacity75Cyan100": Object {
+    "backgroundColor": "rgba(207, 250, 254, 0.75)",
+  },
+  "bgOpacity75Cyan200": Object {
+    "backgroundColor": "rgba(165, 243, 252, 0.75)",
+  },
+  "bgOpacity75Cyan300": Object {
+    "backgroundColor": "rgba(103, 232, 249, 0.75)",
+  },
+  "bgOpacity75Cyan400": Object {
+    "backgroundColor": "rgba(34, 211, 238, 0.75)",
+  },
+  "bgOpacity75Cyan50": Object {
+    "backgroundColor": "rgba(236, 254, 255, 0.75)",
+  },
+  "bgOpacity75Cyan500": Object {
+    "backgroundColor": "rgba(6, 182, 212, 0.75)",
+  },
+  "bgOpacity75Cyan600": Object {
+    "backgroundColor": "rgba(8, 145, 178, 0.75)",
+  },
+  "bgOpacity75Cyan700": Object {
+    "backgroundColor": "rgba(14, 116, 144, 0.75)",
+  },
+  "bgOpacity75Cyan800": Object {
+    "backgroundColor": "rgba(21, 94, 117, 0.75)",
+  },
+  "bgOpacity75Cyan900": Object {
+    "backgroundColor": "rgba(22, 78, 99, 0.75)",
+  },
+  "bgOpacity75Emerald": Object {
+    "backgroundColor": "rgba(16, 185, 129, 0.75)",
+  },
+  "bgOpacity75Emerald100": Object {
+    "backgroundColor": "rgba(209, 250, 229, 0.75)",
+  },
+  "bgOpacity75Emerald200": Object {
+    "backgroundColor": "rgba(167, 243, 208, 0.75)",
+  },
+  "bgOpacity75Emerald300": Object {
+    "backgroundColor": "rgba(110, 231, 183, 0.75)",
+  },
+  "bgOpacity75Emerald400": Object {
+    "backgroundColor": "rgba(52, 211, 153, 0.75)",
+  },
+  "bgOpacity75Emerald50": Object {
+    "backgroundColor": "rgba(236, 253, 245, 0.75)",
+  },
+  "bgOpacity75Emerald500": Object {
+    "backgroundColor": "rgba(16, 185, 129, 0.75)",
+  },
+  "bgOpacity75Emerald600": Object {
+    "backgroundColor": "rgba(5, 150, 105, 0.75)",
+  },
+  "bgOpacity75Emerald700": Object {
+    "backgroundColor": "rgba(4, 120, 87, 0.75)",
+  },
+  "bgOpacity75Emerald800": Object {
+    "backgroundColor": "rgba(6, 95, 70, 0.75)",
+  },
+  "bgOpacity75Emerald900": Object {
+    "backgroundColor": "rgba(6, 78, 59, 0.75)",
+  },
+  "bgOpacity75Fuchsia": Object {
+    "backgroundColor": "rgba(217, 70, 239, 0.75)",
+  },
+  "bgOpacity75Fuchsia100": Object {
+    "backgroundColor": "rgba(250, 232, 255, 0.75)",
+  },
+  "bgOpacity75Fuchsia200": Object {
+    "backgroundColor": "rgba(245, 208, 254, 0.75)",
+  },
+  "bgOpacity75Fuchsia300": Object {
+    "backgroundColor": "rgba(240, 171, 252, 0.75)",
+  },
+  "bgOpacity75Fuchsia400": Object {
+    "backgroundColor": "rgba(232, 121, 249, 0.75)",
+  },
+  "bgOpacity75Fuchsia50": Object {
+    "backgroundColor": "rgba(253, 244, 255, 0.75)",
+  },
+  "bgOpacity75Fuchsia500": Object {
+    "backgroundColor": "rgba(217, 70, 239, 0.75)",
+  },
+  "bgOpacity75Fuchsia600": Object {
+    "backgroundColor": "rgba(192, 38, 211, 0.75)",
+  },
+  "bgOpacity75Fuchsia700": Object {
+    "backgroundColor": "rgba(162, 28, 175, 0.75)",
+  },
+  "bgOpacity75Fuchsia800": Object {
+    "backgroundColor": "rgba(134, 25, 143, 0.75)",
+  },
+  "bgOpacity75Fuchsia900": Object {
+    "backgroundColor": "rgba(112, 26, 117, 0.75)",
+  },
+  "bgOpacity75Gray": Object {
+    "backgroundColor": "rgba(107, 114, 128, 0.75)",
+  },
+  "bgOpacity75Gray100": Object {
+    "backgroundColor": "rgba(243, 244, 246, 0.75)",
+  },
+  "bgOpacity75Gray200": Object {
+    "backgroundColor": "rgba(229, 231, 235, 0.75)",
+  },
+  "bgOpacity75Gray300": Object {
+    "backgroundColor": "rgba(209, 213, 219, 0.75)",
+  },
+  "bgOpacity75Gray400": Object {
+    "backgroundColor": "rgba(156, 163, 175, 0.75)",
+  },
+  "bgOpacity75Gray50": Object {
+    "backgroundColor": "rgba(249, 250, 251, 0.75)",
+  },
+  "bgOpacity75Gray500": Object {
+    "backgroundColor": "rgba(107, 114, 128, 0.75)",
+  },
+  "bgOpacity75Gray600": Object {
+    "backgroundColor": "rgba(75, 85, 99, 0.75)",
+  },
+  "bgOpacity75Gray700": Object {
+    "backgroundColor": "rgba(55, 65, 81, 0.75)",
+  },
+  "bgOpacity75Gray800": Object {
+    "backgroundColor": "rgba(31, 41, 55, 0.75)",
+  },
+  "bgOpacity75Gray900": Object {
+    "backgroundColor": "rgba(17, 24, 39, 0.75)",
+  },
+  "bgOpacity75Green": Object {
+    "backgroundColor": "rgba(34, 197, 94, 0.75)",
+  },
+  "bgOpacity75Green100": Object {
+    "backgroundColor": "rgba(220, 252, 231, 0.75)",
+  },
+  "bgOpacity75Green200": Object {
+    "backgroundColor": "rgba(187, 247, 208, 0.75)",
+  },
+  "bgOpacity75Green300": Object {
+    "backgroundColor": "rgba(134, 239, 172, 0.75)",
+  },
+  "bgOpacity75Green400": Object {
+    "backgroundColor": "rgba(74, 222, 128, 0.75)",
+  },
+  "bgOpacity75Green50": Object {
+    "backgroundColor": "rgba(240, 253, 244, 0.75)",
+  },
+  "bgOpacity75Green500": Object {
+    "backgroundColor": "rgba(34, 197, 94, 0.75)",
+  },
+  "bgOpacity75Green600": Object {
+    "backgroundColor": "rgba(22, 163, 74, 0.75)",
+  },
+  "bgOpacity75Green700": Object {
+    "backgroundColor": "rgba(21, 128, 61, 0.75)",
+  },
+  "bgOpacity75Green800": Object {
+    "backgroundColor": "rgba(22, 101, 52, 0.75)",
+  },
+  "bgOpacity75Green900": Object {
+    "backgroundColor": "rgba(20, 83, 45, 0.75)",
+  },
+  "bgOpacity75Indigo": Object {
+    "backgroundColor": "rgba(99, 102, 241, 0.75)",
+  },
+  "bgOpacity75Indigo100": Object {
+    "backgroundColor": "rgba(224, 231, 255, 0.75)",
+  },
+  "bgOpacity75Indigo200": Object {
+    "backgroundColor": "rgba(199, 210, 254, 0.75)",
+  },
+  "bgOpacity75Indigo300": Object {
+    "backgroundColor": "rgba(165, 180, 252, 0.75)",
+  },
+  "bgOpacity75Indigo400": Object {
+    "backgroundColor": "rgba(129, 140, 248, 0.75)",
+  },
+  "bgOpacity75Indigo50": Object {
+    "backgroundColor": "rgba(238, 242, 255, 0.75)",
+  },
+  "bgOpacity75Indigo500": Object {
+    "backgroundColor": "rgba(99, 102, 241, 0.75)",
+  },
+  "bgOpacity75Indigo600": Object {
+    "backgroundColor": "rgba(79, 70, 229, 0.75)",
+  },
+  "bgOpacity75Indigo700": Object {
+    "backgroundColor": "rgba(67, 56, 202, 0.75)",
+  },
+  "bgOpacity75Indigo800": Object {
+    "backgroundColor": "rgba(55, 48, 163, 0.75)",
+  },
+  "bgOpacity75Indigo900": Object {
+    "backgroundColor": "rgba(49, 46, 129, 0.75)",
+  },
+  "bgOpacity75LightBlue": Object {
+    "backgroundColor": "rgba(14, 165, 233, 0.75)",
+  },
+  "bgOpacity75LightBlue100": Object {
+    "backgroundColor": "rgba(224, 242, 254, 0.75)",
+  },
+  "bgOpacity75LightBlue200": Object {
+    "backgroundColor": "rgba(186, 230, 253, 0.75)",
+  },
+  "bgOpacity75LightBlue300": Object {
+    "backgroundColor": "rgba(125, 211, 252, 0.75)",
+  },
+  "bgOpacity75LightBlue400": Object {
+    "backgroundColor": "rgba(56, 189, 248, 0.75)",
+  },
+  "bgOpacity75LightBlue50": Object {
+    "backgroundColor": "rgba(240, 249, 255, 0.75)",
+  },
+  "bgOpacity75LightBlue500": Object {
+    "backgroundColor": "rgba(14, 165, 233, 0.75)",
+  },
+  "bgOpacity75LightBlue600": Object {
+    "backgroundColor": "rgba(2, 132, 199, 0.75)",
+  },
+  "bgOpacity75LightBlue700": Object {
+    "backgroundColor": "rgba(3, 105, 161, 0.75)",
+  },
+  "bgOpacity75LightBlue800": Object {
+    "backgroundColor": "rgba(7, 89, 133, 0.75)",
+  },
+  "bgOpacity75LightBlue900": Object {
+    "backgroundColor": "rgba(12, 74, 110, 0.75)",
+  },
+  "bgOpacity75Lime": Object {
+    "backgroundColor": "rgba(132, 204, 22, 0.75)",
+  },
+  "bgOpacity75Lime100": Object {
+    "backgroundColor": "rgba(236, 252, 203, 0.75)",
+  },
+  "bgOpacity75Lime200": Object {
+    "backgroundColor": "rgba(217, 249, 157, 0.75)",
+  },
+  "bgOpacity75Lime300": Object {
+    "backgroundColor": "rgba(190, 242, 100, 0.75)",
+  },
+  "bgOpacity75Lime400": Object {
+    "backgroundColor": "rgba(163, 230, 53, 0.75)",
+  },
+  "bgOpacity75Lime50": Object {
+    "backgroundColor": "rgba(247, 254, 231, 0.75)",
+  },
+  "bgOpacity75Lime500": Object {
+    "backgroundColor": "rgba(132, 204, 22, 0.75)",
+  },
+  "bgOpacity75Lime600": Object {
+    "backgroundColor": "rgba(101, 163, 13, 0.75)",
+  },
+  "bgOpacity75Lime700": Object {
+    "backgroundColor": "rgba(77, 124, 15, 0.75)",
+  },
+  "bgOpacity75Lime800": Object {
+    "backgroundColor": "rgba(63, 98, 18, 0.75)",
+  },
+  "bgOpacity75Lime900": Object {
+    "backgroundColor": "rgba(54, 83, 20, 0.75)",
+  },
+  "bgOpacity75Orange": Object {
+    "backgroundColor": "rgba(249, 115, 22, 0.75)",
+  },
+  "bgOpacity75Orange100": Object {
+    "backgroundColor": "rgba(255, 237, 213, 0.75)",
+  },
+  "bgOpacity75Orange200": Object {
+    "backgroundColor": "rgba(254, 215, 170, 0.75)",
+  },
+  "bgOpacity75Orange300": Object {
+    "backgroundColor": "rgba(253, 186, 116, 0.75)",
+  },
+  "bgOpacity75Orange400": Object {
+    "backgroundColor": "rgba(251, 146, 60, 0.75)",
+  },
+  "bgOpacity75Orange50": Object {
+    "backgroundColor": "rgba(255, 247, 237, 0.75)",
+  },
+  "bgOpacity75Orange500": Object {
+    "backgroundColor": "rgba(249, 115, 22, 0.75)",
+  },
+  "bgOpacity75Orange600": Object {
+    "backgroundColor": "rgba(234, 88, 12, 0.75)",
+  },
+  "bgOpacity75Orange700": Object {
+    "backgroundColor": "rgba(194, 65, 12, 0.75)",
+  },
+  "bgOpacity75Orange800": Object {
+    "backgroundColor": "rgba(154, 52, 18, 0.75)",
+  },
+  "bgOpacity75Orange900": Object {
+    "backgroundColor": "rgba(124, 45, 18, 0.75)",
+  },
+  "bgOpacity75Pink": Object {
+    "backgroundColor": "rgba(236, 72, 153, 0.75)",
+  },
+  "bgOpacity75Pink100": Object {
+    "backgroundColor": "rgba(252, 231, 243, 0.75)",
+  },
+  "bgOpacity75Pink200": Object {
+    "backgroundColor": "rgba(251, 207, 232, 0.75)",
+  },
+  "bgOpacity75Pink300": Object {
+    "backgroundColor": "rgba(249, 168, 212, 0.75)",
+  },
+  "bgOpacity75Pink400": Object {
+    "backgroundColor": "rgba(244, 114, 182, 0.75)",
+  },
+  "bgOpacity75Pink50": Object {
+    "backgroundColor": "rgba(253, 242, 248, 0.75)",
+  },
+  "bgOpacity75Pink500": Object {
+    "backgroundColor": "rgba(236, 72, 153, 0.75)",
+  },
+  "bgOpacity75Pink600": Object {
+    "backgroundColor": "rgba(219, 39, 119, 0.75)",
+  },
+  "bgOpacity75Pink700": Object {
+    "backgroundColor": "rgba(190, 24, 93, 0.75)",
+  },
+  "bgOpacity75Pink800": Object {
+    "backgroundColor": "rgba(157, 23, 77, 0.75)",
+  },
+  "bgOpacity75Pink900": Object {
+    "backgroundColor": "rgba(131, 24, 67, 0.75)",
+  },
+  "bgOpacity75Purple": Object {
+    "backgroundColor": "rgba(139, 92, 246, 0.75)",
+  },
+  "bgOpacity75Purple100": Object {
+    "backgroundColor": "rgba(237, 233, 254, 0.75)",
+  },
+  "bgOpacity75Purple200": Object {
+    "backgroundColor": "rgba(221, 214, 254, 0.75)",
+  },
+  "bgOpacity75Purple300": Object {
+    "backgroundColor": "rgba(196, 181, 253, 0.75)",
+  },
+  "bgOpacity75Purple400": Object {
+    "backgroundColor": "rgba(167, 139, 250, 0.75)",
+  },
+  "bgOpacity75Purple50": Object {
+    "backgroundColor": "rgba(245, 243, 255, 0.75)",
+  },
+  "bgOpacity75Purple500": Object {
+    "backgroundColor": "rgba(139, 92, 246, 0.75)",
+  },
+  "bgOpacity75Purple600": Object {
+    "backgroundColor": "rgba(124, 58, 237, 0.75)",
+  },
+  "bgOpacity75Purple700": Object {
+    "backgroundColor": "rgba(109, 40, 217, 0.75)",
+  },
+  "bgOpacity75Purple800": Object {
+    "backgroundColor": "rgba(91, 33, 182, 0.75)",
+  },
+  "bgOpacity75Purple900": Object {
+    "backgroundColor": "rgba(76, 29, 149, 0.75)",
+  },
+  "bgOpacity75Red": Object {
+    "backgroundColor": "rgba(239, 68, 68, 0.75)",
+  },
+  "bgOpacity75Red100": Object {
+    "backgroundColor": "rgba(254, 226, 226, 0.75)",
+  },
+  "bgOpacity75Red200": Object {
+    "backgroundColor": "rgba(254, 202, 202, 0.75)",
+  },
+  "bgOpacity75Red300": Object {
+    "backgroundColor": "rgba(252, 165, 165, 0.75)",
+  },
+  "bgOpacity75Red400": Object {
+    "backgroundColor": "rgba(248, 113, 113, 0.75)",
+  },
+  "bgOpacity75Red50": Object {
+    "backgroundColor": "rgba(254, 242, 242, 0.75)",
+  },
+  "bgOpacity75Red500": Object {
+    "backgroundColor": "rgba(239, 68, 68, 0.75)",
+  },
+  "bgOpacity75Red600": Object {
+    "backgroundColor": "rgba(220, 38, 38, 0.75)",
+  },
+  "bgOpacity75Red700": Object {
+    "backgroundColor": "rgba(185, 28, 28, 0.75)",
+  },
+  "bgOpacity75Red800": Object {
+    "backgroundColor": "rgba(153, 27, 27, 0.75)",
+  },
+  "bgOpacity75Red900": Object {
+    "backgroundColor": "rgba(127, 29, 29, 0.75)",
+  },
+  "bgOpacity75Rose": Object {
+    "backgroundColor": "rgba(244, 63, 94, 0.75)",
+  },
+  "bgOpacity75Rose100": Object {
+    "backgroundColor": "rgba(255, 228, 230, 0.75)",
+  },
+  "bgOpacity75Rose200": Object {
+    "backgroundColor": "rgba(254, 205, 211, 0.75)",
+  },
+  "bgOpacity75Rose300": Object {
+    "backgroundColor": "rgba(253, 164, 175, 0.75)",
+  },
+  "bgOpacity75Rose400": Object {
+    "backgroundColor": "rgba(251, 113, 133, 0.75)",
+  },
+  "bgOpacity75Rose50": Object {
+    "backgroundColor": "rgba(255, 241, 242, 0.75)",
+  },
+  "bgOpacity75Rose500": Object {
+    "backgroundColor": "rgba(244, 63, 94, 0.75)",
+  },
+  "bgOpacity75Rose600": Object {
+    "backgroundColor": "rgba(225, 29, 72, 0.75)",
+  },
+  "bgOpacity75Rose700": Object {
+    "backgroundColor": "rgba(190, 18, 60, 0.75)",
+  },
+  "bgOpacity75Rose800": Object {
+    "backgroundColor": "rgba(159, 18, 57, 0.75)",
+  },
+  "bgOpacity75Rose900": Object {
+    "backgroundColor": "rgba(136, 19, 55, 0.75)",
+  },
+  "bgOpacity75Teal": Object {
+    "backgroundColor": "rgba(20, 184, 166, 0.75)",
+  },
+  "bgOpacity75Teal100": Object {
+    "backgroundColor": "rgba(204, 251, 241, 0.75)",
+  },
+  "bgOpacity75Teal200": Object {
+    "backgroundColor": "rgba(153, 246, 228, 0.75)",
+  },
+  "bgOpacity75Teal300": Object {
+    "backgroundColor": "rgba(94, 234, 212, 0.75)",
+  },
+  "bgOpacity75Teal400": Object {
+    "backgroundColor": "rgba(45, 212, 191, 0.75)",
+  },
+  "bgOpacity75Teal50": Object {
+    "backgroundColor": "rgba(240, 253, 250, 0.75)",
+  },
+  "bgOpacity75Teal500": Object {
+    "backgroundColor": "rgba(20, 184, 166, 0.75)",
+  },
+  "bgOpacity75Teal600": Object {
+    "backgroundColor": "rgba(13, 148, 136, 0.75)",
+  },
+  "bgOpacity75Teal700": Object {
+    "backgroundColor": "rgba(15, 118, 110, 0.75)",
+  },
+  "bgOpacity75Teal800": Object {
+    "backgroundColor": "rgba(17, 94, 89, 0.75)",
+  },
+  "bgOpacity75Teal900": Object {
+    "backgroundColor": "rgba(19, 78, 74, 0.75)",
+  },
+  "bgOpacity75Transparent": Object {
+    "backgroundColor": "rgba(0, 0, 0, 0.75)",
+  },
+  "bgOpacity75TrueGray": Object {
+    "backgroundColor": "rgba(115, 115, 115, 0.75)",
+  },
+  "bgOpacity75TrueGray100": Object {
+    "backgroundColor": "rgba(245, 245, 245, 0.75)",
+  },
+  "bgOpacity75TrueGray200": Object {
+    "backgroundColor": "rgba(229, 229, 229, 0.75)",
+  },
+  "bgOpacity75TrueGray300": Object {
+    "backgroundColor": "rgba(212, 212, 212, 0.75)",
+  },
+  "bgOpacity75TrueGray400": Object {
+    "backgroundColor": "rgba(163, 163, 163, 0.75)",
+  },
+  "bgOpacity75TrueGray50": Object {
+    "backgroundColor": "rgba(250, 250, 250, 0.75)",
+  },
+  "bgOpacity75TrueGray500": Object {
+    "backgroundColor": "rgba(115, 115, 115, 0.75)",
+  },
+  "bgOpacity75TrueGray600": Object {
+    "backgroundColor": "rgba(82, 82, 82, 0.75)",
+  },
+  "bgOpacity75TrueGray700": Object {
+    "backgroundColor": "rgba(64, 64, 64, 0.75)",
+  },
+  "bgOpacity75TrueGray800": Object {
+    "backgroundColor": "rgba(38, 38, 38, 0.75)",
+  },
+  "bgOpacity75TrueGray900": Object {
+    "backgroundColor": "rgba(23, 23, 23, 0.75)",
+  },
+  "bgOpacity75Violet": Object {
+    "backgroundColor": "rgba(139, 92, 246, 0.75)",
+  },
+  "bgOpacity75Violet100": Object {
+    "backgroundColor": "rgba(237, 233, 254, 0.75)",
+  },
+  "bgOpacity75Violet200": Object {
+    "backgroundColor": "rgba(221, 214, 254, 0.75)",
+  },
+  "bgOpacity75Violet300": Object {
+    "backgroundColor": "rgba(196, 181, 253, 0.75)",
+  },
+  "bgOpacity75Violet400": Object {
+    "backgroundColor": "rgba(167, 139, 250, 0.75)",
+  },
+  "bgOpacity75Violet50": Object {
+    "backgroundColor": "rgba(245, 243, 255, 0.75)",
+  },
+  "bgOpacity75Violet500": Object {
+    "backgroundColor": "rgba(139, 92, 246, 0.75)",
+  },
+  "bgOpacity75Violet600": Object {
+    "backgroundColor": "rgba(124, 58, 237, 0.75)",
+  },
+  "bgOpacity75Violet700": Object {
+    "backgroundColor": "rgba(109, 40, 217, 0.75)",
+  },
+  "bgOpacity75Violet800": Object {
+    "backgroundColor": "rgba(91, 33, 182, 0.75)",
+  },
+  "bgOpacity75Violet900": Object {
+    "backgroundColor": "rgba(76, 29, 149, 0.75)",
+  },
+  "bgOpacity75WarmGray": Object {
+    "backgroundColor": "rgba(120, 113, 108, 0.75)",
+  },
+  "bgOpacity75WarmGray100": Object {
+    "backgroundColor": "rgba(245, 245, 244, 0.75)",
+  },
+  "bgOpacity75WarmGray200": Object {
+    "backgroundColor": "rgba(231, 229, 228, 0.75)",
+  },
+  "bgOpacity75WarmGray300": Object {
+    "backgroundColor": "rgba(214, 211, 209, 0.75)",
+  },
+  "bgOpacity75WarmGray400": Object {
+    "backgroundColor": "rgba(168, 162, 158, 0.75)",
+  },
+  "bgOpacity75WarmGray50": Object {
+    "backgroundColor": "rgba(250, 250, 249, 0.75)",
+  },
+  "bgOpacity75WarmGray500": Object {
+    "backgroundColor": "rgba(120, 113, 108, 0.75)",
+  },
+  "bgOpacity75WarmGray600": Object {
+    "backgroundColor": "rgba(87, 83, 78, 0.75)",
+  },
+  "bgOpacity75WarmGray700": Object {
+    "backgroundColor": "rgba(68, 64, 60, 0.75)",
+  },
+  "bgOpacity75WarmGray800": Object {
+    "backgroundColor": "rgba(41, 37, 36, 0.75)",
+  },
+  "bgOpacity75WarmGray900": Object {
+    "backgroundColor": "rgba(28, 25, 23, 0.75)",
+  },
+  "bgOpacity75White": Object {
+    "backgroundColor": "rgba(255, 255, 255, 0.75)",
+  },
+  "bgOpacity75Yellow": Object {
+    "backgroundColor": "rgba(245, 158, 11, 0.75)",
+  },
+  "bgOpacity75Yellow100": Object {
+    "backgroundColor": "rgba(254, 243, 199, 0.75)",
+  },
+  "bgOpacity75Yellow200": Object {
+    "backgroundColor": "rgba(253, 230, 138, 0.75)",
+  },
+  "bgOpacity75Yellow300": Object {
+    "backgroundColor": "rgba(252, 211, 77, 0.75)",
+  },
+  "bgOpacity75Yellow400": Object {
+    "backgroundColor": "rgba(251, 191, 36, 0.75)",
+  },
+  "bgOpacity75Yellow50": Object {
+    "backgroundColor": "rgba(255, 251, 235, 0.75)",
+  },
+  "bgOpacity75Yellow500": Object {
+    "backgroundColor": "rgba(245, 158, 11, 0.75)",
+  },
+  "bgOpacity75Yellow600": Object {
+    "backgroundColor": "rgba(217, 119, 6, 0.75)",
+  },
+  "bgOpacity75Yellow700": Object {
+    "backgroundColor": "rgba(180, 83, 9, 0.75)",
+  },
+  "bgOpacity75Yellow800": Object {
+    "backgroundColor": "rgba(146, 64, 14, 0.75)",
+  },
+  "bgOpacity75Yellow900": Object {
+    "backgroundColor": "rgba(120, 53, 15, 0.75)",
+  },
   "bgOrange": Object {
     "backgroundColor": "#f97316",
   },
@@ -1692,6 +5367,21 @@ Object {
   },
   "myDp": Object {
     "marginVertical": 1,
+  },
+  "opacity0": Object {
+    "opacity": 0,
+  },
+  "opacity100": Object {
+    "opacity": 1,
+  },
+  "opacity25": Object {
+    "opacity": 0.25,
+  },
+  "opacity50": Object {
+    "opacity": 0.5,
+  },
+  "opacity75": Object {
+    "opacity": 0.75,
   },
   "p0": Object {
     "padding": 0,

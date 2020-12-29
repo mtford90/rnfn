@@ -32,6 +32,7 @@ describe("view stylesheet", () => {
         spacing: {},
         fontSize: {},
         fontFamily: {},
+        opacity: {},
       },
     };
 

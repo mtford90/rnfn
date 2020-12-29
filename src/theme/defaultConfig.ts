@@ -78,6 +78,13 @@ const defaultConfig: Config = {
       "4xl": [36, { lineHeight: 40 }],
     },
     fontFamily: {},
+    opacity: {
+      "0": "0",
+      "25": ".25",
+      "50": ".5",
+      "75": ".75",
+      "100": "1",
+    },
   },
 };
 

@@ -14,6 +14,7 @@ export default interface Config {
       string,
       Partial<Record<"normal" | "italic", FontWeightMap>>
     >;
+    opacity: Record<string, string>;
   };
 }
 

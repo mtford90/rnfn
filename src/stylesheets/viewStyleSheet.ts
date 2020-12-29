@@ -1,5 +1,6 @@
 import camelCase from "lodash.camelcase";
 import { StyleSheet } from "react-native";
+import tinycolor from "tinycolor2";
 import defaultConfig from "../theme/defaultConfig";
 import { getColorPropValues } from "../props/color";
 import { NamedStyles } from "./types";
@@ -22,6 +23,27 @@ export function getViewStyleSheet(config = defaultConfig) {
       backgroundColor: colorCode,
     };
   });
+
+  Object.entries(config.theme.opacity).forEach(
+    ([opacityVariantKey, opacity]) => {
+      const opacityFloat = parseFloat(opacity);
+
+      namedStyles[camelCase(`opacity-${opacityVariantKey}`)] = {
+        opacity: opacityFloat,
+      };
+
+      // Background colours of differing opacity
+      Object.entries(colorPropValues).forEach(([propValue, colorCode]) => {
+        namedStyles[
+          camelCase(`bg-opacity-${opacityVariantKey}-${propValue}`)
+        ] = {
+          backgroundColor: tinycolor(colorCode)
+            .setAlpha(opacityFloat)
+            .toRgbString(),
+        };
+      });
+    }
+  );
 
   return StyleSheet.create(namedStyles);
 }
