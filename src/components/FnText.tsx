@@ -8,7 +8,7 @@ export function FnText<
   TFontFamily extends FnFontFamily,
   TFontStyle extends "normal" | "italic" = "normal"
 >(props: FnTextProps<TFontFamily, TFontStyle>) {
-  const { textStyles, config } = useRnfnStyles();
+  const { textStyles, viewStyles, config } = useRnfnStyles();
 
-  return <Text {...getTextProps({ props, textStyles, config })} />;
+  return <Text {...getTextProps({ props, textStyles, viewStyles, config })} />;
 }

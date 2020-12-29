@@ -56,10 +56,12 @@ export function getTextProps<
     ...rest
   },
   textStyles,
+  viewStyles,
   config,
 }: {
   props: FnTextProps<TFontFamily, TFontStyle>;
   textStyles: StyleSheet;
+  viewStyles: StyleSheet;
   config: Config;
 }) {
   const spacingTuples: string[] = [];
@@ -85,22 +87,31 @@ export function getTextProps<
     ? fontWeight || "normal"
     : "normal"; // TODO: What if normal doesn't exist? Fall back to closest weight?
 
+  const combinedTextStyles = combineStyles(
+    style,
+    textStyles,
+    color && `color-${color}`,
+    bg && `bg-${bg}`,
+    text && `text-${text}`,
+    align && `align-${align}`,
+    transform && `transform-${transform}`,
+    line && `line-${line}`,
+    customFontFamilyConfig &&
+      fontFamily &&
+      `font-family-${fontStyle}-${fontFamily}-${resolvedFontWeight}`
+  );
+
+  const combinedViewStyles = combineStyles(
+    undefined, // TODO Remove
+    viewStyles,
+    bg && `bg-${bg}`,
+    ...spacingTuples
+  );
+
   return {
     style: compact([
-      ...combineStyles(
-        style,
-        textStyles,
-        color && `color-${color}`,
-        bg && `bg-${bg}`,
-        text && `text-${text}`,
-        align && `align-${align}`,
-        transform && `transform-${transform}`,
-        line && `line-${line}`,
-        customFontFamilyConfig &&
-          fontFamily &&
-          `font-family-${fontStyle}-${fontFamily}-${resolvedFontWeight}`,
-        ...spacingTuples
-      ),
+      ...combinedViewStyles,
+      ...combinedTextStyles,
       // TODO: Can these be StyleSheets instead? Automatically add to the StyleSheet?
       !customFontFamilyConfig && fontFamily && { fontFamily },
       !customFontFamilyConfig &&

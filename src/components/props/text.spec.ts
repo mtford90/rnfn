@@ -3,8 +3,10 @@ import colors from "../../theme/colors";
 import defaultConfig from "../../theme/defaultConfig";
 import { getTextStyleSheet } from "../../stylesheets/textStyleSheet";
 import Config from "../../theme/Config";
+import { getViewStyleSheet } from "../../stylesheets/viewStyleSheet";
 
 const textStyles = getTextStyleSheet();
+const viewStyles = getViewStyleSheet();
 
 describe("text props", () => {
   describe("color", () => {
@@ -13,6 +15,7 @@ describe("text props", () => {
         expect(
           getTextProps({
             textStyles,
+            viewStyles,
             config: defaultConfig,
             props: {
               color: "green",
@@ -33,6 +36,7 @@ describe("text props", () => {
         expect(
           getTextProps({
             textStyles,
+            viewStyles,
             config: defaultConfig,
             props: {
               color: "green-50",
@@ -55,6 +59,7 @@ describe("text props", () => {
         expect(
           getTextProps({
             textStyles,
+            viewStyles,
             config: defaultConfig,
             props: {
               bg: "green",
@@ -75,6 +80,7 @@ describe("text props", () => {
         expect(
           getTextProps({
             textStyles,
+            viewStyles,
             config: defaultConfig,
             props: {
               bg: "green-50",
@@ -97,6 +103,7 @@ describe("text props", () => {
         expect(
           getTextProps({
             textStyles,
+            viewStyles,
             config: defaultConfig,
             props: {
               bg: "green",
@@ -106,10 +113,10 @@ describe("text props", () => {
         ).toEqual({
           style: [
             {
-              color: colors.green["500"],
+              backgroundColor: colors.green["500"],
             },
             {
-              backgroundColor: colors.green["500"],
+              color: colors.green["500"],
             },
           ],
         });
@@ -123,6 +130,7 @@ describe("text props", () => {
         expect(
           getTextProps({
             textStyles,
+            viewStyles,
             config: defaultConfig,
             props: {
               mt: "24",
@@ -141,6 +149,7 @@ describe("text props", () => {
         expect(
           getTextProps({
             textStyles,
+            viewStyles,
             config: defaultConfig,
             props: {
               mt: "dp",
@@ -163,6 +172,7 @@ describe("text props", () => {
         expect(
           getTextProps({
             textStyles,
+            viewStyles,
             config: defaultConfig,
             props: {
               pt: "24",
@@ -184,6 +194,7 @@ describe("text props", () => {
       expect(
         getTextProps({
           textStyles,
+          viewStyles,
           config: defaultConfig,
           props: {
             text: "2xl",
@@ -206,6 +217,7 @@ describe("text props", () => {
         expect(
           getTextProps({
             textStyles,
+            viewStyles,
             config: defaultConfig,
             props: {
               fontFamily: "Helvetica",
@@ -254,6 +266,7 @@ describe("text props", () => {
             expect(
               getTextProps({
                 textStyles: stylesWithFontFamilies,
+                viewStyles,
                 config: configWithFontFamilies,
                 props: {
                   fontFamily: "customFont",
@@ -275,6 +288,7 @@ describe("text props", () => {
           expect(
             getTextProps({
               textStyles: stylesWithFontFamilies,
+              viewStyles,
               props: {
                 fontFamily: "customFont",
                 fontWeight: "thin",
@@ -296,6 +310,7 @@ describe("text props", () => {
           expect(
             getTextProps({
               textStyles: stylesWithFontFamilies,
+              viewStyles,
               props: {
                 fontFamily: "customFont",
                 fontWeight: "extrabold",
@@ -317,6 +332,7 @@ describe("text props", () => {
           expect(
             getTextProps({
               textStyles: stylesWithFontFamilies,
+              viewStyles,
               config: configWithFontFamilies,
               props: {
                 fontFamily: "customFont",
@@ -341,6 +357,7 @@ describe("text props", () => {
         getTextProps({
           textStyles,
           config: defaultConfig,
+          viewStyles,
           props: {
             align: "right",
           },
@@ -361,6 +378,7 @@ describe("text props", () => {
         getTextProps({
           textStyles,
           config: defaultConfig,
+          viewStyles,
           props: {
             transform: "uppercase",
           },
@@ -381,6 +399,7 @@ describe("text props", () => {
         getTextProps({
           textStyles,
           config: defaultConfig,
+          viewStyles,
           props: {
             line: "underline",
           },
