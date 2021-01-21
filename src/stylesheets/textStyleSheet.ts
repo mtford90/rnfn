@@ -8,15 +8,15 @@ import {
   getFontSizeStyle,
 } from "../dynamicStyles";
 
-function getColorNamedStyleKey(colorName: string | number) {
+export function getColorNamedStyleKey(colorName: string | number) {
   return `color-${colorName}`;
 }
 
-function getFontSizeNamedStyleKey(fontSizeName: string | number) {
+export function getFontSizeNamedStyleKey(fontSizeName: string | number) {
   return `text-${fontSizeName}`;
 }
 
-function getFontFamilyNamedStyleKey(
+export function getFontFamilyNamedStyleKey(
   style: string | number,
   familyName: string | number,
   weight: string | number
@@ -24,19 +24,19 @@ function getFontFamilyNamedStyleKey(
   return `font-family-${style}-${familyName}-${weight}`;
 }
 
-function getTextAlignmentNamedStyleKey(
+export function getTextAlignmentNamedStyleKey(
   alignment: "auto" | "left" | "right" | "center" | "justify" | undefined
 ) {
   return `align-${alignment}`;
 }
 
-function getTextTransformNamedStyleKey(
+export function getTextTransformNamedStyleKey(
   transform: "none" | "capitalize" | "uppercase" | "lowercase" | undefined
 ) {
   return `transform-${transform}`;
 }
 
-function getTextDecorationLineNamedStyleKey(
+export function getTextDecorationLineNamedStyleKey(
   line:
     | "none"
     | "underline"

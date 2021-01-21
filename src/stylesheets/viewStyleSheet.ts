@@ -10,11 +10,26 @@ import {
   getOpacityStyle,
 } from "../dynamicStyles";
 
-function getNamedFlexStyleKey(
+export function getNamedFlexStyleKey(
   propName: string | number,
   propValue: string | number
 ) {
   return `${propName}-${propValue}`;
+}
+
+export function getBgColorWithOpacityKey(
+  opacityVariantKey: string | number,
+  colorName: string | number
+) {
+  return `bg-opacity-${opacityVariantKey}-${colorName}`;
+}
+
+export function getBgColorNamedStyleKey(colorName: string | number) {
+  return `bg-${colorName}`;
+}
+
+export function getOpacityNamedStyleKey(opacityVariantKey: string | number) {
+  return `opacity-${opacityVariantKey}`;
 }
 
 function getNamedFlexStyles(config = defaultConfig) {
@@ -30,17 +45,6 @@ function getNamedFlexStyles(config = defaultConfig) {
   });
 
   return namedStyles;
-}
-
-function getBgColorWithOpacityKey(
-  opacityVariantKey: string | number,
-  colorName: string | number
-) {
-  return `bg-opacity-${opacityVariantKey}-${colorName}`;
-}
-
-function getBgColorNamedStyleKey(colorName: string | number) {
-  return `bg-${colorName}`;
 }
 
 function getNamedBackgroundColorStyles(config = defaultConfig) {
@@ -64,10 +68,6 @@ function getNamedBackgroundColorStyles(config = defaultConfig) {
   );
 
   return namedStyles;
-}
-
-function getOpacityNamedStyleKey(opacityVariantKey: string | number) {
-  return `opacity-${opacityVariantKey}`;
 }
 
 function getNamedOpacityStyles(config = defaultConfig) {

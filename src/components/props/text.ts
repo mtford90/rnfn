@@ -16,6 +16,18 @@ import {
   FnFontStyle,
 } from "../../props/__generated__";
 import Config from "../../theme/Config";
+import {
+  getColorNamedStyleKey,
+  getFontFamilyNamedStyleKey,
+  getFontSizeNamedStyleKey,
+  getTextAlignmentNamedStyleKey,
+  getTextDecorationLineNamedStyleKey,
+  getTextTransformNamedStyleKey,
+} from "../../stylesheets/textStyleSheet";
+import {
+  getBgColorNamedStyleKey,
+  getNamedFlexStyleKey,
+} from "../../stylesheets/viewStyleSheet";
 
 export type FnTextStyleProps<
   TFontFamily extends FnFontFamily,
@@ -69,7 +81,7 @@ export function getTextProps<
   flexProperties.forEach((spacingProperty) => {
     const value = rest[spacingProperty];
     if (value) {
-      spacingTuples.push(`${spacingProperty}-${value}`);
+      spacingTuples.push(getNamedFlexStyleKey(spacingProperty, value));
       // eslint-disable-next-line no-param-reassign
       delete rest[spacingProperty]; // Do not try to pass the property onto the Text
     }
@@ -90,21 +102,21 @@ export function getTextProps<
   const combinedTextStyles = combineStyles(
     style,
     textStyles,
-    color && `color-${color}`,
-    bg && `bg-${bg}`,
-    text && `text-${text}`,
-    align && `align-${align}`,
-    transform && `transform-${transform}`,
-    line && `line-${line}`,
+    color && getColorNamedStyleKey(color),
+    bg && getBgColorNamedStyleKey(bg),
+    text && getFontSizeNamedStyleKey(text),
+    align && getTextAlignmentNamedStyleKey(align),
+    transform && getTextTransformNamedStyleKey(transform),
+    line && getTextDecorationLineNamedStyleKey(line),
     customFontFamilyConfig &&
       fontFamily &&
-      `font-family-${fontStyle}-${fontFamily}-${resolvedFontWeight}`
+      getFontFamilyNamedStyleKey(fontStyle, fontFamily, resolvedFontWeight)
   );
 
   const combinedViewStyles = combineStyles(
     undefined, // TODO Remove
     viewStyles,
-    bg && `bg-${bg}`,
+    bg && getBgColorNamedStyleKey(bg),
     ...spacingTuples
   );
 
