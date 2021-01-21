@@ -1,6 +1,6 @@
 import FontWeightName from "../theme/FontWeightName";
 
-export const spacingMappings = {
+export const flexMapping = {
   m: "margin",
   ml: "marginLeft",
   mr: "marginRight",
@@ -21,11 +21,38 @@ export const spacingMappings = {
   right: "right",
 };
 
-export const spacingProperties = Object.keys(spacingMappings) as Array<
-  keyof typeof spacingMappings
+export const flexProperties = Object.keys(flexMapping) as Array<
+  keyof typeof flexMapping
 >;
 
-export const fontWeightMappings: Record<FontWeightName, string> = {
+const nativeFontWeights = [
+  "100",
+  "200",
+  "300",
+  "400",
+  "500",
+  "600",
+  "700",
+  "800",
+  "900",
+] as const;
+
+const fontStyles = ["italic", "normal"] as const;
+
+export type NativeFontWeight = typeof nativeFontWeights[number];
+export type NativeFontStyle = typeof fontStyles[number];
+
+export function isNativeFontWeight(
+  weight: unknown
+): weight is NativeFontWeight {
+  return nativeFontWeights.includes(weight as never);
+}
+
+export function isNativeFontStyle(style: unknown): style is NativeFontStyle {
+  return nativeFontWeights.includes(style as never);
+}
+
+export const fontWeightMappings: Record<FontWeightName, NativeFontWeight> = {
   thin: "100",
   extralight: "200",
   light: "300",

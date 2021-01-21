@@ -3,6 +3,11 @@ import { StyleSheet, TextStyle } from "react-native";
 import defaultConfig from "../theme/defaultConfig";
 import { getColorPropValues } from "../props/color";
 import { NamedStyles } from "./types";
+import {
+  getColorStyle,
+  getFontFamilyStyle,
+  getFontSizeStyle,
+} from "../dynamicStyles";
 
 export function getTextStyleSheet(config = defaultConfig) {
   const colorPropValues = getColorPropValues(config);
@@ -10,20 +15,15 @@ export function getTextStyleSheet(config = defaultConfig) {
   const namedStyles: NamedStyles = {};
 
   Object.entries(colorPropValues).forEach(([propValue, colorCode]) => {
-    namedStyles[camelCase(`color-${propValue}`)] = {
-      color: colorCode,
-    };
+    namedStyles[camelCase(`color-${propValue}`)] = getColorStyle(colorCode);
   });
 
   Object.entries(config.theme.fontSize).forEach(
     ([propName, [fontSize, props]]) => {
-      const style: NamedStyles[string] = {
+      namedStyles[camelCase(`text-${propName}`)] = getFontSizeStyle(
         fontSize,
-      };
-
-      Object.assign(style, props);
-
-      namedStyles[camelCase(`text-${propName}`)] = style;
+        props
+      );
     }
   );
 
@@ -33,7 +33,9 @@ export function getTextStyleSheet(config = defaultConfig) {
         if (definition) {
           namedStyles[
             camelCase(`font-family-${style}-${familyName}-${weight}`)
-          ] = definition;
+          ] = getFontFamilyStyle({
+            family: definition.fontFamily,
+          });
         }
       });
     });

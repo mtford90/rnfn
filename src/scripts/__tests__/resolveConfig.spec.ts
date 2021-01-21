@@ -1,6 +1,10 @@
 import * as path from "path";
 import { resolveConfig } from "../resolveConfig";
 
+beforeEach(() => {
+  jest.resetModules();
+});
+
 describe("config resolution", () => {
   test("override all", async () => {
     const p = path.resolve(__dirname, "./__mocks__/overrideAll.js");

@@ -3,8 +3,8 @@ import { TextProps, TextStyle } from "react-native";
 import compact from "lodash.compact";
 import {
   fontWeightMappings,
-  spacingMappings,
-  spacingProperties,
+  flexMapping,
+  flexProperties,
 } from "../../stylesheets/mappings";
 import { combineStyles } from "../../utils";
 import {
@@ -31,7 +31,7 @@ export type FnTextStyleProps<
   align?: TextStyle["textAlign"];
   transform?: TextStyle["textTransform"];
   line?: TextStyle["textDecorationLine"];
-} & Partial<Record<keyof typeof spacingMappings, FnSpacing>>;
+} & Partial<Record<keyof typeof flexMapping, FnSpacing>>;
 
 export type FnTextProps<
   TFontFamily extends FnFontFamily,
@@ -66,7 +66,7 @@ export function getTextProps<
 }) {
   const spacingTuples: string[] = [];
 
-  spacingProperties.forEach((spacingProperty) => {
+  flexProperties.forEach((spacingProperty) => {
     const value = rest[spacingProperty];
     if (value) {
       spacingTuples.push(`${spacingProperty}-${value}`);

@@ -1,49 +1,85 @@
 import camelCase from "lodash.camelcase";
 import { StyleSheet } from "react-native";
-import tinycolor from "tinycolor2";
 import defaultConfig from "../theme/defaultConfig";
 import { getColorPropValues } from "../props/color";
 import { NamedStyles } from "./types";
-import { spacingMappings } from "./mappings";
+import { flexProperties } from "./mappings";
+import {
+  getBgOpacityStyle,
+  getBgStyle,
+  getFlexStyle,
+  getOpacityStyle,
+} from "../dynamicStyles";
 
-export function getViewStyleSheet(config = defaultConfig) {
-  const colorPropValues = getColorPropValues(config);
+function getNamedFlexStyles(config = defaultConfig) {
   const namedStyles: NamedStyles = {};
 
-  Object.entries(spacingMappings).forEach(([propName, styleSheetKey]) => {
+  flexProperties.forEach((propName) => {
     Object.entries(config.theme.spacing).forEach(([propValue, pixels]) => {
-      namedStyles[camelCase(`${propName}-${propValue}`)] = {
-        [styleSheetKey]: pixels,
-      };
+      namedStyles[camelCase(`${propName}-${propValue}`)] = getFlexStyle(
+        propName,
+        pixels
+      );
     });
   });
 
+  return namedStyles;
+}
+
+function getBgColorWithOpacityKey(
+  opacityVariantKey: string | number,
+  colorName: string | number
+) {
+  return camelCase(`bg-opacity-${opacityVariantKey}-${colorName}`);
+}
+
+function getNamedBackgroundColorStyles(config = defaultConfig) {
+  const namedStyles: NamedStyles = {};
+
+  const colorPropValues = getColorPropValues(config);
+
   Object.entries(colorPropValues).forEach(([propValue, colorCode]) => {
-    namedStyles[camelCase(`bg-${propValue}`)] = {
-      backgroundColor: colorCode,
-    };
+    namedStyles[camelCase(`bg-${propValue}`)] = getBgStyle(colorCode);
   });
 
   Object.entries(config.theme.opacity).forEach(
     ([opacityVariantKey, opacity]) => {
-      const opacityFloat = parseFloat(opacity);
-
-      namedStyles[camelCase(`opacity-${opacityVariantKey}`)] = {
-        opacity: opacityFloat,
-      };
-
       // Background colours of differing opacity
       Object.entries(colorPropValues).forEach(([propValue, colorCode]) => {
         namedStyles[
-          camelCase(`bg-opacity-${opacityVariantKey}-${propValue}`)
-        ] = {
-          backgroundColor: tinycolor(colorCode)
-            .setAlpha(opacityFloat)
-            .toRgbString(),
-        };
+          getBgColorWithOpacityKey(opacityVariantKey, propValue)
+        ] = getBgOpacityStyle(colorCode, opacity);
       });
     }
   );
+
+  return namedStyles;
+}
+
+function getOpacityNamedStyleKey(opacityVariantKey: string | number) {
+  return camelCase(`opacity-${opacityVariantKey}`);
+}
+
+function getNamedOpacityStyles(config = defaultConfig) {
+  const namedStyles: NamedStyles = {};
+
+  Object.entries(config.theme.opacity).forEach(
+    ([opacityVariantKey, opacity]) => {
+      namedStyles[getOpacityNamedStyleKey(opacityVariantKey)] = getOpacityStyle(
+        opacity
+      );
+    }
+  );
+
+  return namedStyles;
+}
+
+export function getViewStyleSheet(config = defaultConfig) {
+  const namedStyles: NamedStyles = {
+    ...getNamedFlexStyles(config),
+    ...getNamedBackgroundColorStyles(config),
+    ...getNamedOpacityStyles(config),
+  };
 
   return StyleSheet.create(namedStyles);
 }
