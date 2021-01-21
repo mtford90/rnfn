@@ -114,6 +114,7 @@ describe("Functional text styles", () => {
                         colors: {},
                         spacing: {},
                         fontSize: {},
+                        opacity: {},
                         fontFamily: {
                           customFont: {
                             normal: {
@@ -165,6 +166,7 @@ describe("Functional text styles", () => {
                         colors: {},
                         spacing: {},
                         fontSize: {},
+                        opacity: {},
                         fontFamily: {
                           customFont: {
                             normal: {
@@ -214,6 +216,7 @@ describe("Functional text styles", () => {
                     theme: {
                       colors: {},
                       spacing: {},
+                      opacity: {},
                       fontSize: {},
                       fontFamily: {},
                     },

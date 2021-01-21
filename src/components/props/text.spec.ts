@@ -242,6 +242,7 @@ describe("text props", () => {
         theme: {
           colors: {},
           spacing: {},
+          opacity: {},
           fontSize: {},
           fontFamily: {
             customFont: {
