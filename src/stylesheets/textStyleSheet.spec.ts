@@ -12,10 +12,10 @@ describe("text stylesheet", () => {
 
     it("should match colours correctly", () => {
       const stylesheet = getTextStyleSheet();
-      expect(stylesheet.colorGreen).toEqual({
+      expect(stylesheet["color-green"]).toEqual({
         color: colors.green["500"],
       });
-      expect(stylesheet.colorGreen50).toEqual({
+      expect(stylesheet["color-green-50"]).toEqual({
         color: colors.green["50"],
       });
     });
@@ -23,7 +23,7 @@ describe("text stylesheet", () => {
     it("should add fontsizes", async () => {
       const stylesheet = getTextStyleSheet();
 
-      expect(stylesheet.text2Xl).toEqual({
+      expect(stylesheet["text-2xl"]).toEqual({
         fontSize: defaultConfig.theme.fontSize["2xl"][0],
         lineHeight: defaultConfig.theme.fontSize["2xl"][1].lineHeight,
       });

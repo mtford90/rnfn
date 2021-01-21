@@ -11,10 +11,10 @@ describe("view stylesheet", () => {
 
     it("should match colours correctly", () => {
       const stylesheet = getViewStyleSheet();
-      expect(stylesheet.bgGreen).toEqual({
+      expect(stylesheet["bg-green"]).toEqual({
         backgroundColor: colors.green["500"],
       });
-      expect(stylesheet.bgGreen50).toEqual({
+      expect(stylesheet["bg-green-50"]).toEqual({
         backgroundColor: colors.green["50"],
       });
     });

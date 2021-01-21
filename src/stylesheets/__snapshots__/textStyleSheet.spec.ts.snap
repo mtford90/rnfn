@@ -2,72 +2,72 @@
 
 exports[`text stylesheet with a custom config should match snapshot 1`] = `
 Object {
-  "alignAuto": Object {
+  "align-auto": Object {
     "textAlign": "auto",
   },
-  "alignCenter": Object {
+  "align-center": Object {
     "textAlign": "center",
   },
-  "alignJustify": Object {
+  "align-justify": Object {
     "textAlign": "justify",
   },
-  "alignLeft": Object {
+  "align-left": Object {
     "textAlign": "left",
   },
-  "alignRight": Object {
+  "align-right": Object {
     "textAlign": "right",
   },
-  "colorCustomColor": Object {
+  "color-customColor": Object {
     "color": "#ccc",
   },
-  "colorCustomColor50": Object {
+  "color-customColor-50": Object {
     "color": "#fff",
   },
-  "fontFamilyItalicCustomFontBold": Object {
+  "font-family-italic-customFont-bold": Object {
     "fontFamily": "customFont-Italic-Bold",
   },
-  "fontFamilyItalicCustomFontNormal": Object {
+  "font-family-italic-customFont-normal": Object {
     "fontFamily": "customFont-Italic",
   },
-  "fontFamilyItalicCustomFontThin": Object {
+  "font-family-italic-customFont-thin": Object {
     "fontFamily": "customFont-Italic-Thin",
   },
-  "fontFamilyNormalCustomFontBold": Object {
+  "font-family-normal-customFont-bold": Object {
     "fontFamily": "customFont-Bold",
   },
-  "fontFamilyNormalCustomFontNormal": Object {
+  "font-family-normal-customFont-normal": Object {
     "fontFamily": "customFont",
   },
-  "fontFamilyNormalCustomFontThin": Object {
+  "font-family-normal-customFont-thin": Object {
     "fontFamily": "customFont-Thin",
   },
-  "lineLineThrough": Object {
+  "line-line-through": Object {
     "textDecorationLine": "line-through",
   },
-  "lineNone": Object {
+  "line-none": Object {
     "textDecorationLine": "none",
   },
-  "lineUnderline": Object {
+  "line-underline": Object {
     "textDecorationLine": "underline",
   },
-  "lineUnderlineLineThrough": Object {
+  "line-underline line-through": Object {
     "textDecorationLine": "underline line-through",
   },
-  "textCustomFontSize": Object {
+  "text-customFontSize": Object {
     "fontSize": 21,
     "letterSpacing": 1.5,
     "lineHeight": 19,
   },
-  "transformCapitalize": Object {
+  "transform-capitalize": Object {
     "textTransform": "capitalize",
   },
-  "transformLowercase": Object {
+  "transform-lowercase": Object {
     "textTransform": "lowercase",
   },
-  "transformNone": Object {
+  "transform-none": Object {
     "textTransform": "none",
   },
-  "transformUppercase": Object {
+  "transform-uppercase": Object {
     "textTransform": "uppercase",
   },
 }
@@ -75,810 +75,810 @@ Object {
 
 exports[`text stylesheet with default config should match the snapshot 1`] = `
 Object {
-  "alignAuto": Object {
+  "align-auto": Object {
     "textAlign": "auto",
   },
-  "alignCenter": Object {
+  "align-center": Object {
     "textAlign": "center",
   },
-  "alignJustify": Object {
+  "align-justify": Object {
     "textAlign": "justify",
   },
-  "alignLeft": Object {
+  "align-left": Object {
     "textAlign": "left",
   },
-  "alignRight": Object {
+  "align-right": Object {
     "textAlign": "right",
   },
-  "colorAmber": Object {
+  "color-amber": Object {
     "color": "#f59e0b",
   },
-  "colorAmber100": Object {
+  "color-amber-100": Object {
     "color": "#fef3c7",
   },
-  "colorAmber200": Object {
+  "color-amber-200": Object {
     "color": "#fde68a",
   },
-  "colorAmber300": Object {
+  "color-amber-300": Object {
     "color": "#fcd34d",
   },
-  "colorAmber400": Object {
+  "color-amber-400": Object {
     "color": "#fbbf24",
   },
-  "colorAmber50": Object {
+  "color-amber-50": Object {
     "color": "#fffbeb",
   },
-  "colorAmber500": Object {
+  "color-amber-500": Object {
     "color": "#f59e0b",
   },
-  "colorAmber600": Object {
+  "color-amber-600": Object {
     "color": "#d97706",
   },
-  "colorAmber700": Object {
+  "color-amber-700": Object {
     "color": "#b45309",
   },
-  "colorAmber800": Object {
+  "color-amber-800": Object {
     "color": "#92400e",
   },
-  "colorAmber900": Object {
+  "color-amber-900": Object {
     "color": "#78350f",
   },
-  "colorBlack": Object {
+  "color-black": Object {
     "color": "#000",
   },
-  "colorBlue": Object {
+  "color-blue": Object {
     "color": "#3b82f6",
   },
-  "colorBlue100": Object {
+  "color-blue-100": Object {
     "color": "#dbeafe",
   },
-  "colorBlue200": Object {
+  "color-blue-200": Object {
     "color": "#bfdbfe",
   },
-  "colorBlue300": Object {
+  "color-blue-300": Object {
     "color": "#93c5fd",
   },
-  "colorBlue400": Object {
+  "color-blue-400": Object {
     "color": "#60a5fa",
   },
-  "colorBlue50": Object {
+  "color-blue-50": Object {
     "color": "#eff6ff",
   },
-  "colorBlue500": Object {
+  "color-blue-500": Object {
     "color": "#3b82f6",
   },
-  "colorBlue600": Object {
+  "color-blue-600": Object {
     "color": "#2563eb",
   },
-  "colorBlue700": Object {
+  "color-blue-700": Object {
     "color": "#1d4ed8",
   },
-  "colorBlue800": Object {
+  "color-blue-800": Object {
     "color": "#1e40af",
   },
-  "colorBlue900": Object {
+  "color-blue-900": Object {
     "color": "#1e3a8a",
   },
-  "colorBlueGray": Object {
+  "color-blueGray": Object {
     "color": "#64748b",
   },
-  "colorBlueGray100": Object {
+  "color-blueGray-100": Object {
     "color": "#f1f5f9",
   },
-  "colorBlueGray200": Object {
+  "color-blueGray-200": Object {
     "color": "#e2e8f0",
   },
-  "colorBlueGray300": Object {
+  "color-blueGray-300": Object {
     "color": "#cbd5e1",
   },
-  "colorBlueGray400": Object {
+  "color-blueGray-400": Object {
     "color": "#94a3b8",
   },
-  "colorBlueGray50": Object {
+  "color-blueGray-50": Object {
     "color": "#f8fafc",
   },
-  "colorBlueGray500": Object {
+  "color-blueGray-500": Object {
     "color": "#64748b",
   },
-  "colorBlueGray600": Object {
+  "color-blueGray-600": Object {
     "color": "#475569",
   },
-  "colorBlueGray700": Object {
+  "color-blueGray-700": Object {
     "color": "#334155",
   },
-  "colorBlueGray800": Object {
+  "color-blueGray-800": Object {
     "color": "#1e293b",
   },
-  "colorBlueGray900": Object {
+  "color-blueGray-900": Object {
     "color": "#0f172a",
   },
-  "colorCoolGray": Object {
+  "color-coolGray": Object {
     "color": "#6b7280",
   },
-  "colorCoolGray100": Object {
+  "color-coolGray-100": Object {
     "color": "#f3f4f6",
   },
-  "colorCoolGray200": Object {
+  "color-coolGray-200": Object {
     "color": "#e5e7eb",
   },
-  "colorCoolGray300": Object {
+  "color-coolGray-300": Object {
     "color": "#d1d5db",
   },
-  "colorCoolGray400": Object {
+  "color-coolGray-400": Object {
     "color": "#9ca3af",
   },
-  "colorCoolGray50": Object {
+  "color-coolGray-50": Object {
     "color": "#f9fafb",
   },
-  "colorCoolGray500": Object {
+  "color-coolGray-500": Object {
     "color": "#6b7280",
   },
-  "colorCoolGray600": Object {
+  "color-coolGray-600": Object {
     "color": "#4b5563",
   },
-  "colorCoolGray700": Object {
+  "color-coolGray-700": Object {
     "color": "#374151",
   },
-  "colorCoolGray800": Object {
+  "color-coolGray-800": Object {
     "color": "#1f2937",
   },
-  "colorCoolGray900": Object {
+  "color-coolGray-900": Object {
     "color": "#111827",
   },
-  "colorCyan": Object {
+  "color-cyan": Object {
     "color": "#06b6d4",
   },
-  "colorCyan100": Object {
+  "color-cyan-100": Object {
     "color": "#cffafe",
   },
-  "colorCyan200": Object {
+  "color-cyan-200": Object {
     "color": "#a5f3fc",
   },
-  "colorCyan300": Object {
+  "color-cyan-300": Object {
     "color": "#67e8f9",
   },
-  "colorCyan400": Object {
+  "color-cyan-400": Object {
     "color": "#22d3ee",
   },
-  "colorCyan50": Object {
+  "color-cyan-50": Object {
     "color": "#ecfeff",
   },
-  "colorCyan500": Object {
+  "color-cyan-500": Object {
     "color": "#06b6d4",
   },
-  "colorCyan600": Object {
+  "color-cyan-600": Object {
     "color": "#0891b2",
   },
-  "colorCyan700": Object {
+  "color-cyan-700": Object {
     "color": "#0e7490",
   },
-  "colorCyan800": Object {
+  "color-cyan-800": Object {
     "color": "#155e75",
   },
-  "colorCyan900": Object {
+  "color-cyan-900": Object {
     "color": "#164e63",
   },
-  "colorEmerald": Object {
+  "color-emerald": Object {
     "color": "#10b981",
   },
-  "colorEmerald100": Object {
+  "color-emerald-100": Object {
     "color": "#d1fae5",
   },
-  "colorEmerald200": Object {
+  "color-emerald-200": Object {
     "color": "#a7f3d0",
   },
-  "colorEmerald300": Object {
+  "color-emerald-300": Object {
     "color": "#6ee7b7",
   },
-  "colorEmerald400": Object {
+  "color-emerald-400": Object {
     "color": "#34d399",
   },
-  "colorEmerald50": Object {
+  "color-emerald-50": Object {
     "color": "#ecfdf5",
   },
-  "colorEmerald500": Object {
+  "color-emerald-500": Object {
     "color": "#10b981",
   },
-  "colorEmerald600": Object {
+  "color-emerald-600": Object {
     "color": "#059669",
   },
-  "colorEmerald700": Object {
+  "color-emerald-700": Object {
     "color": "#047857",
   },
-  "colorEmerald800": Object {
+  "color-emerald-800": Object {
     "color": "#065f46",
   },
-  "colorEmerald900": Object {
+  "color-emerald-900": Object {
     "color": "#064e3b",
   },
-  "colorFuchsia": Object {
+  "color-fuchsia": Object {
     "color": "#d946ef",
   },
-  "colorFuchsia100": Object {
+  "color-fuchsia-100": Object {
     "color": "#fae8ff",
   },
-  "colorFuchsia200": Object {
+  "color-fuchsia-200": Object {
     "color": "#f5d0fe",
   },
-  "colorFuchsia300": Object {
+  "color-fuchsia-300": Object {
     "color": "#f0abfc",
   },
-  "colorFuchsia400": Object {
+  "color-fuchsia-400": Object {
     "color": "#e879f9",
   },
-  "colorFuchsia50": Object {
+  "color-fuchsia-50": Object {
     "color": "#fdf4ff",
   },
-  "colorFuchsia500": Object {
+  "color-fuchsia-500": Object {
     "color": "#d946ef",
   },
-  "colorFuchsia600": Object {
+  "color-fuchsia-600": Object {
     "color": "#c026d3",
   },
-  "colorFuchsia700": Object {
+  "color-fuchsia-700": Object {
     "color": "#a21caf",
   },
-  "colorFuchsia800": Object {
+  "color-fuchsia-800": Object {
     "color": "#86198f",
   },
-  "colorFuchsia900": Object {
+  "color-fuchsia-900": Object {
     "color": "#701a75",
   },
-  "colorGray": Object {
+  "color-gray": Object {
     "color": "#6b7280",
   },
-  "colorGray100": Object {
+  "color-gray-100": Object {
     "color": "#f3f4f6",
   },
-  "colorGray200": Object {
+  "color-gray-200": Object {
     "color": "#e5e7eb",
   },
-  "colorGray300": Object {
+  "color-gray-300": Object {
     "color": "#d1d5db",
   },
-  "colorGray400": Object {
+  "color-gray-400": Object {
     "color": "#9ca3af",
   },
-  "colorGray50": Object {
+  "color-gray-50": Object {
     "color": "#f9fafb",
   },
-  "colorGray500": Object {
+  "color-gray-500": Object {
     "color": "#6b7280",
   },
-  "colorGray600": Object {
+  "color-gray-600": Object {
     "color": "#4b5563",
   },
-  "colorGray700": Object {
+  "color-gray-700": Object {
     "color": "#374151",
   },
-  "colorGray800": Object {
+  "color-gray-800": Object {
     "color": "#1f2937",
   },
-  "colorGray900": Object {
+  "color-gray-900": Object {
     "color": "#111827",
   },
-  "colorGreen": Object {
+  "color-green": Object {
     "color": "#22c55e",
   },
-  "colorGreen100": Object {
+  "color-green-100": Object {
     "color": "#dcfce7",
   },
-  "colorGreen200": Object {
+  "color-green-200": Object {
     "color": "#bbf7d0",
   },
-  "colorGreen300": Object {
+  "color-green-300": Object {
     "color": "#86efac",
   },
-  "colorGreen400": Object {
+  "color-green-400": Object {
     "color": "#4ade80",
   },
-  "colorGreen50": Object {
+  "color-green-50": Object {
     "color": "#f0fdf4",
   },
-  "colorGreen500": Object {
+  "color-green-500": Object {
     "color": "#22c55e",
   },
-  "colorGreen600": Object {
+  "color-green-600": Object {
     "color": "#16a34a",
   },
-  "colorGreen700": Object {
+  "color-green-700": Object {
     "color": "#15803d",
   },
-  "colorGreen800": Object {
+  "color-green-800": Object {
     "color": "#166534",
   },
-  "colorGreen900": Object {
+  "color-green-900": Object {
     "color": "#14532d",
   },
-  "colorIndigo": Object {
+  "color-indigo": Object {
     "color": "#6366f1",
   },
-  "colorIndigo100": Object {
+  "color-indigo-100": Object {
     "color": "#e0e7ff",
   },
-  "colorIndigo200": Object {
+  "color-indigo-200": Object {
     "color": "#c7d2fe",
   },
-  "colorIndigo300": Object {
+  "color-indigo-300": Object {
     "color": "#a5b4fc",
   },
-  "colorIndigo400": Object {
+  "color-indigo-400": Object {
     "color": "#818cf8",
   },
-  "colorIndigo50": Object {
+  "color-indigo-50": Object {
     "color": "#eef2ff",
   },
-  "colorIndigo500": Object {
+  "color-indigo-500": Object {
     "color": "#6366f1",
   },
-  "colorIndigo600": Object {
+  "color-indigo-600": Object {
     "color": "#4f46e5",
   },
-  "colorIndigo700": Object {
+  "color-indigo-700": Object {
     "color": "#4338ca",
   },
-  "colorIndigo800": Object {
+  "color-indigo-800": Object {
     "color": "#3730a3",
   },
-  "colorIndigo900": Object {
+  "color-indigo-900": Object {
     "color": "#312e81",
   },
-  "colorLightBlue": Object {
+  "color-lightBlue": Object {
     "color": "#0ea5e9",
   },
-  "colorLightBlue100": Object {
+  "color-lightBlue-100": Object {
     "color": "#e0f2fe",
   },
-  "colorLightBlue200": Object {
+  "color-lightBlue-200": Object {
     "color": "#bae6fd",
   },
-  "colorLightBlue300": Object {
+  "color-lightBlue-300": Object {
     "color": "#7dd3fc",
   },
-  "colorLightBlue400": Object {
+  "color-lightBlue-400": Object {
     "color": "#38bdf8",
   },
-  "colorLightBlue50": Object {
+  "color-lightBlue-50": Object {
     "color": "#f0f9ff",
   },
-  "colorLightBlue500": Object {
+  "color-lightBlue-500": Object {
     "color": "#0ea5e9",
   },
-  "colorLightBlue600": Object {
+  "color-lightBlue-600": Object {
     "color": "#0284c7",
   },
-  "colorLightBlue700": Object {
+  "color-lightBlue-700": Object {
     "color": "#0369a1",
   },
-  "colorLightBlue800": Object {
+  "color-lightBlue-800": Object {
     "color": "#075985",
   },
-  "colorLightBlue900": Object {
+  "color-lightBlue-900": Object {
     "color": "#0c4a6e",
   },
-  "colorLime": Object {
+  "color-lime": Object {
     "color": "#84cc16",
   },
-  "colorLime100": Object {
+  "color-lime-100": Object {
     "color": "#ecfccb",
   },
-  "colorLime200": Object {
+  "color-lime-200": Object {
     "color": "#d9f99d",
   },
-  "colorLime300": Object {
+  "color-lime-300": Object {
     "color": "#bef264",
   },
-  "colorLime400": Object {
+  "color-lime-400": Object {
     "color": "#a3e635",
   },
-  "colorLime50": Object {
+  "color-lime-50": Object {
     "color": "#f7fee7",
   },
-  "colorLime500": Object {
+  "color-lime-500": Object {
     "color": "#84cc16",
   },
-  "colorLime600": Object {
+  "color-lime-600": Object {
     "color": "#65a30d",
   },
-  "colorLime700": Object {
+  "color-lime-700": Object {
     "color": "#4d7c0f",
   },
-  "colorLime800": Object {
+  "color-lime-800": Object {
     "color": "#3f6212",
   },
-  "colorLime900": Object {
+  "color-lime-900": Object {
     "color": "#365314",
   },
-  "colorOrange": Object {
+  "color-orange": Object {
     "color": "#f97316",
   },
-  "colorOrange100": Object {
+  "color-orange-100": Object {
     "color": "#ffedd5",
   },
-  "colorOrange200": Object {
+  "color-orange-200": Object {
     "color": "#fed7aa",
   },
-  "colorOrange300": Object {
+  "color-orange-300": Object {
     "color": "#fdba74",
   },
-  "colorOrange400": Object {
+  "color-orange-400": Object {
     "color": "#fb923c",
   },
-  "colorOrange50": Object {
+  "color-orange-50": Object {
     "color": "#fff7ed",
   },
-  "colorOrange500": Object {
+  "color-orange-500": Object {
     "color": "#f97316",
   },
-  "colorOrange600": Object {
+  "color-orange-600": Object {
     "color": "#ea580c",
   },
-  "colorOrange700": Object {
+  "color-orange-700": Object {
     "color": "#c2410c",
   },
-  "colorOrange800": Object {
+  "color-orange-800": Object {
     "color": "#9a3412",
   },
-  "colorOrange900": Object {
+  "color-orange-900": Object {
     "color": "#7c2d12",
   },
-  "colorPink": Object {
+  "color-pink": Object {
     "color": "#ec4899",
   },
-  "colorPink100": Object {
+  "color-pink-100": Object {
     "color": "#fce7f3",
   },
-  "colorPink200": Object {
+  "color-pink-200": Object {
     "color": "#fbcfe8",
   },
-  "colorPink300": Object {
+  "color-pink-300": Object {
     "color": "#f9a8d4",
   },
-  "colorPink400": Object {
+  "color-pink-400": Object {
     "color": "#f472b6",
   },
-  "colorPink50": Object {
+  "color-pink-50": Object {
     "color": "#fdf2f8",
   },
-  "colorPink500": Object {
+  "color-pink-500": Object {
     "color": "#ec4899",
   },
-  "colorPink600": Object {
+  "color-pink-600": Object {
     "color": "#db2777",
   },
-  "colorPink700": Object {
+  "color-pink-700": Object {
     "color": "#be185d",
   },
-  "colorPink800": Object {
+  "color-pink-800": Object {
     "color": "#9d174d",
   },
-  "colorPink900": Object {
+  "color-pink-900": Object {
     "color": "#831843",
   },
-  "colorPurple": Object {
+  "color-purple": Object {
     "color": "#8b5cf6",
   },
-  "colorPurple100": Object {
+  "color-purple-100": Object {
     "color": "#ede9fe",
   },
-  "colorPurple200": Object {
+  "color-purple-200": Object {
     "color": "#ddd6fe",
   },
-  "colorPurple300": Object {
+  "color-purple-300": Object {
     "color": "#c4b5fd",
   },
-  "colorPurple400": Object {
+  "color-purple-400": Object {
     "color": "#a78bfa",
   },
-  "colorPurple50": Object {
+  "color-purple-50": Object {
     "color": "#f5f3ff",
   },
-  "colorPurple500": Object {
+  "color-purple-500": Object {
     "color": "#8b5cf6",
   },
-  "colorPurple600": Object {
+  "color-purple-600": Object {
     "color": "#7c3aed",
   },
-  "colorPurple700": Object {
+  "color-purple-700": Object {
     "color": "#6d28d9",
   },
-  "colorPurple800": Object {
+  "color-purple-800": Object {
     "color": "#5b21b6",
   },
-  "colorPurple900": Object {
+  "color-purple-900": Object {
     "color": "#4c1d95",
   },
-  "colorRed": Object {
+  "color-red": Object {
     "color": "#ef4444",
   },
-  "colorRed100": Object {
+  "color-red-100": Object {
     "color": "#fee2e2",
   },
-  "colorRed200": Object {
+  "color-red-200": Object {
     "color": "#fecaca",
   },
-  "colorRed300": Object {
+  "color-red-300": Object {
     "color": "#fca5a5",
   },
-  "colorRed400": Object {
+  "color-red-400": Object {
     "color": "#f87171",
   },
-  "colorRed50": Object {
+  "color-red-50": Object {
     "color": "#fef2f2",
   },
-  "colorRed500": Object {
+  "color-red-500": Object {
     "color": "#ef4444",
   },
-  "colorRed600": Object {
+  "color-red-600": Object {
     "color": "#dc2626",
   },
-  "colorRed700": Object {
+  "color-red-700": Object {
     "color": "#b91c1c",
   },
-  "colorRed800": Object {
+  "color-red-800": Object {
     "color": "#991b1b",
   },
-  "colorRed900": Object {
+  "color-red-900": Object {
     "color": "#7f1d1d",
   },
-  "colorRose": Object {
+  "color-rose": Object {
     "color": "#f43f5e",
   },
-  "colorRose100": Object {
+  "color-rose-100": Object {
     "color": "#ffe4e6",
   },
-  "colorRose200": Object {
+  "color-rose-200": Object {
     "color": "#fecdd3",
   },
-  "colorRose300": Object {
+  "color-rose-300": Object {
     "color": "#fda4af",
   },
-  "colorRose400": Object {
+  "color-rose-400": Object {
     "color": "#fb7185",
   },
-  "colorRose50": Object {
+  "color-rose-50": Object {
     "color": "#fff1f2",
   },
-  "colorRose500": Object {
+  "color-rose-500": Object {
     "color": "#f43f5e",
   },
-  "colorRose600": Object {
+  "color-rose-600": Object {
     "color": "#e11d48",
   },
-  "colorRose700": Object {
+  "color-rose-700": Object {
     "color": "#be123c",
   },
-  "colorRose800": Object {
+  "color-rose-800": Object {
     "color": "#9f1239",
   },
-  "colorRose900": Object {
+  "color-rose-900": Object {
     "color": "#881337",
   },
-  "colorTeal": Object {
+  "color-teal": Object {
     "color": "#14b8a6",
   },
-  "colorTeal100": Object {
+  "color-teal-100": Object {
     "color": "#ccfbf1",
   },
-  "colorTeal200": Object {
+  "color-teal-200": Object {
     "color": "#99f6e4",
   },
-  "colorTeal300": Object {
+  "color-teal-300": Object {
     "color": "#5eead4",
   },
-  "colorTeal400": Object {
+  "color-teal-400": Object {
     "color": "#2dd4bf",
   },
-  "colorTeal50": Object {
+  "color-teal-50": Object {
     "color": "#f0fdfa",
   },
-  "colorTeal500": Object {
+  "color-teal-500": Object {
     "color": "#14b8a6",
   },
-  "colorTeal600": Object {
+  "color-teal-600": Object {
     "color": "#0d9488",
   },
-  "colorTeal700": Object {
+  "color-teal-700": Object {
     "color": "#0f766e",
   },
-  "colorTeal800": Object {
+  "color-teal-800": Object {
     "color": "#115e59",
   },
-  "colorTeal900": Object {
+  "color-teal-900": Object {
     "color": "#134e4a",
   },
-  "colorTransparent": Object {
+  "color-transparent": Object {
     "color": "transparent",
   },
-  "colorTrueGray": Object {
+  "color-trueGray": Object {
     "color": "#737373",
   },
-  "colorTrueGray100": Object {
+  "color-trueGray-100": Object {
     "color": "#f5f5f5",
   },
-  "colorTrueGray200": Object {
+  "color-trueGray-200": Object {
     "color": "#e5e5e5",
   },
-  "colorTrueGray300": Object {
+  "color-trueGray-300": Object {
     "color": "#d4d4d4",
   },
-  "colorTrueGray400": Object {
+  "color-trueGray-400": Object {
     "color": "#a3a3a3",
   },
-  "colorTrueGray50": Object {
+  "color-trueGray-50": Object {
     "color": "#fafafa",
   },
-  "colorTrueGray500": Object {
+  "color-trueGray-500": Object {
     "color": "#737373",
   },
-  "colorTrueGray600": Object {
+  "color-trueGray-600": Object {
     "color": "#525252",
   },
-  "colorTrueGray700": Object {
+  "color-trueGray-700": Object {
     "color": "#404040",
   },
-  "colorTrueGray800": Object {
+  "color-trueGray-800": Object {
     "color": "#262626",
   },
-  "colorTrueGray900": Object {
+  "color-trueGray-900": Object {
     "color": "#171717",
   },
-  "colorViolet": Object {
+  "color-violet": Object {
     "color": "#8b5cf6",
   },
-  "colorViolet100": Object {
+  "color-violet-100": Object {
     "color": "#ede9fe",
   },
-  "colorViolet200": Object {
+  "color-violet-200": Object {
     "color": "#ddd6fe",
   },
-  "colorViolet300": Object {
+  "color-violet-300": Object {
     "color": "#c4b5fd",
   },
-  "colorViolet400": Object {
+  "color-violet-400": Object {
     "color": "#a78bfa",
   },
-  "colorViolet50": Object {
+  "color-violet-50": Object {
     "color": "#f5f3ff",
   },
-  "colorViolet500": Object {
+  "color-violet-500": Object {
     "color": "#8b5cf6",
   },
-  "colorViolet600": Object {
+  "color-violet-600": Object {
     "color": "#7c3aed",
   },
-  "colorViolet700": Object {
+  "color-violet-700": Object {
     "color": "#6d28d9",
   },
-  "colorViolet800": Object {
+  "color-violet-800": Object {
     "color": "#5b21b6",
   },
-  "colorViolet900": Object {
+  "color-violet-900": Object {
     "color": "#4c1d95",
   },
-  "colorWarmGray": Object {
+  "color-warmGray": Object {
     "color": "#78716c",
   },
-  "colorWarmGray100": Object {
+  "color-warmGray-100": Object {
     "color": "#f5f5f4",
   },
-  "colorWarmGray200": Object {
+  "color-warmGray-200": Object {
     "color": "#e7e5e4",
   },
-  "colorWarmGray300": Object {
+  "color-warmGray-300": Object {
     "color": "#d6d3d1",
   },
-  "colorWarmGray400": Object {
+  "color-warmGray-400": Object {
     "color": "#a8a29e",
   },
-  "colorWarmGray50": Object {
+  "color-warmGray-50": Object {
     "color": "#fafaf9",
   },
-  "colorWarmGray500": Object {
+  "color-warmGray-500": Object {
     "color": "#78716c",
   },
-  "colorWarmGray600": Object {
+  "color-warmGray-600": Object {
     "color": "#57534e",
   },
-  "colorWarmGray700": Object {
+  "color-warmGray-700": Object {
     "color": "#44403c",
   },
-  "colorWarmGray800": Object {
+  "color-warmGray-800": Object {
     "color": "#292524",
   },
-  "colorWarmGray900": Object {
+  "color-warmGray-900": Object {
     "color": "#1c1917",
   },
-  "colorWhite": Object {
+  "color-white": Object {
     "color": "#fff",
   },
-  "colorYellow": Object {
+  "color-yellow": Object {
     "color": "#f59e0b",
   },
-  "colorYellow100": Object {
+  "color-yellow-100": Object {
     "color": "#fef3c7",
   },
-  "colorYellow200": Object {
+  "color-yellow-200": Object {
     "color": "#fde68a",
   },
-  "colorYellow300": Object {
+  "color-yellow-300": Object {
     "color": "#fcd34d",
   },
-  "colorYellow400": Object {
+  "color-yellow-400": Object {
     "color": "#fbbf24",
   },
-  "colorYellow50": Object {
+  "color-yellow-50": Object {
     "color": "#fffbeb",
   },
-  "colorYellow500": Object {
+  "color-yellow-500": Object {
     "color": "#f59e0b",
   },
-  "colorYellow600": Object {
+  "color-yellow-600": Object {
     "color": "#d97706",
   },
-  "colorYellow700": Object {
+  "color-yellow-700": Object {
     "color": "#b45309",
   },
-  "colorYellow800": Object {
+  "color-yellow-800": Object {
     "color": "#92400e",
   },
-  "colorYellow900": Object {
+  "color-yellow-900": Object {
     "color": "#78350f",
   },
-  "lineLineThrough": Object {
+  "line-line-through": Object {
     "textDecorationLine": "line-through",
   },
-  "lineNone": Object {
+  "line-none": Object {
     "textDecorationLine": "none",
   },
-  "lineUnderline": Object {
+  "line-underline": Object {
     "textDecorationLine": "underline",
   },
-  "lineUnderlineLineThrough": Object {
+  "line-underline line-through": Object {
     "textDecorationLine": "underline line-through",
   },
-  "text2Xl": Object {
+  "text-2xl": Object {
     "fontSize": 24,
     "lineHeight": 32,
   },
-  "text3Xl": Object {
+  "text-3xl": Object {
     "fontSize": 30,
     "lineHeight": 36,
   },
-  "text4Xl": Object {
+  "text-4xl": Object {
     "fontSize": 36,
     "lineHeight": 40,
   },
-  "textBase": Object {
+  "text-base": Object {
     "fontSize": 16,
     "lineHeight": 24,
   },
-  "textLg": Object {
+  "text-lg": Object {
     "fontSize": 18,
     "lineHeight": 28,
   },
-  "textSm": Object {
+  "text-sm": Object {
     "fontSize": 14,
     "lineHeight": 20,
   },
-  "textXl": Object {
+  "text-xl": Object {
     "fontSize": 20,
     "lineHeight": 28,
   },
-  "textXs": Object {
+  "text-xs": Object {
     "fontSize": 12,
     "lineHeight": 16,
   },
-  "transformCapitalize": Object {
+  "transform-capitalize": Object {
     "textTransform": "capitalize",
   },
-  "transformLowercase": Object {
+  "transform-lowercase": Object {
     "textTransform": "lowercase",
   },
-  "transformNone": Object {
+  "transform-none": Object {
     "textTransform": "none",
   },
-  "transformUppercase": Object {
+  "transform-uppercase": Object {
     "textTransform": "uppercase",
   },
 }

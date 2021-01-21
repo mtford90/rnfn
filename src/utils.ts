@@ -1,14 +1,12 @@
 import get from "lodash.get";
 import compact from "lodash.compact";
-import camelCase from "lodash.camelcase";
 
-function getStyle(sheet: StyleSheet, kebab: string) {
-  const key = camelCase(kebab);
+function getStyle(sheet: StyleSheet, key: string) {
   const style = get(sheet, key);
 
   if (!style) {
     console.warn(
-      `Invalid style "${kebab}" (looked for ${key} in the StyleSheet)`
+      `Invalid style "${key}" (looked for ${key} in the StyleSheet)`
     );
   }
 
