@@ -42,6 +42,9 @@ describe("text stylesheet", () => {
         spacing: {
           lg: 50,
         },
+        opacity: {
+          "25": "0.25",
+        },
         fontSize: {
           customFontSize: [21, { lineHeight: 19, letterSpacing: 1.5 }],
         },
